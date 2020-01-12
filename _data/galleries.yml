@@ -1,0 +1,13 @@
+- id: gallery1
+  description: this is the first gallery
+  imagefolder: /assets/gallery1
+  images:
+  - name: nz-1.jpg
+    thumb: nz-1.jpg
+    text: The first image
+  - name: nz-2.jpg
+    thumb: nz-2.jpg
+    text: The second image
+  - name: nz-3.jpg
+    thumb: nz-3.jpg
+    text: The third image
