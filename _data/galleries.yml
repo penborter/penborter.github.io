@@ -1,5 +1,6 @@
-- id: gallery1
-  description: this is the first gallery
+- id:NZ
+  description: New Zealand
+  blurb: A trip to the New Zealand's south island in 2017. 
   imagefolder: /assets/gallery1
   images:
   - name: nz-1.jpg
