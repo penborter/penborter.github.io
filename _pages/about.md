@@ -3,20 +3,8 @@ layout: page
 title: About
 ---
 
-## Colorie - Single column blog and portfolio Jekyll theme 
+## About Me
+My name is Ben, I'm an engineer (chemical, not software) from Sydney.
+Currently I'm working as an consultant, focusing on energy, water, and transport. 
 
-Colorful, minimal one-column portfolio/blog theme built for Jekyll. Perfect for your personal website, blog and portfolio.
-
-### Key features
-
-- seo optimized
-- portfolio/blog/tag pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
-- json feed
-- http security headers
+This site is a work in progress, so check back for updates!
