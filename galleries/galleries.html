@@ -18,6 +18,7 @@ permalink: /photos
       <h2><a href="{{ site.baseurl }}galleries/{{ gallery.id }}">
         {{ gallery.description }}
       </a></h2>
+	<p>{{ gallery.blurb }}</p>
         <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time> 
 	    </div>
   
