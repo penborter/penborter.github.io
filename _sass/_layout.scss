@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  margin:0; 
-  padding:0; 
+  margin:0;
+  padding:0;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -102,7 +102,7 @@ header, main {
 	text-decoration: none;
 }
 
-.card p { 
+.card p {
   font-size: 0.9rem;
 }
 
@@ -121,7 +121,7 @@ header, main {
 .card .meta {
    padding: 2rem;
    display: flex;
-  
+
   flex: 1;
   justify-content: space-between;
   flex-direction: column;
@@ -132,7 +132,7 @@ header, main {
 	padding: 2rem 3rem;
 	-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-	
+
 }
 
 .card {
@@ -166,6 +166,15 @@ img {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+
+    p a {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+
     ul {
         list-style: none !important;
         padding: 0;
@@ -178,9 +187,9 @@ nav {
     a, a:visited {
         margin: 0.5rem;
         text-decoration: none;
-	    text-transform: uppercase;
+	    text-transform: lowercase;
 	    color: inherit;
-	    font-size: 0.8rem;
+	    font-size: 1rem;
 	    font-weight: 500;
 	    letter-spacing: .05em;
 	    //opacity: 0.6;

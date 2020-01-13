@@ -1,9 +1,11 @@
 <nav role="navigation">
+
+  <p><a href="{{ site.baseurl }}">ben porter</a></p>
   <ul>
     <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a></li>
     <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>about</a></li>
     <li><a href="/photos" class="active">photos</a></li>
-    <li><a href="/projects" {% if page.url == "/projects" %}class="active"{% endif %}>projects</a></li>
+    <!--<li><a href="/projects" {% if page.url == "/projects" %}class="active"{% endif %}>projects</a></li>-->
     <li><a href="/atom.xml">feed</a></li>
   </ul>
 </nav>
