@@ -9,15 +9,16 @@ layout: default
     {% if gallery.id == page.galleryid %}
         <h1>{{ gallery.description }}</h1>
         <p>Click on the photos to launch a gallery.</p>
-        <ol>
+        <ul style="list-style-type:none">
         {% for image in gallery.images %}
             <li>
                 {{ image.text }}<br>
                 <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text}}">
                     <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+                    <br>
                 </a>
             </li>
         {% endfor %}
-        </ol>
+        </ul>
     {% endif %}
 {% endfor %}

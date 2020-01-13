@@ -15,3 +15,20 @@
   - name: nz-4.jpg
     thumb: nz-4.jpg
     text: The fourth image
+- id: usa
+  description: USA
+  blurb: "A collection from two trips to the USA"
+  imagefolder: /assets/usa
+  images:
+  - name: usa-1.jpg
+    thumb: usa-1.jpg
+    text: The streets of LA
+  - name: usa-2.jpg
+    thumb: usa-2.jpg
+    text: Pennsylvania Avenue
+  - name: usa-3.jpg
+    thumb: usa-3.jpg
+    text: Sky Needle
+  - name: usa-4.jpg
+    thumb: usa-4.jpg
+    text: Seattle Tracks
