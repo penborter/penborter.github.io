@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+permalink: /photos
+---
+
+<!--{% for gallery in site.data.galleries %}
+- [{{ gallery.description }}](galleries/{{ gallery.id }})
+{% endfor %} -->
+
+
+<div class="grid">
+
+  {% for gallery in site.data.galleries %}
+  
+    <article role="article" class="card">
+	    <div class="meta">
+      <h2><a href="{{ site.baseurl }}galleries/{{ gallery.id }}">
+        {{ gallery.description }}
+      </a></h2>
+        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time> 
+	    </div>
+  
+    </article>
+    
+  {% endfor %}
+  
+   </div>
