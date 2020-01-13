@@ -13,7 +13,7 @@ permalink: /photos
 
   {% for gallery in site.data.galleries %}
   
-    <article role="article" class="card">
+    <article role="article" class="card" style="background-image: url({{ gallery.imagefolder }}/{{ gallery.images.first.name }})">
 	    <div class="meta">
       <h2><a href="{{ site.baseurl }}galleries/{{ gallery.id }}">
         {{ gallery.description }}
