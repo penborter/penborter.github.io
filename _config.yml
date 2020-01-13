@@ -18,9 +18,9 @@ twitter:
 social:
   name: Ben Porter
   links:
-    - https://twitter.com/#
+    - https://twitter.com/penborter
     - https://www.dribbble.com/#
-    - https://github.com/#
+    - https://github.com/penborter
     - https://codepen.io/#
 
 permalink: pretty
@@ -55,7 +55,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /blog/:year/:slug
   projects:
     output: true
     permalink: /projects/:slug
