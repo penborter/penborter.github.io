@@ -7,7 +7,7 @@ layout: post
 
 {% for gallery in site.data.galleries %}
     {% if gallery.id == page.galleryid %}
-        <h1>{{ gallery.description }}</h1>
+        {{ content }}
         <p>Click on the photos to launch a gallery.</p>
         <ul style="list-style-type:none">
         {% for image in gallery.images %}
