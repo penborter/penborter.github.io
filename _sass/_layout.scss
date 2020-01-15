@@ -116,7 +116,7 @@ header, main {
 .card time {
   font-family: 'Inconsolata', sans-serif !important;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .05em;
   
@@ -137,6 +137,11 @@ header, main {
 	-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
 
+}
+
+.post time {
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
 }
 
 .card {
