@@ -6,7 +6,95 @@ list:
         author: Hans Rosling
         link: https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814
         star: yes
-      
+
       - title: Salvation Lost
         author: Peter F Hamilton
         link: https://www.amazon.com/Salvation-Lost-Peter-F-Hamilton/dp/0399178856
+
+  - year: "2019"
+    books:
+      - title: Jonathan Strange & Mr Norrell
+        author: Susanna Clarke
+        link: https://www.amazon.com/Jonathan-Strange-Mr-Norrell-Novel/dp/0765356155
+
+      - title: Range
+        author: David Epstein
+        link: https://www.amazon.com.au/Range-Generalists-Triumph-Specialized-World/dp/0735214484
+        star: yes
+
+      - title: Salvation Lost
+        author: Peter F Hamilton
+        link: https://www.amazon.com/Salvation-Sequence-Peter-F-Hamilton/dp/0399178848/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+
+      - title: The Man Who Mistook His Wife for a Hat
+        author: Oliver Sacks
+        link: https://www.amazon.com.au/Man-Who-Mistook-His-Wife/dp/1491514078
+
+      - title: The Aleph (and other stories)
+        author: Jorge Luis Borges
+        link: https://www.amazon.com/Aleph-Other-Stories-Penguin-Classics/dp/0142437883
+        star: yes
+
+      - title: The First Fifteen Lives of Harry August
+        author: Claire North
+        link: https://www.amazon.com/First-Fifteen-Lives-Harry-August-ebook/dp/B00ECE9OD4
+
+      - title: The Wind-Up Bird Chronicle
+        author: Haruki Murakami
+        link: https://www.amazon.com/Wind-Up-Bird-Chronicle-Novel/dp/0679775439
+
+      - title: The Score Takes Care of Itself
+        author: Bill Walsh
+        link: https://www.amazon.com.au/Score-Takes-Care-Itself-Walsh/dp/1591843472
+
+      - title: Boyd
+        author: Robert Coram
+        link: https://www.amazon.com.au/Boyd-Fighter-Pilot-Who-Changed/dp/0316796883
+        star: yes
+
+      - title: The Confidence Trap
+        author: David Runciman
+        link: https://www.amazon.com/Confidence-Trap-History-Democracy-Present/dp/0691165831
+
+      - title: A Gentleman in Moscow
+        author: Amor Towles
+        link: https://www.amazon.com.au/Gentleman-Moscow-Novel-Amor-Towles/dp/0670026190
+        star: yes
+
+      - title: The Player of Games
+        author: Iain M Banks
+        link: https://www.amazon.com/Player-Games-Culture-Iain-Banks/dp/0316005401
+        star: yes
+
+      - title: The Wise Man's Fear
+        author: Patrick Rothfuss
+        link: https://www.amazon.com/Wise-Mans-Fear-Kingkiller-Chronicle/dp/0756407915
+
+      - title: The Name of the Wind
+        author: Patrick Rothfuss
+        link: https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746
+
+      - title: Business Adventures
+        author: John Brooks
+        link: https://www.amazon.com.au/Business-Adventures-John-Brooks/dp/1497644895
+
+      - title: A Night Without Stars
+        author: Peter F Hamilton
+        link: https://www.amazon.com/Night-Without-Stars-Commonwealth-Chronicle/dp/0345547241
+
+      - title: The Abyss Beyond Dreams
+        author: Peter F Hamilton
+        link: https://www.amazon.com/Abyss-Beyond-Dreams-Commonwealth-Chronicle/dp/0345547217
+
+      - title: Tinker Taylor Soldier Spy
+        author: John Le Carre
+        link: https://www.amazon.com/Tinker-Tailor-Soldier-Spy-George/dp/0143119788
+
+      - title: String Theory
+        author: David Foster Wallace
+        link: https://www.amazon.com/String-Theory-Wallace-Library-Publication/dp/1598534807
+        star: yes
+
+      - title: The Sirens of Titan
+        author: Kurt Vonnegut
+        link: https://www.amazon.com/Sirens-Titan-Novel-Kurt-Vonnegut/dp/0385333498

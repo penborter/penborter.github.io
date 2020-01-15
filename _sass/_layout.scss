@@ -7,7 +7,7 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: #edf2f7;
+    background-color: #faf4f0;
     color: #495057;
 }
 
@@ -201,11 +201,10 @@ footer {
     text-align: center;
 }
 
-  
-last-update {
-  font-size: 16px;
+.last-update {
+  font-size: 13px;
   color: #777;
-  margin: 2rem 0;
+  margin: 0rem 0;
 }
 
 .number {
@@ -216,20 +215,20 @@ last-update {
 .year-container {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 2rem;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1rem;
   align-items: flex-start;
-  
+
   @media (max-width: 850px) {
     display: block;
   }
-  
+
   .books {
     ul.reading-list {
       line-height: 1.7;
     }
     .author {
-      font-size: 16px;
+      font-size: 13px;
       color: #555;
     }
     .star {
@@ -241,5 +240,5 @@ last-update {
       color: #383838;
     }
   }
-  
+
 }

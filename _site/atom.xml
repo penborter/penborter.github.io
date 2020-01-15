@@ -4,7 +4,7 @@
  <title>Ben Porter</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-01-13T21:37:47+11:00</updated>
+ <updated>2020-01-14T22:36:23+11:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ben</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Intro</title>
-   <link href="http://localhost:4000/2020/01/13/first-post"/>
+   <link href="http://localhost:4000/blog/2020/first-post"/>
    <updated>2020-01-13T00:00:00+11:00</updated>
-   <id>http://localhost:4000/2020/01/13/first-post</id>
+   <id>http://localhost:4000/blog/2020/first-post</id>
    <content type="html">&lt;p&gt;Hi.
 Welcome to my website.&lt;/p&gt;
 
@@ -24,7 +24,7 @@ Welcome to my website.&lt;/p&gt;
 
 &lt;p&gt;The ultimate goal for this site is for me to showcase some of my projects, photos, ideas, and practice (non-technical) writing. You can find out more about me personally on the &lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt; page.&lt;/p&gt;
 
-&lt;p&gt;I’ve had trouble in the past with getting personal projects completed to a deliverable, shareable level (a personal website being maybe &lt;em&gt;the&lt;/em&gt; prime example). To that end, my goal for this year is to publish a project or post on this site fortnightly. Something every two weeks. I’m hoping that a “deadline” will give me some incentive to actually polish things to a level where they can be enjoyed and understood by other people.&lt;/p&gt;
+&lt;p&gt;I’ve had trouble in the past with getting personal projects completed to a deliverable, shareable level (a personal website being maybe &lt;em&gt;the&lt;/em&gt; prime example). To that end, my goal for this year is to publish a project or post on this site fortnightly. Something every two weeks. It’s a low bar but I’ll find a way to trip over it. Hopefully a “deadline” will give me some incentive to actually polish things to a level where they can be understood and enjoyed by other people.&lt;/p&gt;
 
 &lt;p&gt;Even this website still has kinks to be ironed out, and isn’t at a point where I feel like I can stop tinkering. Honestly, that point mightn’t exist. But it’s good enough for me, for now.&lt;/p&gt;
 
