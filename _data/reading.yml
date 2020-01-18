@@ -2,6 +2,10 @@ lastupdate: January 14, 2020
 list:
   - year: "2020"
     books:
+      - title: Across the Nightingale Floor
+        author: Lian Hearn
+        link: https://www.amazon.com.au/Across-Nightingale-Floor-Tales-Otori-ebook/dp/B00JG6HRBO
+      
       - title: Factfulness
         author: Hans Rosling
         link: https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814
@@ -22,7 +26,7 @@ list:
         link: https://www.amazon.com.au/Range-Generalists-Triumph-Specialized-World/dp/0735214484
         star: yes
 
-      - title: Salvation Lost
+      - title: Salvation
         author: Peter F Hamilton
         link: https://www.amazon.com/Salvation-Sequence-Peter-F-Hamilton/dp/0399178848/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
 
