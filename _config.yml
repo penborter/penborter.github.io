@@ -49,6 +49,8 @@ plugins:
   - jekyll-sitemap
   - disqus-for-jekyll
 
+highlighter: rouge
+
 collections:
   pages:
     output: true
