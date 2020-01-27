@@ -47,7 +47,9 @@ dl {
 code, .highlight {
     background: #f7fbfc;
     overflow: auto;
-    border-radius: 2px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #989fa3;
 }
 code {
 	word-break: break-all;
