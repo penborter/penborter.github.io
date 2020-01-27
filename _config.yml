@@ -49,6 +49,7 @@ plugins:
   - jekyll-sitemap
   - disqus-for-jekyll
 
+markdown: kramdown
 highlighter: rouge
 
 collections:
