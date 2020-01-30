@@ -1,7 +1,7 @@
-- id: gallery1
+- id: nz
   description: New Zealand
   blurb: "A trip to the south island of New Zealand in 2017"
-  imagefolder: /assets/gallery1
+  imagefolder: /assets/nz
   images:
   - name: nz-1.jpg
     thumb: nz-1.jpg
@@ -32,3 +32,91 @@
   - name: usa-4.jpg
     thumb: usa-4.jpg
     text: Seattle Tracks
+- id: gor
+  description: Great Ocean Road
+  blurb: "A road from down the Great Ocean Road in 2017"
+  imagefolder: /assets/gor
+  images:
+  - name: GOR-1.jpg
+    thumb: GOR-1.jpg
+    text: Checking out the view
+  - name: GOR-2.jpg
+    thumb: GOR-2.jpg
+    text: Surf patrol
+  - name: GOR-3.jpg
+    thumb: GOR-3.jpg
+    text: Incoming storm
+  - name: GOR-4.jpg
+    thumb: GOR-4.jpg
+    text: Don't look down
+  - name: GOR-5.jpg
+    thumb: GOR-5.jpg
+    text: Great ocean road
+  - name: GOR-6.jpg
+    thumb: GOR-6.jpg
+    text: Selfie
+  - name: GOR-7.jpg
+    thumb: GOR-7.jpg
+    text: Happy snaps
+  - name: GOR-8.jpg
+    thumb: GOR-8.jpg
+    text: The chariot
+  - name: GOR-9.jpg
+    thumb: GOR-9.jpg
+    text: 12 Apostles crowd
+  - name: GOR-10.jpg
+    thumb: GOR-10.jpg
+    text: Consider the view
+  - name: GOR-11.jpg
+    thumb: GOR-11.jpg
+    text: 360 degree sights
+- id: sydney
+  description: Sydney
+  blurb: "Pictures from in and around Sydney"
+  imagefolder: /assets/sydney
+  images:
+  - name: Sydney-1.jpg
+    thumb: Sydney-1.jpg
+    text: Redfern
+  - name: Sydney-2.jpg
+    thumb: Sydney-2.jpg
+    text: Lighthouse
+  - name: Sydney-3.jpg
+    thumb: Sydney-3.jpg
+    text: City escape
+  - name: Sydney-4.jpg
+    thumb: Sydney-4.jpg
+    text: The commute
+  - name: Sydney-5.jpg
+    thumb: Sydney-5.jpg
+    text: Rat race
+  - name: Sydney-6.jpg
+    thumb: Sydney-6.jpg
+    text: Anzac Bridge
+  - name: Sydney-7.jpg
+    thumb: Sydney-7.jpg
+    text: Shipping
+  - name: Sydney-8.jpg
+    thumb: Sydney-8.jpg
+    text: Highway patrol
+  - name: Sydney-9.jpg
+    thumb: Sydney-9.jpg
+    text: Cruising
+  - name: Sydney-10.jpg
+    thumb: Sydney-10.jpg
+    text: Tropical
+  - name: Sydney-11.jpg
+    thumb: Sydney-11.jpg
+    text: Light up
+  - name: Sydney-12.jpg
+    thumb: Sydney-12.jpg
+    text: Sydney University
+  - name: Sydney-13.jpg
+    thumb: Sydney-13.jpg
+    text: Merge
+  - name: Sydney-14.jpg
+    thumb: Sydney-14.jpg
+    text: Luna Park
+  - name: Sydney-15.jpg
+    thumb: Sydney-15.jpg
+    text: Candid conversation

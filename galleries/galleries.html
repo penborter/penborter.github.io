@@ -8,12 +8,11 @@ permalink: /photos
 - [{{ gallery.description }}](galleries/{{ gallery.id }})
 {% endfor %} -->
 
-
 <div class="grid">
 
   {% for gallery in site.data.galleries %}
 
-    <article role="article" class="card" style="background-image:
+    <article role="article" class="card" style="border: 0px; background-image:
 						linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)),
 						url({{ gallery.imagefolder }}/{{ gallery.images.first.name }})">
 	    <div class="meta">

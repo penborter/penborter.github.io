@@ -15,14 +15,15 @@ a,a:visited {
 
 h1, h2, h3, h4, h5, nav a {
 	font-weight: 700;
+    margin: 1rem 0 0 0;
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid black;
-  font-size: 120%;
-  margin: 2rem 0;
-  padding: 1rem;
+  border-left: 5px solid #0000ee;
+  font-size: 110%;
+  font-weight: 500;
+  margin: 1rem 0;
+  padding: 0rem 1rem 0rem 1rem;
 
   p {
     margin: 0;
@@ -54,9 +55,8 @@ code, .highlight {
     background: #f7fbfc;
     overflow: auto;
 }
-	
+
 code {
-	word-break: break-all;
     font-family: 'Inconsolata', monospace;
     word-break: break-all;
 }

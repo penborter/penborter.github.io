@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Intro
+title: Hello World
 description: Hello World
-summary: A short intro for this website
+summary: A short intro for my website
 tags: [hi]
 ---
 
