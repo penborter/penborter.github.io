@@ -31,6 +31,10 @@ h1 {
     line-height: 1em;
 }
 
+a:hover {
+    color: #0000ee;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -135,6 +139,26 @@ h1 {
 .post p {
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
+}
+
+.page-nav {
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+.page-nav a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+    &:hover {
+        color: #0000ee;
+    }
+}
+
+.page-nav .next-page {
+    text-align: right;
 }
 
 .card {
