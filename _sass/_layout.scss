@@ -15,9 +15,15 @@ body {
     margin: 0;
 }
 
-nav, main {
-	margin: 0 auto;
+nav {
+    margin: 0 auto;
     max-width: 50rem;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 52rem;
 }
 
 header {
