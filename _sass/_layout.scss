@@ -147,6 +147,26 @@ a:hover {
     margin-bottom: 1.5rem;
 }
 
+.post th {
+    padding: 0.5rem;
+    background-color: #0000ee;
+    color: #ffffff;
+}
+
+.post tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+img[src*="#thirds"] {
+    width: 32%;
+}
+
+img[src*="#halves"] {
+    width: 49%;
+    margin: auto;
+    display: block;
+}
+
 .page-nav {
     display: block;
     width: auto;
@@ -302,4 +322,26 @@ figcaption {
     }
   }
 
+}
+
+.social_media_list {
+  list-style: none;
+  margin-left: 0;
+  display: table;
+  margin: 0 auto;
+  li {
+    float: left;
+    margin: 5px 10px 5px 0;
+    &:last-of-type { margin-right: 0 }
+    a {
+      display: block;
+      padding: 1rem;
+      border: 1px solid #0000ee;
+      &:hover { border-color: darken(#0000ee, 10%) }
+    }
+  }
+}
+
+svg {
+    fill: #ffffff;
 }

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article role="article" class="post">
-<h1>Tag: #{{page.tag}}</h1>
+<h1>#{{page.tag}}</h1>
     <ul>
       {% for post in site.posts %}
       {% if post.tags contains page.tag %}
@@ -11,4 +11,9 @@ layout: default
       {% endif %}
       {% endfor %}
     </ul>
+
+    <div class="page-nav">
+           <a class="prev-page" href="/tags">&laquo; All tags</a>
+    </div>
+
 </article>
