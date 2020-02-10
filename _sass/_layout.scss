@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
-@import url(default.css);
 
 html {
   box-sizing: border-box;
@@ -157,6 +156,11 @@ a:hover {
     background-color: #f2f2f2;
 }
 
+// Gets footnote numbers & paragraphs to display on the same line
+.post li[id*="fn:"] p {
+    display: inline;
+}
+
 img[src*="#thirds"] {
     width: 32%;
 }
@@ -167,6 +171,19 @@ img[src*="#halves"] {
     display: block;
 }
 
+.halves {
+    width: 49%;
+    margin: auto;
+    display: block;
+}
+
+.thirds {
+    width: 32%;
+}
+
+.halves img {
+    margin: 0;
+}
 .page-nav {
     display: block;
     width: auto;
@@ -287,9 +304,10 @@ footer {
 
 figcaption {
     text-align: center;
-    padding-bottom: 3rem;
+    font-family: "Inconsolata", monospace;
     font-weight: 700;
-    color: #5e5e5e
+    padding-bottom: 1rem;
+    color: #5e5e5e;
 }
 
 

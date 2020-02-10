@@ -17,11 +17,9 @@ twitter:
   card:
 social:
   name: Ben Porter
-  links:
-    - https://twitter.com/penborter
-    - https://www.dribbble.com/#
-    - https://github.com/penborter
-    - https://codepen.io/#
+  twitter: penborter
+  github: penborter
+  instagram: penborter
 
 permalink: pretty
 

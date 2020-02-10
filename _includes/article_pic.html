@@ -1,0 +1,19 @@
+<!--
+Images to be inserted into articles.
+Pass the folder_name attribute into the post metadata and use as folder_name=page.folder_name
+Other attributes can be used as needed, requires:
+- folder
+- file
+- caption
+Optional:
+- class, defaults to "full-width"
+- gallery, deaults to "post-gallery"
+
+-->
+
+<figure class="{{ include.class | default: "full-width" }}">
+    <a href="{{ include.folder }}/{{ include.file }}" data-lightbox="{{ include.gallery | default: "post-gallery" }}" title="{{ include.caption }}">
+        <img src="{{ include.folder }}/{{ include.file }}" alt="{{ include.caption }}">
+    </a>
+    <figcaption>{{ include.caption }}</figcaption>
+</figure>
