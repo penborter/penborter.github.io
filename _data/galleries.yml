@@ -2,40 +2,85 @@
   description: New Zealand
   blurb: "A trip to the south island of New Zealand in 2017"
   imagefolder: /assets/nz
+  thumb: nz-thumb.jpeg
   images:
   - name: nz-1.jpg
     thumb: nz-1.jpg
-    text: The first image
+    text: Layers
   - name: nz-2.jpg
     thumb: nz-2.jpg
-    text: The second image
+    text: Cloud
   - name: nz-3.jpg
     thumb: nz-3.jpg
-    text: The third image
+    text: Garage
   - name: nz-4.jpg
     thumb: nz-4.jpg
-    text: The fourth image
+    text: Valley
+  - name: nz-5.jpg
+    thumb: nz-5.jpg
+    text: Road
+  - name: nz-6.jpg
+    thumb: nz-6.jpg
+    text: Wanaka
+  - name: nz-7.jpg
+    thumb: nz-7.jpg
+    text: Wanaka 2
+  - name: nz-8.jpg
+    thumb: nz-8.jpg
+    text: Highway
+  - name: nz-9.jpg
+    thumb: nz-9.jpg
+    text: Tourist
+  - name: nz-10.jpg
+    thumb: nz-10.jpg
+    text: Construction
 - id: usa
   description: USA
   blurb: "A collection from two trips to the USA"
   imagefolder: /assets/usa
+  thumb: usa-thumb.jpeg
   images:
   - name: usa-1.jpg
     thumb: usa-1.jpg
-    text: The streets of LA
+    text: Los Angeles
   - name: usa-2.jpg
     thumb: usa-2.jpg
     text: Pennsylvania Avenue
   - name: usa-3.jpg
     thumb: usa-3.jpg
-    text: Sky Needle
+    text: Salton City
   - name: usa-4.jpg
     thumb: usa-4.jpg
-    text: Seattle Tracks
+    text: Desert
+  - name: usa-5.jpg
+    thumb: usa-5.jpg
+    text: Parked
+  - name: usa-6.jpg
+    thumb: usa-6.jpg
+    text: Santa Monica
+  - name: usa-7.jpg
+    thumb: usa-7.jpg
+    text: Hotel
+  - name: usa-8.jpg
+    thumb: usa-8.jpg
+    text: Alcatraz
+  - name: usa-9.jpg
+    thumb: usa-9.jpg
+    text: Alcatraz 2
+  - name: usa-10.jpg
+    thumb: usa-10.jpg
+    text: Sky Needle
+  - name: usa-11.jpg
+    thumb: usa-11.jpg
+    text: Bridge
+  - name: usa-12.jpg
+    thumb: usa-12.jpg
+    text: BNSF
 - id: gor
   description: Great Ocean Road
   blurb: "A road from down the Great Ocean Road in 2017"
   imagefolder: /assets/gor
+  thumb: GOR-thumb.jpeg
   images:
   - name: GOR-1.jpg
     thumb: GOR-1.jpg
@@ -74,6 +119,7 @@
   description: Sydney
   blurb: "Pictures from in and around Sydney"
   imagefolder: /assets/sydney
+  thumb: Sydney-thumb.jpeg
   images:
   - name: Sydney-1.jpg
     thumb: Sydney-1.jpg

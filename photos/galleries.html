@@ -13,8 +13,9 @@ permalink: /photos
   {% for gallery in site.data.galleries %}
 
     <article role="article" class="card" style="border: 0px; background-image:
-						linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)),
-						url({{ gallery.imagefolder }}/{{ gallery.images.first.name }})">
+						linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)),
+						url({{ gallery.imagefolder }}/{{ gallery.thumb }});
+                        background-size: cover;">
 	    <div class="meta">
       <h2><a href="{{ site.baseurl }}/photos/{{ gallery.id }}">
         {{ gallery.description }}

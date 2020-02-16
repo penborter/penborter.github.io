@@ -1,5 +1,5 @@
 
-<div>
+<div class="tags">
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless for loop.last %},
     {%endunless %}{% endfor %}{% endcapture %}
     {% assign sortedTags = site_tags | split:',' | sort %}

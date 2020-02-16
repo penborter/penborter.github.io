@@ -12,14 +12,12 @@ layout: page
     {% if gallery.id == page.galleryid %}
         {{ content }}
         <p>Click on the photos to launch a gallery.</p>
-        <ul style="list-style-type:none">
+        <ul style="list-style-type:none" class="flex-test-container">
         {% for image in gallery.images %}
-            <li>
-                <figure class="full-width">
-                    <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text}}">
-                        <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
-                    </a>
-                </figure>
+            <li class="flex-test-item">
+                <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text}}">
+                    <img class="flex-test-img" src="{{ gallery.imagefolder }}/{{ image.thumb }}" alt="{{ image.text }}">
+                </a>
             </li>
         {% endfor %}
         </ul>

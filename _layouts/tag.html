@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article role="article" class="post">
-<h1>#{{page.tag}}</h1>
+<h1><code class="post-tag">{{page.tag}}</code></h1>
     <ul>
       {% for post in site.posts %}
       {% if post.tags contains page.tag %}

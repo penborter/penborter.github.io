@@ -40,6 +40,10 @@ a:hover {
     color: #0000ee;
 }
 
+a:visited:hover {
+    color: #0000ee;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -71,13 +75,14 @@ a:hover {
   background: #ffffff;
   //-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   //box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  display: flex;
-  flex-direction: column;
+  //display: flex;
+  //flex-direction: column;
   text-decoration: none;
   //position: relative;
   //top: 0;
   color: #1a1a1a;
-  border: 2px solid #0000ee
+  border: 2px solid #0000ee;
+  border-radius: 5px;
 }
 
 .card .thumb {
@@ -114,11 +119,11 @@ a:hover {
 }
 
 .card .meta {
-   padding-top: 1rem;
-   padding-bottom: 1rem;
-   padding-left: 2rem;
-   padding-right: 2rem;
-   display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
 
   flex: 1;
   justify-content: center;
@@ -135,10 +140,31 @@ a:hover {
 
 }
 
+.tags-meta {
+    display: inline;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.post-tag {
+    border-radius: 3px;
+}
+
+.post-meta {
+    padding-bottom: 1em;
+}
+
+.post-meta h1 {
+    padding-bottom: 0.2em;
+}
+
 .post time {
     font-weight: 400;
-    font-size: 0.75rem;
-    letter-spacing: .05em
+    font-size: 0.8rem;
+    letter-spacing: .05em;
+    margin-right: 0.5rem;
 }
 
 .post p {
@@ -229,11 +255,6 @@ table {
     }
 }
 
-img {
-    width: 100%;
-    margin: 0.5rem 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -266,6 +287,7 @@ nav {
 	    //opacity: 0.6;
         &:hover {
             background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #0099ff 65%);
+            color: #ffffff;
         }
     }
 }
@@ -288,28 +310,40 @@ footer {
 
 
 
+/*
 .full-width {
 
     margin: 0;
-
-    /* full-width containers for images
+    padding-bottom: 8rem;
+    // full-width containers for images
     width: 70vw;
     position: relative;
     left: 50%;
     right: 50%;
     margin-left: -35vw;
     margin-right: -35vw;
-    */
+} */
+
+.gallery-image {
+    padding: 0 0 20vh 0;
+    margin: auto;
+    display: table;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    display: block;
 }
 
 figcaption {
-    text-align: center;
+    align: left;
+    margin: auto;
     font-family: "Inconsolata", monospace;
-    font-weight: 700;
-    padding-bottom: 1rem;
-    color: #5e5e5e;
+    font-weight: 400;
+    color: #545454;
+    padding-top: 1rem;
 }
-
 
 .year-container {
   margin-top: 2rem;
@@ -362,4 +396,32 @@ figcaption {
 
 svg {
     fill: #ffffff;
+}
+
+.flex-test-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 1500px;
+}
+
+.flex-test-item {
+    width: 32%;
+}
+
+
+.flex-test-img {
+    margin: 6px;
+}
+
+.flex-test-item:nth-child(3n+1) { order: 1; }
+.flex-test-item:nth-child(3n+2) { order: 2; }
+.flex-test-item:nth-child(3n)   { order: 3; }
+
+.flex-test-container::before,
+.flex-test-container::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
 }
