@@ -7,11 +7,13 @@ layout: page
 
 
 <h1>{{ page.title }}</h1>
+<p>Click on the photos to launch a gallery.</p>
 
+{{ content }}
+
+<div class="gallery-box">
 {% for gallery in site.data.galleries %}
     {% if gallery.id == page.galleryid %}
-        {{ content }}
-        <p>Click on the photos to launch a gallery.</p>
         <ul style="list-style-type:none" class="flex-test-container">
         {% for image in gallery.images %}
             <li class="flex-test-item">
@@ -23,3 +25,4 @@ layout: page
         </ul>
     {% endif %}
 {% endfor %}
+</div>

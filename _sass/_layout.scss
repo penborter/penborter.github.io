@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 html {
   box-sizing: border-box;
@@ -16,24 +16,30 @@ body {
 
 nav {
     margin: 0 auto;
-    max-width: 50rem;
+    max-width: 630px;
 }
 
 main {
     margin: 0 auto;
     padding: 0 1rem;
-    max-width: 52rem;
+    max-width: 630px;
 }
 
 header {
-    background: #0000ee;
+    background: #CCF3FF;
     margin-bottom: 2rem;
+    box-shadow: 2px 0px 15px #cccccc;
 }
 
 h1 {
     margin: 0;
-    font-size: 34pt;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 1em;
+}
+
+ul {
+    margin-top: 0.5rem;
 }
 
 a:hover {
@@ -42,6 +48,15 @@ a:hover {
 
 a:visited:hover {
     color: #0000ee;
+}
+
+.gallery-box {
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -40vw;
+    margin-right: -40vw;
 }
 
 .grid {
@@ -82,7 +97,6 @@ a:visited:hover {
   //top: 0;
   color: #1a1a1a;
   border: 2px solid #0000ee;
-  border-radius: 5px;
 }
 
 .card .thumb {
@@ -131,25 +145,64 @@ a:visited:hover {
 }
 
 .post {
-	background: white;
-	padding: 2rem 5rem;
-    border: 0px solid #0000ee
+  background: white;
+  padding: 1rem 0rem;
+  border: 0px solid #0000ee
     // Shadow for post section
     //-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
   //box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
 
 }
 
-.tags-meta {
-    display: inline;
+.tags-meta, .posts-tags-meta {
 
-    a {
-        text-decoration: none;
+  list-style: none !important;
+  padding: 0;
+  margin: auto 0.1rem;
+  display: inline;
+
+    li {
+      display: inline-block;
+      padding: 0rem 0.2rem;
+      margin: auto;
+      color: #999999;
     }
 }
 
+
+.posts-tags-meta {
+  float: right;
+}
+
+.listed-post {
+  padding-bottom: 0.5rem;
+  transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+  &:hover {
+      transform: scale(1.02);
+  }
+
+  a {
+      text-decoration: none;
+  }
+}
+
 .post-tag {
-    border-radius: 3px;
+    border: 1.2px solid #CCF3FF;
+    font-family: "Source Code Pro", monospace;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.1rem 0.5rem;
+}
+
+.post-body a {
+    color: #0000ee !important;
+    text-decoration: none !important;
+
+    &:hover {
+        text-decoration: underline !important;
+    }
 }
 
 .post-meta {
@@ -162,15 +215,15 @@ a:visited:hover {
 
 .post time {
     font-weight: 400;
-    font-size: 0.8rem;
-    letter-spacing: .05em;
+    font-size: 14px;
     margin-right: 0.5rem;
 }
 
 .post p {
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     margin-bottom: 1.5rem;
 }
+
 
 .post th {
     padding: 0.5rem;
@@ -258,38 +311,48 @@ table {
 nav {
     display: flex;
     justify-content: space-between;
-    color: #ffffff;
+    color: #0000ee;
+    line-height: 0.8;
 
-    p a {
-        font-weight: 700;
-        font-size: 1rem;
+    p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .active {
+        border: 1px solid #0000ee !important;
     }
 
     ul {
         list-style: none !important;
         padding: 0;
-        text-align: right;
+        margin: auto 0.1rem;
+        font-size: 11px;
+        letter-spacing: 0.8px;
+        font-weight: 600;
 
         li {
             display: inline-block;
         }
     }
     a, a:visited {
-        margin: 0.5rem;
+        margin: 0.4rem;
         text-decoration: none;
-	    text-transform: lowercase;
+        padding: 0.2rem 0.3rem;
 	    color: inherit;
-	    font-size: 0.8rem;
-	    font-weight: 600;
-	    letter-spacing: .05em;
-        background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #0000ee 65%);
-        transition: all 0.5s;
+        border: 1px solid transparent;
+        //background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #CCF3FF 65%);
+        //transition: all 0.5s;
 	    //opacity: 0.6;
+        transition: all 0.3s cubic-bezier(0.5, 0.25, 0.75, 0.95);
+
         &:hover {
-            background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #0099ff 65%);
-            color: #ffffff;
+            //transform: scale(1.02);
+            border: 1px solid #0000ee;
+            //background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #8cf0ff 65%);
         }
     }
+
 }
 
 footer {
@@ -300,7 +363,7 @@ footer {
 .last-update {
   font-size: 13px;
   color: #777;
-  margin: 0rem 0;
+  margin: 0.5rem 0;
 }
 
 .number {
@@ -308,7 +371,13 @@ footer {
   color: #777;
 }
 
+.listed-post time {
+    margin-right: 2rem;
+}
 
+div[class*="highlighter-rouge"] {
+  margin-bottom: 1rem;
+}
 
 /*
 .full-width {
@@ -337,18 +406,19 @@ img {
 }
 
 figcaption {
-    align: left;
+    text-align: left;
     margin: auto;
-    font-family: "Inconsolata", monospace;
-    font-weight: 400;
-    color: #545454;
-    padding-top: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #777777;
+    padding: 1rem 0 1rem 0;
 }
 
 .year-container {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
   grid-gap: 1rem;
   align-items: flex-start;
 
@@ -366,11 +436,17 @@ figcaption {
     }
     .star {
       margin-left: 3px;
-      color: #F76B48;
+      color: #0000EE;
       font-size: 16px;
     }
     a {
       color: #383838;
+      text-decoration: none;
+
+      &:hover {
+          text-decoration: underline;
+      }
+
     }
   }
 
@@ -402,7 +478,7 @@ svg {
     display: flex;
     flex-flow: column wrap;
     align-content: space-between;
-    height: 1500px;
+    height: 2100px;
 }
 
 .flex-test-item {
@@ -411,7 +487,7 @@ svg {
 
 
 .flex-test-img {
-    margin: 6px;
+    margin: 10px;
 }
 
 .flex-test-item:nth-child(3n+1) { order: 1; }
@@ -424,4 +500,23 @@ svg {
     flex-basis: 100%;
     width: 0;
     order: 2;
+}
+
+ul.tag-box li {
+  display: inline-block;
+  list-style: none;
+  list-style-image: none;
+  margin: 3px 0.4rem 3px 0;
+  color: #999999;
+}
+
+ul.tag-box li span.size {
+  font-weight: 300;
+}
+
+.tag-heading {
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    margin-bottom: 0.4rem;
+    color: #0000ee;
 }

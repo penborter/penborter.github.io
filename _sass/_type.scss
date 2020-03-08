@@ -13,8 +13,20 @@ a,a:visited {
   }
 }
 
-h1, h2, h3, h4, h5, nav a {
-	font-weight: 700;
+h1, h2, h3, h4, h5 {
+	font-weight: 600;
+    margin: 2rem 0 0.4rem 0;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
     margin: 1rem 0 0 0;
 }
 
@@ -57,8 +69,10 @@ code, .highlight {
 }
 
 code {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Source Code Pro', monospace;
     word-break: break-all;
+    font-size: 13px;
+    letter-spacing: -0.5px;
 }
 
 code {

@@ -2,10 +2,17 @@ lastupdate: January 14, 2020
 list:
   - year: "2020"
     books:
+      - title: Foucault's Pendulum
+        author: Umberto Eco
+        link: https://www.amazon.com.au/Foucaults-Pendulum-Umberto-Eco/dp/015603297X
+
+      - title: Nudge
+        author: Richard Thaler and Cass Sunstein
+        link: https://www.amazon.com.au/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X
+
       - title: Grass For His Pillow
         author: Lian Hearn
         link: https://www.amazon.com.au/Across-Nightingale-Floor-Tales-Otori-ebook/dp/B00JG6HRBO
-
 
       - title: Across the Nightingale Floor
         author: Lian Hearn
