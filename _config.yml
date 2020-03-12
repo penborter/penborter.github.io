@@ -46,6 +46,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - disqus-for-jekyll
+  - jekyll-target-blank
 
 markdown: kramdown
 highlighter: rouge
