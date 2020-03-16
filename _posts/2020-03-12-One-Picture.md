@@ -7,7 +7,7 @@ tags: [photography, sydney]
 photoloc: /assets/posts/onePicture/
 ---
 
-I tend to think photography lie on a spectrum between a having a very specific photo in mind (like product photographers) to a more general theme or idea (like street photographers). With a general idea of what to photograph you can just head out and [antagonize people](https://www.youtube.com/watch?v=kkIWW6vwrvM).
+I tend to think photography lies on a spectrum between a having a very specific photo in mind (like product photographers) to a more general theme or idea (like street photographers). With a general idea of what to photograph you can just head out and [antagonize people](https://www.youtube.com/watch?v=kkIWW6vwrvM).
 
 Most of the time, when I go out to take pictures I tend towards the looser, less planned end of the spectrum. I'll normally aim for some suburb or place and wander around taking pictures until I'm satisfied. Or bored. Or politely asked to leave. When travelling, I try to have my camera on hand the whole time and snap photos wherever I can. I think this sort of process helps me take better pictures.
 
