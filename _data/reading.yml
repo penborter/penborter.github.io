@@ -2,6 +2,18 @@ lastupdate: March 08, 2020
 list:
   - year: "2020"
     books:
+      - title: The Information
+        author: James Gleick
+        link:
+
+      - title: The Professor and the Madman
+        author: Simon Winchester
+        link: https://www.amazon.com/Professor-Madman-Insanity-English-Dictionary-ebook/dp/B000FCKM7E
+
+      - title: The Man in the High Castle
+        author: Philip K Dick
+        link: https://www.amazon.com.au/Man-High-Castle-Philip-Dick/dp/0547572484
+
       - title: Foucault's Pendulum
         author: Umberto Eco
         link: https://www.amazon.com.au/Foucaults-Pendulum-Umberto-Eco/dp/015603297X
@@ -114,3 +126,157 @@ list:
       - title: The Sirens of Titan
         author: Kurt Vonnegut
         link: https://www.amazon.com/Sirens-Titan-Novel-Kurt-Vonnegut/dp/0385333498
+
+  - year: "2018"
+    books:
+      - title: The Charlemagne Pursuit
+        author: Steve Berry
+        link:
+
+      - title: The Billionaire Who Wasn't
+        author: Conor O'Clery
+        link: https://www.amazon.com/Billionaire-Who-Wasnt-Secretly-Fortune/dp/1610393341
+        star: yes
+
+      - title: Tales of the Unexpected
+        author: Roald Dahl
+        link:
+
+      - title: Surely You're Joking Mr Feynman
+        author: Richard Feynman
+        link:
+
+      - title: The Tourist
+        author: Robert Dickinson
+        link:
+
+      - title: And Then There Were None
+        author: Agatha Christie
+        link:
+
+      - title: Dreams from my Father
+        author: Barack Obama
+        link:
+
+      - title: Freakonomics
+        author: Stephen Dubner & Steven Levitt
+        link: https://www.amazon.com.au/Freakonomics-Stephen-J-Dubner/dp/0060731338
+
+      - title: Mao - The Untold Story
+        author: John Halliday & Jun Chung
+        link: https://www.amazon.com.au/Mao-Story-Jung-Chang/dp/0679746323
+
+      - title: Elon Musk
+        author: Ashlee Vance
+        link:
+
+      - title: The Paris Vendetta
+        author: Steve Berry
+        link:
+
+      - title: Moneyball
+        author: Michael Lewis
+        link:
+
+      - title: Guns, Germs and Steel
+        author: Jared Diamond
+        link:
+
+      - title: Blink
+        author: Malcolm Gladwell
+        link:
+
+      - title: Ubik
+        author: Philip K Dick
+        link:
+
+      - title: Cat's Cradle
+        author: Kurt Vonnegut
+        link:
+
+      - title: Consider the Lobster
+        author: David Foster Wallace
+        link:
+
+      - title: Around the World in 80 Days
+        author: Jules Verne
+        link:
+
+      - title: Crimson Lake
+        author: Candace Fox
+        link:
+
+      - title: Outliers
+        author: Malcolm Gladwell
+        link:
+
+      - title: The Postmortal
+        author: Drew Magary
+        link:
+
+      - title: The Selfish Gene
+        author: Richard Dawkins
+        link:
+        star: yes
+
+      - title: Consider Phlebas
+        author: Iain Banks
+        link:
+
+      - title: Me, Myself and Us
+        author: Brian Little
+        link:
+
+      - title: Vanished Kingdoms
+        author: Norman Davies
+        link:
+
+      - title: Quantum
+        author: Manjit Kumar
+        link:
+
+      - title: Siddhartha
+        author: Herman Hesse
+        link:
+
+      - title: The Signal and the Noise
+        author: Nate Silver
+        link:
+
+      - title: Watership Down
+        author: Richard Adams
+        link:
+
+      - title: Cristie Malry's Own Double Entry
+        author: B S Johnson
+        link:
+        star: yes
+
+      - title: Gateway
+        author: Frederik Pohl
+        link:
+        star: yes
+
+      - title: Good Omens
+        author: Neil Gaiman & Terry Pratchett
+        link:
+
+      - title: A Mind at Play
+        author: Jimmy Somi & Rob Goodman
+        link:
+
+      - title: The Three Body Problem
+        author: Cixin Liu
+        link:
+
+      - title: The Four Legenday Kingdoms
+        author: Matthew Reilly
+        link:
+
+      - title: The Three Secret Cities
+        author: Matthew Reilly
+        link:
+
+      - title: Sapiens
+        author: Noah Yuval Harari
+        link:

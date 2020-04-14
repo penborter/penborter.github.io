@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 html {
   box-sizing: border-box;
@@ -9,14 +9,14 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: #ffffff;
     color: #1a1a1a;
     margin: 0;
+    background-color: #f8faf7;
 }
 
 nav {
     margin: 0 auto;
-    max-width: 630px;
+    max-width: 770px;
 }
 
 main {
@@ -26,16 +26,16 @@ main {
 }
 
 header {
-    background: #CCF3FF;
+    background: #f8faf7;
     margin-bottom: 2rem;
-    box-shadow: 2px 0px 15px #cccccc;
 }
 
 h1 {
     margin: 0;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 1em;
+    color: #4d4d4d;
 }
 
 ul {
@@ -43,11 +43,11 @@ ul {
 }
 
 a:hover {
-    color: #0000ee;
+    color: #0ac219;
 }
 
 a:visited:hover {
-    color: #0000ee;
+    color: #0ac219;
 }
 
 .gallery-box {
@@ -145,7 +145,6 @@ a:visited:hover {
 }
 
 .post {
-  background: white;
   padding: 1rem 0rem;
   border: 0px solid #0000ee
     // Shadow for post section
@@ -163,9 +162,9 @@ a:visited:hover {
 
     li {
       display: inline-block;
-      padding: 0rem 0.2rem;
+      //padding: 0rem 0.2rem;
       margin: auto;
-      color: #999999;
+      color: #8c8c8c;
     }
 }
 
@@ -175,11 +174,16 @@ a:visited:hover {
 }
 
 .listed-post {
-  padding-bottom: 0.5rem;
+  padding: 0.2rem 0rem;
+  margin: 0.1rem 0rem;
   transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  //border: 2px solid #f8faf7;
+  //border-radius: 2px;
 
   &:hover {
-      transform: scale(1.02);
+  //    transform: scale(1.02);
+  //    border: 2px solid #488f4f;
+  //    border-radius: 2px;
   }
 
   a {
@@ -188,20 +192,19 @@ a:visited:hover {
 }
 
 .post-tag {
-    border: 1.2px solid #CCF3FF;
-    font-family: "Source Code Pro", monospace;
-    font-size: 12px;
-    font-weight: 600;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
     text-decoration: none;
-    padding: 0.1rem 0.5rem;
+    padding: 0.1rem 0.1rem;
 }
 
 .post-body a {
-    color: #0000ee !important;
+    color: #00990d !important;
     text-decoration: none !important;
 
     &:hover {
-        text-decoration: underline !important;
+        color: #0bda1d !important;
     }
 }
 
@@ -213,10 +216,17 @@ a:visited:hover {
     padding-bottom: 0.2em;
 }
 
-.post time {
-    font-weight: 400;
+.post .date {
+    font-weight: 900;
     font-size: 14px;
     margin-right: 0.5rem;
+    color: #488f4f;
+}
+
+.listed-post .date {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    color: #8c8c8c;
 }
 
 .post p {
@@ -271,11 +281,14 @@ img[src*="#halves"] {
 
 .page-nav a {
     display: block;
+    font-weight: 900;
+    text-decoration: none;
+    color: #488f4f;
     width: 50%;
     float: left;
-    margin: 1em 0;
+    margin: 0.5em 0;
     &:hover {
-        color: #0000ee;
+        //color: #0000ee;
     }
 }
 
@@ -311,16 +324,19 @@ table {
 nav {
     display: flex;
     justify-content: space-between;
-    color: #0000ee;
+    color: #488f4f;
     line-height: 0.8;
+    border-bottom: 1px solid #8c8c8c;
+    box-shadow: 0 8px 6px -6px #dddddd;
+    font-weight: 900;
 
     p {
-        font-weight: 500;
         font-size: 14px;
     }
 
     .active {
-        border: 1px solid #0000ee !important;
+        border: 1px solid #488f4f !important;
+        border-radius: 2px;
     }
 
     ul {
@@ -329,18 +345,18 @@ nav {
         margin: auto 0.1rem;
         font-size: 11px;
         letter-spacing: 0.8px;
-        font-weight: 600;
 
         li {
             display: inline-block;
         }
     }
     a, a:visited {
-        margin: 0.4rem;
+        margin: 0.1rem;
         text-decoration: none;
-        padding: 0.2rem 0.3rem;
+        padding: 0.2rem 0.4rem;
 	    color: inherit;
         border: 1px solid transparent;
+        //border-radius: 5px;
         //background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #CCF3FF 65%);
         //transition: all 0.5s;
 	    //opacity: 0.6;
@@ -348,7 +364,9 @@ nav {
 
         &:hover {
             //transform: scale(1.02);
-            border: 1px solid #0000ee;
+            border-radius: 2px;
+            border: 1px solid #488f4f;
+            color: #488f4f;
             //background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #8cf0ff 65%);
         }
     }
@@ -377,6 +395,10 @@ footer {
 
 div[class*="highlighter-rouge"] {
   margin-bottom: 1rem;
+}
+
+.full-width {
+    margin: 0;
 }
 
 /*
@@ -409,9 +431,9 @@ figcaption {
     text-align: left;
     margin: auto;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 14px;
-    color: #777777;
+    color: #488f4f;
     padding: 1rem 0 1rem 0;
 }
 
@@ -436,7 +458,7 @@ figcaption {
     }
     .star {
       margin-left: 3px;
-      color: #0000EE;
+      color: #00990d;
       font-size: 16px;
     }
     a {
@@ -515,8 +537,15 @@ ul.tag-box li span.size {
 }
 
 .tag-heading {
-    font-family: "Source Code Pro";
+    font-family: "Roboto Mono";
     font-size: 14px;
     margin-bottom: 0.4rem;
-    color: #0000ee;
+    color: #488f4f;
+}
+
+.tag-date {
+    color: #8c8c8c;
+    font-weight: 900;
+    font-size: 14px;
+    margin-right: 0.5rem;
 }
