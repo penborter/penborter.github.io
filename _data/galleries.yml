@@ -1,39 +1,39 @@
 - id: nz
   description: New Zealand
-  blurb: "A trip to the south island of New Zealand in 2017"
+  blurb: "Roadtrip around the New Zealand's South Island"
   imagefolder: /assets/nz
   thumb: nz-thumb.jpeg
   images:
   - name: nz-1.jpg
     thumb: nz-1.jpg
-    text: Layers
+    text: Mountains off Lindis Pass
   - name: nz-2.jpg
     thumb: nz-2.jpg
-    text: Cloud
+    text: Floating near Mt Pisa
   - name: nz-3.jpg
     thumb: nz-3.jpg
-    text: Garage
+    text: Dunedin cycle club
   - name: nz-4.jpg
     thumb: nz-4.jpg
-    text: Valley
+    text: View from Lindis Pass viewpoint
   - name: nz-5.jpg
     thumb: nz-5.jpg
-    text: Road
+    text: Setting off - near Tekapo
   - name: nz-6.jpg
     thumb: nz-6.jpg
-    text: Wanaka
+    text: Lake Tekapo, near the Church
   - name: nz-7.jpg
     thumb: nz-7.jpg
-    text: Wanaka 2
+    text: Somewhere between Wanaka and Queenstown
   - name: nz-8.jpg
     thumb: nz-8.jpg
-    text: Highway
+    text: Somewhere between Wanaka and Queenstown, pt 2
   - name: nz-9.jpg
     thumb: nz-9.jpg
-    text: Tourist
+    text: Exploring Larnach Castle, Dunedin
   - name: nz-10.jpg
     thumb: nz-10.jpg
-    text: Construction
+    text: Christchurch construction work
 - id: usa
   description: USA
   blurb: "A collection from two trips to the USA"
@@ -42,79 +42,79 @@
   images:
   - name: usa-1.jpg
     thumb: usa-1.jpg
-    text: Los Angeles
+    text: LA Streets
   - name: usa-2.jpg
     thumb: usa-2.jpg
-    text: Pennsylvania Avenue
+    text: Up the road from the White House
   - name: usa-3.jpg
     thumb: usa-3.jpg
-    text: Salton City
+    text: Salton City, CA
   - name: usa-4.jpg
     thumb: usa-4.jpg
-    text: Desert
+    text: Just outside of Salton City
   - name: usa-5.jpg
     thumb: usa-5.jpg
-    text: Parked
+    text: Parked in Seattle
   - name: usa-6.jpg
     thumb: usa-6.jpg
-    text: Santa Monica
+    text: Santa Monica beach 
   - name: usa-7.jpg
     thumb: usa-7.jpg
-    text: Hotel
+    text: Hotel windows in San Francisco
   - name: usa-8.jpg
     thumb: usa-8.jpg
-    text: Alcatraz
+    text: Doorway in Alcatraz
   - name: usa-9.jpg
     thumb: usa-9.jpg
-    text: Alcatraz 2
+    text: Alcatraz interior
   - name: usa-10.jpg
     thumb: usa-10.jpg
-    text: Sky Needle
+    text: The Sky Needle
   - name: usa-11.jpg
     thumb: usa-11.jpg
-    text: Bridge
+    text: Seattle bridge
   - name: usa-12.jpg
     thumb: usa-12.jpg
-    text: BNSF
+    text: BNSF in Centennial Park, Seattle
 - id: gor
   description: Great Ocean Road
-  blurb: "A road from down the Great Ocean Road in 2017"
+  blurb: "A trip down the Great Ocean Road"
   imagefolder: /assets/gor
   thumb: GOR-thumb.jpeg
   images:
   - name: GOR-1.jpg
     thumb: GOR-1.jpg
-    text: Checking out the view
+    text: Heading off
   - name: GOR-2.jpg
     thumb: GOR-2.jpg
-    text: Surf patrol
+    text: Torquay surf patrol
   - name: GOR-3.jpg
     thumb: GOR-3.jpg
-    text: Incoming storm
+    text: Incoming storm near Apollo Bay
   - name: GOR-4.jpg
     thumb: GOR-4.jpg
-    text: Don't look down
+    text: Cape Patton lookout point
   - name: GOR-5.jpg
     thumb: GOR-5.jpg
-    text: Great ocean road
+    text: The Road, Cape Patton
   - name: GOR-6.jpg
     thumb: GOR-6.jpg
-    text: Selfie
+    text: Me
   - name: GOR-7.jpg
     thumb: GOR-7.jpg
-    text: Happy snaps
+    text: Assorted tourists
   - name: GOR-8.jpg
     thumb: GOR-8.jpg
-    text: The chariot
+    text: The hero of the trip
   - name: GOR-9.jpg
     thumb: GOR-9.jpg
-    text: 12 Apostles crowd
+    text: Assorted tourists, pt. 2
   - name: GOR-10.jpg
     thumb: GOR-10.jpg
-    text: Consider the view
+    text: The view from the 12 Apostles lookout
   - name: GOR-11.jpg
     thumb: GOR-11.jpg
-    text: 360 degree sights
+    text: Assorted tourists, pt. 3
 - id: sydney
   description: Sydney
   blurb: "Pictures from in and around Sydney"
@@ -126,43 +126,79 @@
     text: Redfern
   - name: Sydney-2.jpg
     thumb: Sydney-2.jpg
-    text: Lighthouse
+    text: Lighthouse (in Wollongong, not Sydney)
   - name: Sydney-3.jpg
     thumb: Sydney-3.jpg
-    text: City escape
+    text: Fire escapes 
   - name: Sydney-4.jpg
     thumb: Sydney-4.jpg
-    text: The commute
+    text: Darling Harbour commute
   - name: Sydney-5.jpg
     thumb: Sydney-5.jpg
-    text: Rat race
+    text: Run under the Western Distributor
   - name: Sydney-6.jpg
     thumb: Sydney-6.jpg
-    text: Anzac Bridge
+    text: Anzac Bridge busses
   - name: Sydney-7.jpg
     thumb: Sydney-7.jpg
-    text: Shipping
+    text: Garden Island ships
   - name: Sydney-8.jpg
     thumb: Sydney-8.jpg
-    text: Highway patrol
+    text: Bondi highway patrol
   - name: Sydney-9.jpg
     thumb: Sydney-9.jpg
-    text: Cruising
+    text: Cruising out of the Harbour
   - name: Sydney-10.jpg
     thumb: Sydney-10.jpg
-    text: Tropical
+    text: Palm trees
   - name: Sydney-11.jpg
     thumb: Sydney-11.jpg
-    text: Light up
+    text: Lights on Cockatoo Island
   - name: Sydney-12.jpg
     thumb: Sydney-12.jpg
-    text: Sydney University
+    text: Sydney University chemistry building
   - name: Sydney-13.jpg
     thumb: Sydney-13.jpg
-    text: Merge
+    text: Merging traffic, Darling Harbour
   - name: Sydney-14.jpg
     thumb: Sydney-14.jpg
-    text: Luna Park
+    text: Luna Park carousel
   - name: Sydney-15.jpg
     thumb: Sydney-15.jpg
-    text: Candid conversation
+    text: Candid conversation, the Rocks
+- id: gee
+  description: Geelong
+  blurb: "Some highlights from living in Geelong"
+  imagefolder: /assets/geelong
+  thumb: gee-thumb.jpg
+  images:
+  - name: gee-1.jpg
+    thumb: gee-1.jpg
+    text: Geelong carousel
+  - name: gee-2.jpg
+    thumb: gee-2.jpg
+    text: Parked on the pier
+  - name: gee-3.jpg
+    thumb: gee-3.jpg
+    text: Clifton Springs digger
+  - name: gee-4.jpg
+    thumb: gee-4.jpg
+    text: Country Club Dr
+  - name: gee-5.jpg
+    thumb: gee-5.jpg
+    text: Fishing in Corio Bay
+  - name: gee-6.jpg
+    thumb: gee-6.jpg
+    text: Fishing in Corio Bay, pt 2
+  - name: gee-7.jpg
+    thumb: gee-7.jpg
+    text: Geelong architecture
+  - name: gee-8.jpg
+    thumb: gee-8.jpg
+    text: Setting off from Western Beach
+  - name: gee-9.jpg
+    thumb: gee-9.jpg
+    text: Point Lonsdale view
+  - name: gee-10.jpg
+    thumb: gee-10.jpg
+    text: The old Bellarine railway

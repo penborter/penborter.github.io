@@ -11,9 +11,11 @@ Optional:
 
 -->
 
-<figure class="{{ include.class | default: "full-width" }}">
-    <a href="{{ include.folder }}/{{ include.file }}" data-lightbox="{{ include.gallery | default: "post-gallery" }}" title="{{ include.caption }}">
-        <img src="{{ include.folder }}/{{ include.file }}" alt="{{ include.caption }}">
+<figure class="pic-{{ include.class | default: "normal" }}">
+    <a href="{{ page.photoloc }}/{{ include.file }}" data-lightbox="{{ include.gallery | default: "post-gallery" }}" title="{{ include.caption }}">
+        <img src="{{ page.photoloc }}/{{ include.file }}" alt="{{ include.caption }}">
     </a>
+    {% if include.caption %}
     <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
 </figure>

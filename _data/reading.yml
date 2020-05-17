@@ -1,10 +1,31 @@
-lastupdate: March 08, 2020
+lastupdate: May 16, 2020
 list:
   - year: "2020"
     books:
+      - title: Ventus
+        author: Karl Schroeder
+        link: https://www.amazon.com/Ventus-Karl-Schroeder/dp/0812576357
+        
+      - title: The Design of Everyday Things
+        author: Don Norman
+        link: https://www.amazon.com.au/Design-Everyday-Things-Revised-Expanded/dp/0465050654
+        
+      - title: The Forever War
+        author: Joe Haldeman
+        link: https://www.amazon.com.au/Forever-War-Joe-Haldeman/dp/0312536631
+        
+      - title: Short Story Collection
+        author: Philip K Dick
+        link: 
+        
+      - title: The Little Prince
+        author: Antoine de Saint-Exupéry
+        link: https://www.amazon.com/Little-Prince-Antoine-Saint-Exup%C3%A9ry/dp/0156012197
+        star: yes  
+        
       - title: The Information
         author: James Gleick
-        link:
+        link: https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235
 
       - title: The Professor and the Madman
         author: Simon Winchester
@@ -131,7 +152,7 @@ list:
     books:
       - title: The Charlemagne Pursuit
         author: Steve Berry
-        link:
+        link: https://www.amazon.com/Charlemagne-Pursuit-Novel-Cotton-Malone/dp/0345485807
 
       - title: The Billionaire Who Wasn't
         author: Conor O'Clery
@@ -140,23 +161,23 @@ list:
 
       - title: Tales of the Unexpected
         author: Roald Dahl
-        link:
+        link: https://www.amazon.com.au/Tales-Unexpected-Roald-Dahl/dp/0679729895
 
       - title: Surely You're Joking Mr Feynman
         author: Richard Feynman
-        link:
+        link: https://www.amazon.com.au/Surely-You%60re-Joking-Mr-Feynman/dp/0393316041
 
       - title: The Tourist
         author: Robert Dickinson
-        link:
+        link: https://www.amazon.com/Tourist-Robert-Dickinson/dp/0316399450
 
       - title: And Then There Were None
         author: Agatha Christie
-        link:
+        link: https://www.amazon.com.au/Then-There-Were-None/dp/0062073486
 
       - title: Dreams from my Father
         author: Barack Obama
-        link:
+        link: https://www.amazon.com.au/Dreams-My-Father-Story-Inheritance/dp/1400082773
 
       - title: Freakonomics
         author: Stephen Dubner & Steven Levitt
@@ -168,43 +189,43 @@ list:
 
       - title: Elon Musk
         author: Ashlee Vance
-        link:
+        link: https://www.amazon.com.au/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X
 
       - title: The Paris Vendetta
         author: Steve Berry
-        link:
+        link: https://www.amazon.com/Paris-Vendetta-Novel-Cotton-Malone/dp/0345505484
 
       - title: Moneyball
         author: Michael Lewis
-        link:
+        link: https://www.amazon.com.au/Moneyball-Art-Winning-Unfair-Game/dp/0393324818
 
       - title: Guns, Germs and Steel
         author: Jared Diamond
-        link:
+        link: https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552
 
       - title: Blink
         author: Malcolm Gladwell
-        link:
+        link: https://www.amazon.com.au/Blink-Power-Thinking-Without/dp/0316010669
 
       - title: Ubik
         author: Philip K Dick
-        link:
+        link: https://www.amazon.com/Ubik-Philip-K-Dick/dp/0547572298
 
       - title: Cat's Cradle
         author: Kurt Vonnegut
-        link:
+        link: https://www.amazon.com.au/Cats-Cradle-Kurt-Vonnegut/dp/038533348X
 
       - title: Consider the Lobster
         author: David Foster Wallace
-        link:
+        link: https://www.amazon.com/Consider-Lobster-Essays-Foster-Wallace/dp/0316013323
 
       - title: Around the World in 80 Days
         author: Jules Verne
-        link:
+        link: https://www.amazon.com/Around-World-Days-Jules-Verne/dp/1503215156
 
       - title: Crimson Lake
         author: Candace Fox
-        link:
+        link: https://www.amazon.com.au/Crimson-Lake-Candice-Fox-ebook/dp/B01LZXZM88
 
       - title: Outliers
         author: Malcolm Gladwell
@@ -212,71 +233,71 @@ list:
 
       - title: The Postmortal
         author: Drew Magary
-        link:
+        link: https://www.amazon.com.au/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930
 
       - title: The Selfish Gene
         author: Richard Dawkins
-        link:
+        link: https://www.amazon.com.au/Selfish-Gene-Richard-Dawkins/dp/0192860925
         star: yes
 
       - title: Consider Phlebas
         author: Iain Banks
-        link:
+        link: https://www.amazon.com.au/Consider-Phlebas/dp/031600538X
 
       - title: Me, Myself and Us
         author: Brian Little
-        link:
+        link: https://www.amazon.com.au/Me-Myself-Us-Personality-Well-Being/dp/1610396383
 
       - title: Vanished Kingdoms
         author: Norman Davies
-        link:
+        link: https://www.amazon.com.au/Vanished-Kingdoms-History-Half-Forgotten-Europe-ebook/dp/B005JZD3MS
 
       - title: Quantum
         author: Manjit Kumar
-        link:
+        link: https://www.amazon.com.au/Quantum-Einstein-Debate-Nature-Reality-ebook/dp/B002RI9ZRC
 
       - title: Siddhartha
         author: Herman Hesse
-        link:
+        link: https://www.amazon.com.au/Siddhartha-Hermann-Hesse/dp/0553208845
 
       - title: The Signal and the Noise
         author: Nate Silver
-        link:
+        link: https://www.amazon.com.au/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087
 
       - title: Watership Down
         author: Richard Adams
-        link:
+        link: https://www.amazon.com/Watership-Down-Novel-Richard-Adams/dp/0743277708
 
       - title: Cristie Malry's Own Double Entry
         author: B S Johnson
-        link:
+        link: https://www.amazon.com/Christie-Malrys-Double-Entry-B-S-Johnson/dp/0811209547
         star: yes
 
       - title: Gateway
         author: Frederik Pohl
-        link:
+        link: https://www.amazon.com.au/Gateway-Frederik-Pohl/dp/0345475836
         star: yes
 
       - title: Good Omens
         author: Neil Gaiman & Terry Pratchett
-        link:
+        link: https://www.amazon.com.au/Good-Omens-Accurate-Prophecies-Nutter-ebook/dp/B0054LJGWS
 
       - title: A Mind at Play
         author: Jimmy Somi & Rob Goodman
-        link:
+        link: https://www.amazon.com.au/Mind-Play-Shannon-Invented-Information/dp/1476766681
 
       - title: The Three Body Problem
         author: Cixin Liu
-        link:
+        link: https://www.amazon.com.au/Three-Body-Problem-Remembrance-Earths-Past-ebook/dp/B00IQO403K
 
       - title: The Four Legenday Kingdoms
         author: Matthew Reilly
-        link:
+        link: https://www.amazon.com.au/Four-Legendary-Kingdoms-Matthew-Reilly/dp/1501167154
 
       - title: The Three Secret Cities
         author: Matthew Reilly
-        link:
+        link: https://www.amazon.com.au/Three-Secret-Cities-Matthew-Reilly/dp/1743534965/
 
       - title: Sapiens
         author: Noah Yuval Harari
-        link:
+        link: https://www.amazon.com.au/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095

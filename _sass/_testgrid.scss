@@ -1,0 +1,31 @@
+.testpost {
+  display: grid;
+  grid-template-columns:
+    minmax(1.2rem, 1fr)
+    minmax(0px, 100px)
+    minmax(0px, 600px)
+    minmax(0px, 100px)
+    minmax(1.2rem, 1fr);
+}
+
+.testpost * {
+    grid-column: 3;
+}
+
+.testimg {
+    grid-column: 2 / 5;
+    margin: 20px 0;
+}
+
+.testimg-full {
+    grid-column: 1 / -1;
+    margin: 20px 0;
+}
+
+div[class*="highlighter-rouge"] {
+  grid-column: 2 / 5;
+}
+
+.test-versions {
+    grid-column: 4;
+}

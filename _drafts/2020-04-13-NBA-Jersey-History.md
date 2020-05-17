@@ -5,6 +5,8 @@ description: Analysing trends in NBA jersey numbers
 summary: Analysing trends in NBA jersey numbers
 tags: [NBA, python, viz]
 photoloc: /assets/posts/jerseys2/
+last_update: May 03, 2020
+version: 1
 ---
 
 This post is a continuation of the [previous post](/posts/jersey-numbers), diving a bit more into the numbers and trends to figure out some patterns in NBA uniform number choices. Let's get started.
@@ -12,6 +14,18 @@ This post is a continuation of the [previous post](/posts/jersey-numbers), divin
 ```python
 #Import data from csv
 jerseys = pd.read_csv("jersey_numbers.csv")
+
+@decorator
+def function(jerseyNumber):
+    if jerseyNumber:
+        return jerseyNumber + 1
+    else:
+        return 1
+    
+class PlayerClass(PlayerName):
+    def __init__(self):
+        self.name = PlayerName
+
 
 #Calculate the most popular and max wearers for each year
 jerseys["Popular"] = jerseys.drop(['UNK'],axis=1).idxmax(axis=1)

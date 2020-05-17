@@ -3,7 +3,7 @@ layout: post
 title: Why are lower jersey numbers more common?
 description: Why are lower jersey numbers more common?
 summary: Trends in NBA jersey numbers over time
-tags: [NBA, data, question]
+tags: [NBA, data, viz]
 photoloc: /assets/posts/jerseys/
 ---
 
@@ -16,8 +16,8 @@ Basketball Reference has a season-by-season [uniform number index](https://www.b
 I'll dive into more analysis in a later post, but for now here's a graph of the most popular jersey number each year:
 
 {% include article_pic.html
-   folder=page.photoloc
    file="numbershistory.png"
+   class="wide"
 %}
 
 Uniform numbers in sports are important - they either represent a player's personal identity and branding (e.g in the NBA), or they represent the player's position (e.g. in Rubgy, and sort of in Football). NBA players have often built their personal brand around their jersey number. Quick - what number is Michael Jordan? Chris Paul? [Andrei Kirilenko](https://athletenicknames.club/andrei-kirilenko-ak-47/)?
@@ -35,7 +35,6 @@ All of this leaves us with a few questions:
 I'm still not sure. I'll write up a more in-depth post about data prep and detailed analysis relating to college restrictions, retired numbers, etc, and hopefully we can come up with more answers. In the meantime, here are a few player logos that include jersey numbers below - bonus points if you can guess all of them. Names are listed below[^1].
 
 {% include article_pic.html
-   folder=page.photoloc
    file="logos.png"
    caption="Player logos that include numbers. Weirdly, they're mostly point guards."
 %}

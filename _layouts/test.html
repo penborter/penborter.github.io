@@ -1,0 +1,52 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    {% include masthead.html %}
+    
+
+    
+    <article role="article" class="testpost">
+        <div class="test-meta">
+            <h1>{{ page.title }}</h1>
+        </div>
+        
+        {{ content }}
+        
+        <aside class="test-versions">
+            <p><strong>Published: </strong>{{ page.dated }}</p>
+            <p><strong>Last updated: </strong>{{ page.last_update }}</p>
+            <p><strong>Version: </strong>{{ page.version }}
+        </aside>
+        
+        <hr style="height:2px; border:none; margin: 1rem 0; background-color:#e7e9ee;">
+        
+        <div class="page-footer">
+           <div class="post-versions">
+               <p><strong>Published: </strong>{{ page.dated }}</p>
+               <p><strong>Last updated: </strong>{{ page.last_update }}</p>
+               <p><strong>Version: </strong>{{ page.version }}
+           </div>
+           <div class="page-nav">
+           {% if page.previous.url %}
+               <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Post</a>
+           {% endif %}
+           {% if page.next.url %}
+               <a class="next-page" href="{{ page.next.url }}">Next Post &raquo;</a>
+           {% endif %}
+           </div>
+       </div>    
+        
+    </article>
+    
+
+
+    {% include footer.html %}
+  </body>
+</html>

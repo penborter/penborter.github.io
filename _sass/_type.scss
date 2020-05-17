@@ -1,9 +1,11 @@
 
 body {
-  font-size: 1rem;
-  line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 400;
+  letter-spacing: -0.004em;
+  font-kerning: normal;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
 }
 
 a,a:visited {
@@ -16,13 +18,13 @@ a,a:visited {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Inter';
-	font-weight: 900;
-    color: #4d4d4d;
-    margin: 2rem 0 0.4rem 0;
+	font-weight: 700;
+    color: #111;
+    margin: 0 0 0.5em 0;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 h3 {
@@ -30,18 +32,17 @@ h3 {
 }
 
 h4 {
-    margin: 1rem 0 0 0;
+    margin: 0 0 0.5rem 0;
 }
 
 blockquote {
-  border-left: 5px solid #0000ee;
-  font-size: 110%;
-  font-weight: 500;
-  margin: 1rem 0;
-  padding: 0rem 1rem 0rem 1rem;
+  border-left: 3px solid #00990d;
+  font-weight: 400;
+  padding: 0.25rem 1rem;
+  margin: 0 0 1.5em;
 
   p {
-    margin: 0;
+    margin: 0 !important;
   }
 
   footer {
@@ -61,26 +62,40 @@ dl {
 }
 
 div.highlight {
-    border: 1px solid;
     border-radius: 4px;
     border-color: #bbc4c9;
-    box-shadow: 0px 5px 10px #EEEEEE;
+    box-shadow: 0px 2px 10px #aaa;
+    //width: 70vw;
+    //position: relative;
+    //left: 50%;
+    //right: 50%;
+    //margin-left: -35vw;
+    //margin-right: 35vw;
 }
 
 code, .highlight {
-    background: #F5FDFF;
+    background: #333333;
     overflow: auto;
 }
 
 code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     word-break: break-all;
-    font-size: 13px;
-    letter-spacing: -0.5px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    line-height: 1.8em;
 }
 
 code {
 	padding: 0.2rem 0.4rem;
+}
+
+code.highlighter-rouge {
+    background: #f0f2ed;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    border-radius: 5px;
 }
 
 pre {

@@ -1,19 +1,21 @@
 ---
-layout: post
-title: Using Python to quantify photography habits
-description: Photography Statistics
-summary: Quantifying my photography habits
-tags: [python, photography, habits]
-photoloc: /assets/posts/picNumbers
-last_update: "May 16, 2020"
-version: 1.1
+layout: test
+title: Test Article
+permalink: /testgrid
+photoloc: /assets/gor/
+dated: May 02, 2020
+last_update: May 03, 2020
+version: 1.10
 ---
 
-There is so much camera gear out there. It's hard to know what you want - separating gear that you want because it's cool and grear that you want because it's useful (and still cool) can be very difficult.  
-
-Looking online for a lens can feel like you're scrolling forever.
- 
 When I bought my new camera I also got the [kit lens](https://www.kenrockwell.com/fuji/x-mount-lenses/18-55mm.htm). It's a great lens, much better than a typical 'kit lens', but at the time I was worried that I'd miss having the longer focal lengths of the 24-105mm lens I was moving on from. Like all decisions, this dilemma could be helped by having more information. How do I usually take photos? Which lens did I use the most? What's my favourite focal length?
+
+{% include article_pic.html
+   folder=page.photoloc
+   file="GOR-5.jpg"
+   class="testimg-full"
+   caption="The Great Ocean Road, 2017"
+%}
 
 ## EXIF data
 Every digital photo includes information embedded in the file about how each picture was taken, called [EXIF data](https://en.wikipedia.org/wiki/Exif). The EXIF data for a given photo depends on the camera used, but generally includes things like the camera make and model, shutter speed, focal length, aperture, data and time of capture, even the location of the photo. Some people choose to [strip their photos](https://www.howtogeek.com/203592/what-is-exif-data-and-how-to-remove-it/) of EXIF data if they're uploading them to the internet.
@@ -21,6 +23,16 @@ Every digital photo includes information embedded in the file about how each pic
 So what?
 
 With Python we can pull back the covers and take a look at the EXIF data for any photo. There are [web services](https://exifdata.com/) that offer EXIF viewing, but for this purpose Python is better for two reasons: I'd prefer to keep hold of my own data, and we can tailor the analysis to our needs. 
+
+```python
+#Imports
+import datetime, exifread, os
+import pandas as pd
+import numpy as np
+
+f = open("testImage")
+testExif = exifread.process_file(tags)
+```
 
 ## Using Python
 [Exifread](https://pypi.org/project/ExifRead/) is a Python module that extracts exif metadata from jpg and tiff files. It's simple, and plenty for our purposes. The main `process_file` method returns a dictionary of each of a picture's EXIF tags in  and the corresponding value for each tag. 
@@ -83,8 +95,4 @@ photoDF['Date'] = photoDF['Date'].apply(lambda x: datetime.strptime(x, '%Y:%m:%d
 
 We now have a dataframe with an entry for every photo on the hard drive. This is enough to start answering the main question, while also finding out a bit more about my photography habits.
 
-What focal length do I use the most? 
-
-
-## My habits
-Now we have the data, it's time for the analysis. 
+What focal length do I use the most?
