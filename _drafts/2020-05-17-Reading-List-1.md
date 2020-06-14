@@ -9,12 +9,18 @@ version: 1
 photoloc: /assets/posts/readingList
 ---
 
-This is first part of 3 parts ([Part 2](/posts/reading-list-2), [Part 3](/posts/reading-list-3)) outlining how to create and populate a [Reading List](/books) page. The final product will be mostly automated, requiring only ISBNs and the year read of each book to generate a page with the cover art and relevant details for each book. 
+This is first part of two ([Part 2](/posts/reading-list-2)) outlining how I created and populated my [Reading List](/books) page. The final product is mostly automated, requiring only ISBNs and the reading year for each book to generate a page with the cover art and relevant details for each book. 
 
-Here is an overview of the journey:
-1. Web scraping Goodreads with Python using books' ISBNs, collecting book data and a folder full of book cover images.
-2. Generating and populating a Reading List page like [mine](/books) using Liquid tags and Jekyll.
-3. Styling and arranging the Reading List page using CSS grid. 
+Here is an overview of the process:
+1. Scraping Goodreads with Python using books' ISBNs, collecting book data and a folder full of book cover images.
+2. Generating a Reading List page like [mine](/books) using Liquid tags, and arranging the page using CSS Grid.
+
+## Scraping the web
+There are heaps of *web scraping with Python* tutorials online. I won't go into too much detail here - writing this tutorial is probably more for me to lock in the process than to break new ground in the web scraping space, but hopefully it can provide some value. 
+
+HTML forms the basis of all web pages. At the most basic level, it's essentially just a bunch of containers. Web scraping is the process of looking through these containers to find and retrieve the information inside them. We can use purpose-built Python libraries to automate and simplify this process, so that we can retreive information from a large number of websites. 
+
+[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is one of those Python libraries for reading HTML files, like websites. The BeautifulSoup `find` method allows us to find and return the specific HTML element we're looking for, and the `contents` method returns the contents of that element, as you'd expect. Before we can start writing code, we need to make a manual inspection of the website we're going to be scraping. 
 
 ## Inspecting the scraping site
 
@@ -23,20 +29,19 @@ Here is an overview of the journey:
    class="wide"
 %}
 
-Above is the goodreads website for the next book on my list: [The Anarchy](https://www.goodreads.com/book/show/42972023-the-anarchy), by William Dalrymple. 
+Above is the goodreads website for the next book on my reading list: [The Anarchy](https://www.goodreads.com/book/show/42972023-the-anarchy), by William Dalrymple. The Goodreads website is well structured for web scraping - every container has a clearly named `id` or `itemprop` attribute. If you want to pull extra info for each book, you just have to inspect any book's page to find the relevant tag. If we inspect the heading element for the book title, we can see the relevant heading tag has an ID of `bookTitle`. Makes sense. We can use the same idea to find attributes for the all of the other pieces of information that we want. 
 
 {% include article_pic.html
    file="goodreads_highlight.png"
    class="wide"
 %}
 
-The Goodreads website is well documented for web scraping - every container has a clearly named `id` or `itemprop` attribute. If you want to pull extra info for each book, you just have to inspect any book's page to find the relevant tag. If we inspect the book title, we can see the relevant heading tag has `id = bookTitle`. We can also find the attributes for the all of the other pieces of information that we want. 
+## Looping through elements
 
-## Beautiful Soup
-[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for parsing HTML files, like websites. Now that we've inspected a Goodreads book page, we can use BeatifulSoup and Python do the work of inspecting and reading for us. The BeautifulSoup `find` method allows us to specify 
+Now that we've inspected the Goodreads book page, we can use BeatifulSoup and Python do the work of inspecting and reading for us. In this case, we can use the `id` and `itemprop` attributes we found earlier to specify the elements we want to return. As you'd expect, the `contents` method returns the contents of the specified element. 
 
 
-Finally, here's our Goodreads scraping function:
+Putting it all together, here's our Goodreads scraping function:
 ```python
 # Function that takes the book ISBN and returns key info
 def goodreadsInfo(isbn):
@@ -73,8 +78,7 @@ def goodreadsInfo(isbn):
 ```
 
 ## Next steps
-Now we can use this function to generate a YAML file that contains our book info. We can also run this script when new books' ISBNs are added to our master list, and it will add to our database. The full script is on [Github](). 
+We can use this function to generate a YAML file that contains our book info. YAML is the data structure used for Jekyll, to be stored in our site's `/_data` directory. It will power the reading list page we generate in [Part 2](/posts/reading-list-2). We can also run this script when new books' ISBNs are added to our master list, and it will add to our database. The full script is on [Github]().
 
-The YAML file goes in the site's `/_data` directory, and will be used to power the reading list page we generate using Jekyll and Liquid in [Part 2](/posts/reading-list-2).
+I think the next evolution of this process will be to use the [Goodreads API](https://www.goodreads.com/api/index), which should make things a bit more intuitive - requiring a book title rather than an ISBN. It's also worth considering the limitations of ISBNs - there are different ISBNs for different editions of a book, and some very new eBooks and very old books don't have ISBNs for us to use at all. Some more interesting discussion can be found about it [here](https://en.wikipedia.org/wiki/Wikipedia:ISBN#Uses_and_limitations_of_ISBNs) and [here](https://macwright.org/2017/12/11/indieweb-reading.html).
 
-I think the next evolution of this process will be to use the [Goodreads API](https://www.goodreads.com/api/index), which should make things a bit more intuitive - requiring a book title rather than an ISBN.    

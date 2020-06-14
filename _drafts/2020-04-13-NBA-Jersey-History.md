@@ -3,7 +3,7 @@ layout: post
 title: A history of NBA jersey numbers
 description: Analysing trends in NBA jersey numbers
 summary: Analysing trends in NBA jersey numbers
-tags: [NBA, python, viz]
+tags: [nba, python, viz]
 photoloc: /assets/posts/jerseys2/
 last_update: May 03, 2020
 version: 1

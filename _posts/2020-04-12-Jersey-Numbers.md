@@ -3,7 +3,7 @@ layout: post
 title: Why are lower jersey numbers more common?
 description: Why are lower jersey numbers more common?
 summary: Trends in NBA jersey numbers over time
-tags: [NBA, data, viz]
+tags: [nba, data, viz]
 photoloc: /assets/posts/jerseys/
 ---
 
@@ -38,7 +38,5 @@ I'm still not sure. I'll write up a more in-depth post about data prep and detai
    file="logos.png"
    caption="Player logos that include numbers. Weirdly, they're mostly point guards."
 %}
-
-### Footnotes
 
 [^1]: Clockwise from top left: Damian Lillard, Penny Hardaway, Tracy McGrady, Kyrie Irving, Stephen Curry, Chris Paul, Allen Iverson, and Kawhi Leonard.

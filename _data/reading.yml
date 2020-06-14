@@ -2,6 +2,14 @@ lastupdate: May 16, 2020
 list:
   - year: "2020"
     books:
+      - title: The Count of Monte Cristo
+        author: Alexandre Dumas
+        link: https://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264
+         
+      - title: The Anarchy
+        author: William Dalrymple
+        link: https://www.amazon.com.au/Anarchy-Rise-Fall-India-Company/dp/1635573955
+      
       - title: Ventus
         author: Karl Schroeder
         link: https://www.amazon.com/Ventus-Karl-Schroeder/dp/0812576357

@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 body {
-    color: #111;
+    color: #484848;
     margin: 0;
 } 
 
@@ -28,6 +28,12 @@ main {
     margin: auto;
 }
 
+.listed-post {
+    grid-template-columns: 400px 200px;
+    display: grid;
+    align-items: center;
+} 
+
 header {
     margin-bottom: 1rem;
 }
@@ -35,9 +41,9 @@ header {
 h1 {
     margin: 0;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1em;
-    color: #222;
+    color: #383838;
 }
 
 ul {
@@ -75,7 +81,12 @@ a:visited:hover {
 }
 
 .posts-list h3 {
-    margin-top: 1em;
+    margin-top: 2em;
+}
+
+.tags-page {
+    max-width: 600px;
+    margin: auto;
 }
 
 .card {
@@ -181,6 +192,7 @@ a:visited:hover {
     li {
       display: inline-block;
       //padding: 0rem 0.2rem;
+      padding-right: 0.3em;
       margin: auto;
       //color: #8c8c8c;
     }
@@ -188,22 +200,15 @@ a:visited:hover {
 
 
 .posts-tags-meta {
-  float: right;
+  text-align: right;
 }
 
 .listed-post {
-  padding: 0.2rem 0rem;
-  margin: 0.1rem 0rem;
-  transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-  //border: 2px solid #f8faf7;
-  //border-radius: 2px;
-
-  &:hover {
-  //    transform: scale(1.02);
-  //    border: 2px solid #488f4f;
-  //    border-radius: 2px;
-  }
-
+  grid-template-columns: 400px 200px;
+  display: grid;
+  align-items: center;
+  padding: 0.04em 0;
+  
   a {
       text-decoration: none;
   }
@@ -211,7 +216,7 @@ a:visited:hover {
 
 .date, .tags-meta, .post-tag {
     font-family: "Inter var", monospace;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: -0.004em;
 }
@@ -414,10 +419,6 @@ footer {
   color: #777;
 }
 
-.listed-post time {
-    margin-right: 2rem;
-}
-
 div[class*="highlighter-rouge"] {
   margin: 0 0 2em;
   grid-column: 2 / 5;
@@ -589,8 +590,8 @@ ul.tag-box li span.size {
 
 .tag-heading {
     font-family: "Inter var", "Helvetica";
-    font-size: 15px;
-    margin-bottom: 0.4rem;
+    font-size: 16px;
+    margin: 2.5em 0 1em 0;
     color: #111;
     letter-spacing: -0.004em;
 }
