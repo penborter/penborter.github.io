@@ -1,7 +1,28 @@
-lastupdate: May 16, 2020
+lastupdate: July 11, 2020
 list:
   - year: "2020"
     books:
+      - title: If on a Winter's Night a Traveller
+        author: Italo Calvino
+        link: https://www.amazon.com.au/Winters-Night-Traveller-Vintage-Classics-ebook/dp
+        star: yes
+        
+      - title: Ficciones
+        author: Jorge Borges
+        link:
+      
+      - title: The Dark Forest
+        author: Liu Cixin
+        link:  
+          
+      - title: On the Move
+        author: Oliver Sacks
+        link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24       
+        
+      - title: Bad Blood
+        author: John Carreyrou
+        link: https://www.amazon.com.au/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X
+        
       - title: The Count of Monte Cristo
         author: Alexandre Dumas
         link: https://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264
@@ -150,7 +171,6 @@ list:
       - title: String Theory
         author: David Foster Wallace
         link: https://www.amazon.com/String-Theory-Wallace-Library-Publication/dp/1598534807
-        star: yes
 
       - title: The Sirens of Titan
         author: Kurt Vonnegut

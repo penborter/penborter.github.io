@@ -605,3 +605,41 @@ ul.tag-box li span.size {
 a {
     text-decoration: none;
 }
+
+.horizontal-gallery-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    margin: 60px 20px;
+    -webkit-overflow-scrolling: touch;
+    
+    &::-webkit-scrollbar {
+        display: none;
+}
+    
+    .image-wrapper {
+      display: inline-block;
+    }
+}
+
+.image-wrapper {
+  height: 80vh;
+  margin: 0 35px;
+  background: black;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+}
+
+.img-gallery {
+    height: 100%;
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+.gallery-meta {
+    width: 600px;
+    margin: auto;
+}
