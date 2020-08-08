@@ -1,31 +1,90 @@
 ---
-layout: page
+layout: default
 title: Books
+updated: July 30, 2020
 permalink: /books
 ---
 
-<h1>Books</h1>
-<div class="last-update">Last updated {{ site.data.reading.lastupdate }}</div>
+<div class="reading-meta-container">
+ 
+  <h1>Bookshelf</h1>
+  
+ </div>
 
-<p class="post-body">A list of books that I've read since 2019, updated intermittently.
-    Part of the reason I'm keeping this log <i>here</i> is that I've lost my 2018 and 2017 lists, so I wanted to keep a single source of truth. 
-    Recommended books have a star <span class="star">★</span>.
-    Based on <a href="http://www.cagrimmett.com/development/2019/09/07/reading-list.html">this blog post</a> by Chuck Grimmett.
-</p>
-<p class="post-body">Currently being redesigned... check back for a fresh coat of paint.</p>
+<div class="reading-container">
 
-<div class="container">
-  {% for entry in site.data.reading.list %}
+  <div class="test-year-container">
+  
+  {% assign book_count = 0 %}
+  
+  {% for year in site.data.reading.years %}
+    
+    {% for book in year.books %}
+    
+      {% assign has_review = false %}
+      {% assign book_count = book_count | plus:1 %}
+      {% assign book_url = book.link %}
+    
+      {% for review in site.reviews %}
+        {% if review.book == book.title %}
+          {% assign book_url = review.url %}
+          {% assign has_review = true %}
+        {% endif %}
+      {% endfor %}
+            
+      <div class="test-book">
+      
+        <figure class="test-cover">
+          <a href="{{ book_url }}" title="{{ book.title }}">
+            <img src="/assets/books/{{ book.title}}.jpg" alt="{{ book.title }}">
+          </a>
+        </figure>
+        
+        <a href="{{ book_url }}" title ="{{ book.title }}"><h5 class="{% if has_review %}green-{% endif %}title">{{ book.title }}</h5></a>
+        <h6 class="author">{{ book.author }}</h6>
+        
+      </div>
+      
+        {% if book_count == 5%}
+          {% break %}
+        {% endif %}
+      
+      {% endfor %}
+      
+      {% if book_count == 5%}
+          {% break %}
+      {% endif %}
+      
+    {% endfor %}
+  </div>
+</div>
+
+<div class="reading-meta-container">
+<p class="post-body">Here's my reading list, covers first. The row of books up the top are the last 5 books read. I try to keep notes on the books I read, especially non-fiction. Those books that have notes are in <span class="green">green</span>. Recommended books have a star <span class="star">★</span>.</p> 
+<p class="post-body">Last updated {{ page.updated }}.</p>
+
+  {% for entry in site.data.reading.years %}
   <div class="year-container">
     <div class="year">
-      <h4>{{ entry.year }}</h4>
-      <div class="number">{{ entry.books | size }} books</div>
+        <h4>{{ entry.year }}</h4>
+        <div class="number">{{ entry.books | size }} books</div>
     </div>
     <div class="books">
       <ul class="reading-list {{ entry.year }}">
         {% for book in entry.books %}
+        
+          {% assign has_review = false %}
+          {% assign book_url = book.link %}
+        
+          {% for review in site.reviews %}
+            {% if review.book == book.title %}
+              {% assign book_url = review.url %}
+              {% assign has_review = true %}
+            {% endif %}
+          {% endfor %}
+        
         <li>
-          <a href="{{ book.link }}" alt="_blank" rel="nofollow noopener">{{
+          <a href="{{ book_url }}" alt="_blank" rel="nofollow noopener"{% if has_review %} class="green-title"{% endif %}>{{
             book.title
           }}</a>
           <span class="author">by {{ book.author }}</span

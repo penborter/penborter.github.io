@@ -61,6 +61,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
+  reviews:
+    output: true
+    permalink: /books/:slug
 
 defaults:
   -

@@ -6,15 +6,16 @@ layout: default
 <link href="/assets/css/lightbox.css" rel="stylesheet" />
 
 
-<div class="gallery-meta">
-    <h1>{{ page.title }}</h1>
-    <p>Click on the photos to launch a gallery. Photos scroll horizontally.</p>
 
-    {{ content }}
-
-</div>
 
 <div class="horizontal-gallery-wrapper">
+
+    <div class="gallery-meta">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        <p>Click on any photo to launch a gallery. Photos scroll horizontally (hold Shift and scroll). &#8594;</p>
+    </div>    
+
 {% for gallery in site.data.galleries %}
     {% if gallery.id == page.galleryid %}
         {% for image in gallery.images %}

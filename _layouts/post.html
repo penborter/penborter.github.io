@@ -21,15 +21,16 @@ layout: default
 
   {{ content }}
   <br>
+  
+
 
  <hr style="height:2px; border:none; margin: 1rem 0; background-color:#e7e9ee;">
+ <div class="post-footer">
 
- <div class="page-footer">
-    <div class="post-versions">
-        <p><strong>Published: </strong>{{ page.date | date: "%B %-d, %Y" }}</p>
-        <p><strong>Last updated: </strong>{{ page.last_update }}</p>
-        <p><strong>Version: </strong>{{ page.version }}
+    <div class="post-date">
+         <p class="published">Published on {{ page.date | date: "%B %-d, %Y" }}</p>
     </div>
+    
     <div class="page-nav">
     {% if page.previous.url %}
         <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Post</a>
@@ -39,5 +40,5 @@ layout: default
     {% endif %}
     </div>
 </div>
-
+    
 </article>

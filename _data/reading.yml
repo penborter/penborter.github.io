@@ -1,23 +1,34 @@
-lastupdate: July 11, 2020
-list:
+years:
   - year: "2020"
     books:
+        
+      - title: The Way We Eat Now
+        author: Bee Wilson
+        link: https://www.amazon.com.au/Way-Eat-Now-Revolution-Transformed/dp/0465093973
+        star: yes
+        year: 2019
+        pub: Fourth Estate
+        
+      - title: The Left Hand of Darkness
+        author: Ursula Le Guin
+        link: https://openlibrary.org/works/OL59864W/The_Left_Hand_of_Darkness
+        
       - title: If on a Winter's Night a Traveller
         author: Italo Calvino
-        link: https://www.amazon.com.au/Winters-Night-Traveller-Vintage-Classics-ebook/dp
+        link: https://openlibrary.org/works/OL15358W/Se_una_notte_d'inverno_un_viaggiatore
         star: yes
         
       - title: Ficciones
         author: Jorge Borges
-        link:
-      
-      - title: The Dark Forest
-        author: Liu Cixin
-        link:  
+        link: https://www.amazon.com.au/Ficciones-Jorge-Luis-Borges/dp/0802130305
           
       - title: On the Move
         author: Oliver Sacks
-        link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24       
+        link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24  
+
+      - title: The Dark Forest
+        author: Liu Cixin
+        link: https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690     
         
       - title: Bad Blood
         author: John Carreyrou
