@@ -9,9 +9,9 @@ html {
   box-sizing: inherit;
 }
 body {
-    color: #484848;
+    color: #333;
     margin: 0;
-    background-color: #f8faf7;
+    background-color: #f4f7f3;
 } 
 
 nav {
@@ -38,6 +38,7 @@ main {
 header {
     margin-bottom: 1rem;
     box-shadow: 0 8px 6px -6px #dddddd;
+    background-color: #e8efe5;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
     font-size: 28px;
     font-weight: 600;
     line-height: 1em;
-    color: #383838;
+    color: #333;
 }
 
 ul {
@@ -317,8 +318,11 @@ li[id*="fn:"] p {
 }
 
 .footnotes {
-    font-size: 13px;
+    font-size: 12px;
     color: #999;
+    border-top: 2px solid #e7e9ee;
+    padding-top: 1em;
+    margin-top: 2em;
 }
 
 .footnote {
@@ -378,9 +382,9 @@ nav {
         }
     }
     a, a:visited {
-        margin: 0.1rem;
+        margin: 0.2rem;
         text-decoration: none;
-        padding: 0.3rem 0.5rem;
+        padding: 0.3rem 0.45rem;
 	    color: inherit;
         border: 1px solid transparent;
         //border-radius: 5px;
@@ -428,6 +432,10 @@ div[class*="highlighter-rouge"] {
 
 .post figure {
     margin: 0 0 1.5em;
+    
+    img {
+        box-shadow: 0px 5px 10px 2px #eee;
+    }
 }
 
 .full-width {
