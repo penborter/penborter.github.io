@@ -63,11 +63,6 @@ permalink: /books
 <p class="post-body">Here's my reading list, covers first. The row of books up the top are the last 5 books read. I try to keep notes on the books I read, especially non-fiction. Those books that have notes are in <span class="green">green</span>. Recommended books have a star <span class="star">★</span>.</p> 
 <p class="post-body">Last updated {{ page.updated }}.</p>
 
-  <div class="button-group filter-button-group">      
-      <a class="button" data-filter=".reviewed">Reviewed</a>
-      <a class="button active" data-filter="*">All</a>      
-  </div>
-
   {% for entry in site.data.reading.years %}
   <div class="year-container">
     <div class="year">
