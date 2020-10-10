@@ -3,7 +3,7 @@ layout: post
 title: Misusing Google autocomplete
 description: How to find alternatives using recommended searches
 summary: How to find alternatives using recommended searches
-tags: [data, tips]
+tags: [data, tutorial]
 photoloc: /assets/posts/google
 ---
 

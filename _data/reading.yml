@@ -1,6 +1,37 @@
 years:
   - year: "2020"
-    books:
+    books:            
+      - title: Alchemy
+        author: Rory Sutherland
+        link: https://www.amazon.com.au/Alchemy-Surprising-Power-Ideas-Sense-ebook/dp/B01F1HOAWA
+        
+      - title: Idea Makers
+        author: Stephen Wolfram
+        link: https://www.amazon.com.au/Idea-Makers-Personal-Perspectives-Notable/dp/1579550037
+      
+      - title: Exhalation
+        author: Ted Chiang
+        link: https://www.amazon.com.au/Exhalation-Stories-Ted-Chiang/dp/1101947888
+        
+      - title: The Psychology of Money
+        author: Morgan Housel
+        link: https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681    
+    
+      - title: Metaphors We Live By
+        author: George Lakoff
+        link: https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011    
+        
+      - title: Unfinished Business
+        author: Vivian Gornick
+        link: https://www.amazon.com/Unfinished-Business-Notes-Chronic-Re-reader/dp/0374282153
+        
+      - title: Dune
+        author: Frank Herbert
+        link: https://www.amazon.com.au/Dune-Frank-Herbert/dp/0441172717
+        
+      - title: The Baron in the Trees
+        author: Italo Calvino
+        link: https://www.amazon.com.au/Baron-Trees-Italo-Calvino/dp/0156106809    
         
       - title: The Way We Eat Now
         author: Bee Wilson
@@ -22,9 +53,11 @@ years:
         author: Jorge Borges
         link: https://www.amazon.com.au/Ficciones-Jorge-Luis-Borges/dp/0802130305
           
-      - title: On the Move
+      - title: On The Move
         author: Oliver Sacks
-        link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24  
+        link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24
+        year: 2015
+        pub: Vintage
 
       - title: The Dark Forest
         author: Liu Cixin

@@ -3,7 +3,7 @@ layout: post
 title: Liquid tags and Jekyll - Reading list 2
 description: Using Jekyll to create a reading list page
 summary: Using Jekyll to create a reading list page
-tags: [site, jekyll, reading, css, web dev, tutorial]
+tags: [site, jekyll, reading, tutorial]
 last_update: "-"
 version: 1
 photoloc: /assets/posts/readingList

@@ -5,7 +5,11 @@ layout: default
 <script src="/assets/js/lightbox-plus-jquery.min.js"></script>
 <link href="/assets/css/lightbox.css" rel="stylesheet" />
 
-
+{% for gallery in site.data.galleries %}
+    {% if gallery.id == page.galleryid %}
+        {% assign gallery_size = gallery.images.size %}
+    {% endif %}
+{% endfor %}
 
 
 <div class="horizontal-gallery-wrapper">
@@ -13,8 +17,10 @@ layout: default
     <div class="gallery-meta">
         <h1>{{ page.title }}</h1>
         {{ content }}
-        <p>Click on any photo to launch a gallery. Photos scroll horizontally (hold Shift and scroll). &#8594;</p>
+        <p>There are {{ gallery_size }} photos in this set. Click on any of them to launch a lightbox. Photos scroll horizontally (hold Shift and scroll). &#8594;</p>
     </div>    
+
+
 
 {% for gallery in site.data.galleries %}
     {% if gallery.id == page.galleryid %}

@@ -40,18 +40,18 @@ layout: default
 
  <hr style="height:2px; border:none; margin: 1rem 0; background-color:#e7e9ee;">
 
- <div class="page-footer">
-    <div class="post-versions">
-        <p><strong>Published: </strong>{{ page.date | date: "%B %-d, %Y" }}</p>
-        <p><strong>Last updated: </strong>{{ page.last_update }}</p>
-        <p><strong>Version: </strong>{{ page.version }}
+ <div class="post-footer">
+
+    <div class="post-date">
+         <p class="published">Published on {{ page.date | date: "%B %-d, %Y" }}</p>
     </div>
+    
     <div class="page-nav">
     {% if page.previous.url %}
-        <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev book</a>
+        <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Post</a>
     {% endif %}
     {% if page.next.url %}
-        <a class="next-page" href="{{ page.next.url }}">Next book &raquo;</a>
+        <a class="next-page" href="{{ page.next.url }}">Next Post &raquo;</a>
     {% endif %}
     </div>
 </div>

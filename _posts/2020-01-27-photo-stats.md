@@ -3,7 +3,7 @@ layout: post
 title: Using Python to quantify photography habits
 description: Photography Statistics
 summary: Quantifying my photography habits
-tags: [python, photography, habits]
+tags: [python, photography, data]
 photoloc: /assets/posts/picNumbers
 last_update: "May 16, 2020"
 version: 1.1

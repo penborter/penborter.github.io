@@ -1,9 +1,9 @@
 
 body {
-  font-size: 15px;
-  line-height: 1.6em;
+  font-size: 16px;
+  line-height: 23px;
   font-weight: 400;
-  letter-spacing: -0.004em;
+  letter-spacing: -0.008em;
   font-kerning: normal;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
@@ -19,9 +19,13 @@ a,a:visited {
 
 h1, h2, h3, h4 {
     font-family: 'Inter var', sans-serif;
-	font-weight: 600;
-    color: #333;
-    margin: 0.4em 0 0.8em 0;
+	font-weight: 700;
+    color: #444;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.card h2 {
+    color: #eee;
 }
 
 h2 {
@@ -37,7 +41,7 @@ h4 {
 }
 
 blockquote {
-  border-left: 3px solid #00990d;
+  border-left: 3px solid #50775e;
   font-weight: 400;
   padding: 0.25rem 1rem;
   margin: 0 0 1.5em;
@@ -75,7 +79,7 @@ div.highlight {
 }
 
 code, .highlight {
-    background: #333333;
+    background: #333;
     overflow: auto;
 }
 

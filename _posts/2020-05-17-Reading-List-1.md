@@ -3,7 +3,7 @@ layout: post
 title: Scraping Goodreads - Reading list 1
 description: Scraping book info from Goodreads using Python
 summary: Scraping book info from Goodreads using Python
-tags: [site, python, reading, scraping, tutorial]
+tags: [site, python, reading, tutorial]
 last_update: "-"
 version: 1
 photoloc: /assets/posts/readingList
@@ -81,4 +81,3 @@ def goodreadsInfo(isbn):
 We can use this function to generate a YAML file that contains our book info. YAML is the data structure used for Jekyll, to be stored in our site's `/_data` directory. It will power the reading list page we generate in [Part 2](/posts/reading-list-2). We can also run this script when new books' ISBNs are added to our master list, and it will add to our database. The full script is on [Github]().
 
 I think the next evolution of this process will be to use the [Goodreads API](https://www.goodreads.com/api/index), which should make things a bit more intuitive - requiring a book title rather than an ISBN. It's also worth considering the limitations of ISBNs - there are different ISBNs for different editions of a book, and some very new eBooks and very old books don't have ISBNs for us to use at all. Some more interesting discussion can be found about it [here](https://en.wikipedia.org/wiki/Wikipedia:ISBN#Uses_and_limitations_of_ISBNs) and [here](https://macwright.org/2017/12/11/indieweb-reading.html).
-

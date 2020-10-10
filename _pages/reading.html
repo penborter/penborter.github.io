@@ -63,6 +63,11 @@ permalink: /books
 <p class="post-body">Here's my reading list, covers first. The row of books up the top are the last 5 books read. I try to keep notes on the books I read, especially non-fiction. Those books that have notes are in <span class="green">green</span>. Recommended books have a star <span class="star">★</span>.</p> 
 <p class="post-body">Last updated {{ page.updated }}.</p>
 
+  <div class="button-group filter-button-group">      
+      <a class="button" data-filter=".reviewed">Reviewed</a>
+      <a class="button active" data-filter="*">All</a>      
+  </div>
+
   {% for entry in site.data.reading.years %}
   <div class="year-container">
     <div class="year">
@@ -84,7 +89,7 @@ permalink: /books
           {% endfor %}
         
         <li>
-          <a href="{{ book_url }}" alt="_blank" rel="nofollow noopener"{% if has_review %} class="green-title"{% endif %}>{{
+          <a href="{{ book_url }}"{% if has_review %} class="green-title reviewed"{% endif %}>{{
             book.title
           }}</a>
           <span class="author">by {{ book.author }}</span
@@ -96,3 +101,31 @@ permalink: /books
   </div>
   {% endfor %}
 </div>
+
+
+<script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+
+<script>
+	// init Isotope
+	var $grid = $('.year-container').isotope({
+	  // options
+	});
+	// filter items on button click
+	$('.filter-button-group').on( 'click', 'a', function() {
+	  var filterValue = $(this).attr('data-filter');
+	  $grid.isotope({ filter: filterValue });
+	});
+	$('.button-group a.button').on('click', function(){
+		$('.button-group a.button').removeClass('active');
+		$(this).addClass('active');
+	});
+</script>
+
+<style type="text/css">
+	a.button.active {
+		background: #F76B48;
+		border: 1px solid #F76B48;
+		color: #fff;
+	}
+</style>

@@ -32,7 +32,7 @@
     
     img {
         border-radius: 4px;
-        box-shadow: 0px 3px 8px #aaa;
+        box-shadow: 0px 3px 8px #222;
     }
 }
 
@@ -56,4 +56,18 @@ h6 {
 .test-year-number {
     margin: 2em 0 0 0;
     font-size: 16px;
+}
+
+.test-sticky-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+.test-list li {
+    padding: 2em;
+}
+
+.test-sticky {
+    position: sticky;
 }

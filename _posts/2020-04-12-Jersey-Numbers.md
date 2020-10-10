@@ -3,7 +3,7 @@ layout: post
 title: Why are lower jersey numbers more common?
 description: Why are lower jersey numbers more common?
 summary: Trends in NBA jersey numbers over time
-tags: [nba, data, viz]
+tags: [nba, data]
 photoloc: /assets/posts/jerseys/
 ---
 
