@@ -5,6 +5,7 @@ description: Why are lower jersey numbers more common?
 summary: Trends in NBA jersey numbers over time
 tags: [nba, data]
 photoloc: /assets/posts/jerseys/
+blurb: NBA Jersey numbers go through 20-year cycles of popularity. Currently we're in a "low" cycle and I'm not sure why. 
 ---
 
 Before we get too far, be warned that I don't actually have the answer to the title question. If I figure it out, though, I'll be sure to write about it.

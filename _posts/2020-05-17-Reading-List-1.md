@@ -4,9 +4,8 @@ title: Scraping Goodreads - Reading list 1
 description: Scraping book info from Goodreads using Python
 summary: Scraping book info from Goodreads using Python
 tags: [site, python, reading, tutorial]
-last_update: "-"
-version: 1
 photoloc: /assets/posts/readingList
+blurb: Part 1 of creating a Reading List - How to use BeautifulSoup and ISBNs to scrape and collate book information from Goodreads. 
 ---
 
 This is first part of two ([Part 2](/posts/reading-list-2)) outlining how I created and populated my [Reading List](/books) page. The final product is mostly automated, requiring only ISBNs and the reading year for each book to generate a page with the cover art and relevant details for each book. 

@@ -5,7 +5,10 @@ description: Moreyball All-Stars 2020
 summary: Moreyball All-Stars 2020
 tags: [nba, data]
 photoloc: /assets/posts/moreyball/
+blurb: Which NBA players shot the highest Moreyball rate - a combined shooting rate from beyond the 3-point line and from within 3 feet - this season?
 ---
+
+***UPDATE***: *[His work here is done](https://www.espn.com/nba/story/_/id/30120824/daryl-morey-stepping-houston-rockets-gm-sources-say)*.
 
 **Moreyball**: Daryl Morey's basketball philosophy in practice, favouring 3-pointers and layups over midrange jumpers. Since the Rockets doubled down on the philosophy in about 2013, other teams have started to catch on and implement their own version of the system ([at the expense of the Rockets](https://fivethirtyeight.com/features/nearly-every-team-is-playing-like-the-rockets-and-thats-hurting-the-rockets/)). Strategy of NBA teams has shifted away from the midrange but which players have committed to the Moreyball philosophy the most?
 

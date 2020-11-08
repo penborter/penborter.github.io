@@ -5,8 +5,7 @@ description: Photography Statistics
 summary: Quantifying my photography habits
 tags: [python, photography, data]
 photoloc: /assets/posts/picNumbers
-last_update: "May 16, 2020"
-version: 1.1
+blurb: I needed help deciding which lens to pair with a new camera, because there are so many. Too many. An exploration of EXIF data of old photos. 
 ---
 
 There is so much camera gear out there. It's hard to know what you want - separating gear that you want because it's cool and grear that you want because it's useful (and still cool) can be very difficult.  

@@ -13,7 +13,7 @@ title: Posts
     <h3 id="{{ this_year }}-ref">{{this_year}}</h3>
     <div class="posts-year">
     {% endif %}
-
+    
     <div class="listed-post">
         <a class="post-title-link" href="{{ post.url }}">{{ post.title }}</a>
         <ul class="posts-tags-meta">
@@ -22,7 +22,7 @@ title: Posts
                 <li><a href="/tags#{{ tag }}" class="post-tag">#{{ tag }}</a></li> {% endfor %}
             {% endif %}
         </ul>
-
+        <p>{{ post.blurb }}</p>
     </div>
 
     {% if forloop.last %}

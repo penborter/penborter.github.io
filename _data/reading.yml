@@ -1,9 +1,44 @@
 years:
   - year: "2020"
-    books:            
+    books:
+      - title: Human Transit
+        author: Jarrett Walker
+        link: https://openlibrary.org/isbn/1597269727
+        
+      - title: Atomic Habits
+        author: James Clear
+        link: https://openlibrary.org/isbn/1847941834 
+      
+      - title: Cat's Cradle
+        author: Kurt Vonnegut
+        link: https://openlibrary.org/isbn/0440111498 
+        
+      - title: Fermat's Last Theorem
+        author: Amir Aczel
+        link: https://openlibrary.org/isbn/1568583605
+      
+      - title: The Spy Who Came In From The Cold
+        author: John Le Carré
+        link: https://openlibrary.org/isbn/0905712315  
+        
+      - title: The Body
+        author: Bill Bryson
+        link: https://openlibrary.org/isbn/0552779903
+        
+      - title: The Two Lost Mountains
+        author: Matthew Reilly
+        link: https://openlibrary.org/isbn/1760559083
+    
+      - title: Wolf Hall
+        author: Hilary Mantel
+        link: https://openlibrary.org/isbn/161664365X
+        
       - title: Alchemy
         author: Rory Sutherland
         link: https://www.amazon.com.au/Alchemy-Surprising-Power-Ideas-Sense-ebook/dp/B01F1HOAWA
+        year: 2019
+        pub: Ebury Publishing 
+        star: yes
         
       - title: Idea Makers
         author: Stephen Wolfram
@@ -15,7 +50,9 @@ years:
         
       - title: The Psychology of Money
         author: Morgan Housel
-        link: https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681    
+        link: https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681
+        year: 2020
+        pub: Harriman House  
     
       - title: Metaphors We Live By
         author: George Lakoff

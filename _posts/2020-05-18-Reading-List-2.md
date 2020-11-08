@@ -4,9 +4,8 @@ title: Liquid tags and Jekyll - Reading list 2
 description: Using Jekyll to create a reading list page
 summary: Using Jekyll to create a reading list page
 tags: [site, jekyll, reading, tutorial]
-last_update: "-"
-version: 1
 photoloc: /assets/posts/readingList
+blurb: Part 2 of creating a Reading List - How to use Jekyll and CSS to create a template page, then populate it with book info using Liquid tags. 
 ---
 
 This is the second part of our two ([Part 1](/posts/reading-list-1)) to auto-generate a reading list page using scraped data, liquid tags, and some CSS. Now we have our book data, we can create a frame using Jekyll, Liquid tags and CSS, and populate it with our book info. 

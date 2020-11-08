@@ -41,10 +41,12 @@ h4 {
 }
 
 blockquote {
-  border-left: 3px solid #50775e;
-  font-weight: 400;
-  padding: 0.25rem 1rem;
-  margin: 0 0 1.5em;
+    border: 1px solid #bddecb;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 0.9em;
+    padding: 1em;
+    margin: 0 0 1.5em;
 
   p {
     margin: 0 !important;

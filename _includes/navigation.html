@@ -4,10 +4,13 @@
     <li><a href="/posts" {% if page.url contains "/posts" %} class="active"{% endif %}>Posts</a></li>
     <li><a href="/photos" {% if page.url contains "/photos" %} class="active"{% endif %}>Photos</a></li>
     <!--<li><a href="/projects" {% if page.url == "/projects" %}class="active"{% endif %}>projects</a></li>-->
-    <li><a href="/books" {% if page.url == "/books" %} class="active"{% endif %}>Books</a></li>
+    <li><a href="/books" {% if page.url contains "/books" %} class="active"{% endif %}>Books</a></li>
     <!--<li><a href="/atom.xml">feed</a></li>-->
   </ul>
 
-  <p><a href="/">Ben Porter</a></p>
+  <p><a href="/" class="navName">
+      <span class="navNameBefore">Ben Porter</span>
+      <span class="navNameAfter">Pen Borter</span>
+  </a></p>
 
 </nav>

@@ -4,6 +4,7 @@ title: Hello World
 description: Hello World
 summary: A short intro for my website
 tags: [hi]
+blurb: Welcome to my website.
 ---
 
 Hi.

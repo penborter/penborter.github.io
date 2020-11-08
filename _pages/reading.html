@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Books
-updated: July 30, 2020
+updated: November 1, 2020
 permalink: /books
 ---
 
@@ -40,7 +40,11 @@ permalink: /books
           </a>
         </figure>
         
-        <a href="{{ book_url }}" title ="{{ book.title }}"><h5 class="{% if has_review %}green-{% endif %}title">{{ book.title }}</h5></a>
+        <a href="{{ book_url }}" title ="{{ book.title }}">
+            <h5 class="title">
+                {% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}
+            </h5>
+        </a>
         <h6 class="author">{{ book.author }}</h6>
         
       </div>
@@ -60,7 +64,7 @@ permalink: /books
 </div>
 
 <div class="reading-meta-container">
-<p class="post-body">Here's my reading list, covers first. The row of books up the top are the last 5 books read. I try to keep notes on the books I read, especially non-fiction. Those books that have notes are in <span class="green">green</span>. Recommended books have a star <span class="star">★</span>.</p> 
+<p class="post-body">Here's my reading list, covers first. The row of books up the top are the last 5 books read. I've been trying to keep notes on the books I read - those books that have notes are <mark>highlighted</mark>. Recommended books have a star <span class="star">★</span>.</p> 
 <p class="post-body">Last updated {{ page.updated }}.</p>
 
   {% for entry in site.data.reading.years %}
@@ -84,9 +88,7 @@ permalink: /books
           {% endfor %}
         
         <li>
-          <a href="{{ book_url }}"{% if has_review %} class="green-title reviewed"{% endif %}>{{
-            book.title
-          }}</a>
+          <a href="{{ book_url }}">{% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}</a>
           <span class="author">by {{ book.author }}</span
           >{% if book.star %}<span class="star">★</span>{% endif %}
         </li>

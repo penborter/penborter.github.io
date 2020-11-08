@@ -21,37 +21,35 @@ layout: default
         </figure>
         <div class="book-meta">
           <h1>{{ book_review.title }}</h1>
-          <span class="descriptor">Author</span>
-          <p>{{ book_review.author }}</p>
+          <h3>{{ book_review.author }}</h3>
           {% if book_review.year %}
-            <span class="descriptor">Published by</span>
-            <p>{{ book_review.pub }}, {{ book_review.year }}</p>
+            <h4>{{ book_review.pub }}, {{ book_review.year }}</h4>
           {% endif %}
-          <span class="descriptor">Summary</span>
           <p>{{ page.summary }}</p>
           
         </div>
 	</div>
 
-  <h2>Notes</h2>
   {{ content }}
   
-  <br>
+<br>
 
  <hr style="height:2px; border:none; margin: 1rem 0; background-color:#e7e9ee;">
 
  <div class="post-footer">
 
+    {% if page.published %}
     <div class="post-date">
-         <p class="published">Published on {{ page.date | date: "%B %-d, %Y" }}</p>
+         <p class="published">Notes published {{ page.published }}</p>
     </div>
+    {% endif %}
     
     <div class="page-nav">
     {% if page.previous.url %}
-        <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Post</a>
+        <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Book</a>
     {% endif %}
     {% if page.next.url %}
-        <a class="next-page" href="{{ page.next.url }}">Next Post &raquo;</a>
+        <a class="next-page" href="{{ page.next.url }}">Next Book &raquo;</a>
     {% endif %}
     </div>
 </div>

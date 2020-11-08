@@ -5,6 +5,7 @@ description: How to find alternatives using recommended searches
 summary: How to find alternatives using recommended searches
 tags: [data, tutorial]
 photoloc: /assets/posts/google
+blurb: How to leverage autocomplete to find similar alternatives without leaving the search bar.
 ---
 
 Google processes billions of search results every day. Leveraging the data associated with this traffic is part of the reason why Google is now worth $1,000,000,000,000[^1]. Some of this data collection shows up in Google's search autocomplete - as you type your search term, predicitions will appear in the search bar to help you get your results (and serve you ads) more quickly. Even WIRED has taken advantage, crowdsourcing whole interviews that ask celebrities "The Web's Most Searched Questions".
