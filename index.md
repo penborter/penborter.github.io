@@ -17,5 +17,3 @@ This site aims to showcase my journey in learning [Python]({{ site.base }}/tags#
 
 This site is a work in progress, so check back for updates!
 I'm also other on places around the internet, normally as @penborter.
-
-{% include socials.html %}
