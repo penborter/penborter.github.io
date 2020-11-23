@@ -88,7 +88,7 @@ code, .highlight {
 code {
     font-family: 'Fira Code', monospace;
     word-break: break-all;
-    font-weight: 600;
+    //font-weight: 600;
     font-size: 14px;
     letter-spacing: -0.2px;
     line-height: 1.8em;
@@ -99,7 +99,7 @@ code {
 }
 
 code.highlighter-rouge {
-    background: #f0f2ed;
+    background: #fff;
     font-weight: bold;
     letter-spacing: -0.2px;
     border-radius: 5px;
