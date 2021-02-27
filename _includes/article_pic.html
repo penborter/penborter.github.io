@@ -13,7 +13,7 @@ Optional:
 
 <figure class="pic-{{ include.class | default: "normal" }}">
     <a href="{{ page.photoloc }}/{{ include.file }}" data-lightbox="{{ include.gallery | default: "post-gallery" }}" title="{{ include.caption }}">
-        <img src="{{ page.photoloc }}/{{ include.file }}" alt="{{ include.caption }}">
+        <img src="{{ page.photoloc }}/{{ include.file }}" alt="{{ include.caption }}" loading="lazy">
     </a>
     {% if include.caption %}
     <figcaption>{{ include.caption }}</figcaption>
