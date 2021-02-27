@@ -1,5 +1,6 @@
 site: Ben Porter
-url:
+url: https://penborter.com
+enforce_ssl: penborter.com
 author: Ben
 author:
   name: Ben
@@ -46,7 +47,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - disqus-for-jekyll
-  - jekyll-target-blank
 
 markdown: kramdown
 highlighter: rouge

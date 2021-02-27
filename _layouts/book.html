@@ -3,55 +3,58 @@ layout: default
 ---
 
 {% for year in site.data.reading.years %}
-  
+
   {% for book in year.books %}
-  
-    {% if book.title == page.book %}     
+
+    {% if book.title == page.book %}
       {% assign book_review = book %}
       {% break %}
-    
+
     {% endif %}
   {% endfor %}
 {% endfor %}
 
-<article role="article" class="post">
+<article role="article" class="mainGrid">
+
+
+
+
 	<div class="book-intro">
-        <figure class="test-cover">
-          <img src="/assets/books/{{ book_review.title }}.jpg" alt="{{ book_review.title }}">
-        </figure>
-        <div class="book-meta">
-          <h1>{{ book_review.title }}</h1>
-          <h3>{{ book_review.author }}</h3>
-          {% if book_review.year %}
-            <h4>{{ book_review.pub }}, {{ book_review.year }}</h4>
-          {% endif %}
-          <p>{{ page.summary }}</p>
-          
-        </div>
+
+    <h1>{{ book_review.title }} <small class="green">by {{ book_review.author }}</small></h1>
+
+    {% if book_review.year %}
+      <span class="review-meta">{{ book_review.pub }}, {{ book_review.year }}</span>
+      <span class="review-meta">ISBN: {{ book_review.link | slice: -10, 10 }}</span>
+    {% endif %}
+
+    <p>{{ page.summary }}</p>
+
 	</div>
 
-  {{ content }}
-  
-<br>
+  <figure class="test-cover">
+    <img src="/assets/books/{{ book_review.title }}.jpg" alt="{{ book_review.title }}">
+  </figure>
 
- <hr style="height:2px; border:none; margin: 1rem 0; background-color:#e7e9ee;">
 
- <div class="post-footer">
 
-    {% if page.published %}
-    <div class="post-date">
-         <p class="published">Notes published {{ page.published }}</p>
-    </div>
-    {% endif %}
-    
-    <div class="page-nav">
+{{ content }}
+
+<div class="post-footer">
+  {% if page.published %}
+  <p class="pub-date" style="margin-bottom: 1em; text-align: right;">Published on {{ page.published }}</p>
+  {% endif %}
+
+  <hr style="height:1px; border:none; margin: 0.5rem 0 1rem 0; background-color:#a0cca5;">
+
+  <div class="page-nav">
     {% if page.previous.url %}
-        <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Book</a>
+      <a class="prev-page" href="{{ page.previous.url }}">&laquo; Prev Book</a>
     {% endif %}
     {% if page.next.url %}
-        <a class="next-page" href="{{ page.next.url }}">Next Book &raquo;</a>
+      <a class="next-page" href="{{ page.next.url }}">Next Book &raquo;</a>
     {% endif %}
-    </div>
+  </div>
 </div>
 
 </article>

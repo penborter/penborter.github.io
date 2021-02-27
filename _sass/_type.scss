@@ -1,9 +1,9 @@
 
 body {
   font-size: 16px;
-  line-height: 25px;
-  font-weight: 400;
-  letter-spacing: -0.008em;
+  line-height: 1.5em;
+  font-weight: 450;
+  letter-spacing: -0.015em;
   font-kerning: normal;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
@@ -17,11 +17,18 @@ a,a:visited {
   }
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Inter var', sans-serif;
+h1 {
+  margin: 3rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: #1A4730;
+}
+
+h2, h3, h4 {
 	font-weight: 700;
-    color: #444;
-    margin: 0.5em 0 0.5em 0;
+  color: #444;
+  margin: 0.5em 0 0.5em 0;
 }
 
 .card h2 {

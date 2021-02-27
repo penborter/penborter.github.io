@@ -1,100 +1,93 @@
 ---
 layout: default
 title: Books
-updated: November 1, 2020
+updated: February 20, 2021
 permalink: /books
 ---
-
+<div class="mainGrid">
 <div class="reading-meta-container">
- 
+
   <h1>Bookshelf</h1>
-  
+
  </div>
 
 <div class="reading-container">
 
   <div class="test-year-container">
-  
+
   {% assign book_count = 0 %}
-  
+
   {% for year in site.data.reading.years %}
-    
+
     {% for book in year.books %}
-    
+
       {% assign has_review = false %}
       {% assign book_count = book_count | plus:1 %}
       {% assign book_url = book.link %}
-    
+
       {% for review in site.reviews %}
         {% if review.book == book.title %}
           {% assign book_url = review.url %}
           {% assign has_review = true %}
         {% endif %}
       {% endfor %}
-            
-      <div class="test-book">
-      
-        <figure class="test-cover">
+
+      <div class="bookshelf-book">
+
+        <figure class="book-cover">
           <a href="{{ book_url }}" title="{{ book.title }}">
             <img src="/assets/books/{{ book.title}}.jpg" alt="{{ book.title }}">
           </a>
         </figure>
-        
+
         <a href="{{ book_url }}" title ="{{ book.title }}">
-            <h5 class="title">
-                {% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}
-            </h5>
+            {% if has_review %}<mark>{% endif %}<h5 class="title">{{ book.title }}</h5>{% if has_review %}</mark>{% endif %}
         </a>
         <h6 class="author">{{ book.author }}</h6>
-        
+
       </div>
-      
+
         {% if book_count == 5%}
           {% break %}
         {% endif %}
-      
+
       {% endfor %}
-      
+
       {% if book_count == 5%}
           {% break %}
       {% endif %}
-      
+
     {% endfor %}
   </div>
 </div>
 
-<div class="reading-meta-container">
-<p class="post-body">Here's my reading list, covers first. The row of books up the top are the last 5 books read. I've been trying to keep notes on the books I read - those books that have notes are <mark>highlighted</mark>. Recommended books have a star <span class="star">★</span>.</p> 
-<p class="post-body">Last updated {{ page.updated }}.</p>
+<p>Here's my reading list, covers first. The row of books up the top are the last books read. I've been trying to keep notes on the books I read - those books that have notes are <mark>highlighted</mark>. Recommended books have a star <span class="star">★</span>.</p>
+<p>Last updated {{ page.updated }}.</p>
 
   {% for entry in site.data.reading.years %}
+  <div class="year">
+      <h4>{{ entry.year }}</h4>
+      <div class="number">{{ entry.books | size }} books</div>
+  </div>
+
   <div class="year-container">
-    <div class="year">
-        <h4>{{ entry.year }}</h4>
-        <div class="number">{{ entry.books | size }} books</div>
-    </div>
-    <div class="books">
-      <ul class="reading-list {{ entry.year }}">
         {% for book in entry.books %}
-        
+
           {% assign has_review = false %}
           {% assign book_url = book.link %}
-        
+
           {% for review in site.reviews %}
             {% if review.book == book.title %}
               {% assign book_url = review.url %}
               {% assign has_review = true %}
             {% endif %}
           {% endfor %}
-        
-        <li>
-          <a href="{{ book_url }}">{% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}</a>
-          <span class="author">by {{ book.author }}</span
-          >{% if book.star %}<span class="star">★</span>{% endif %}
-        </li>
+          <div class="listed-post">
+            <a class="post-title-link" href="{{ book_url }}">{% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}{% if book.star %}<span class="star">★</span>{% endif %}</a>
+            <span class="author">{{ book.author }}</span>
+
+          </div>
         {% endfor %}
-      </ul>
-    </div>
   </div>
   {% endfor %}
 </div>

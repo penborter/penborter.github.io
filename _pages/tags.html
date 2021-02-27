@@ -3,34 +3,31 @@ layout: default
 title: Tags
 permalink: /tags
 ---
-<div class="tags-page">
+<div class="mainGrid">
 <h1>Tags</h1>
-
-<p>A list of each of the posts on the site, ordered by tag.</p>
 
 {% assign sorted_tags = site.tags | sort %}
 <ul class="tag-box">
 	{% for tag in sorted_tags %}
 		{% assign t = tag | first %}
 		{% assign posts = tag | last %}
-		<li><a href="#{{ t | downcase }}" class="post-tag">#{{ t }} ({{ posts.size }})</a></li>
+		<li><a href="#{{ t | downcase }}" class="tag">#{{ t }} ({{ posts.size }})</a></li>
 	{% endfor %}
 </ul>
 
-<div class="posts-list">
 {% for tag in sorted_tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-<h3 id="{{ t | downcase }}" class="tag-heading">#{{ t }} ({{ posts.size }})</h3>
+<h4 id="{{ t | downcase }}" class="tag-heading">#{{ t }} ({{ posts.size }})</h4>
 
-<div class="post-year">
+<div class="posts-year">
 {% for post in posts %}
   {% if post.tags contains t %}
 
   <div class="listed-post">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <time class="tag-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+      <a class="post-title-link" href="{{ post.url }}">{{ post.title }}</a>
+      <time class="tag-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
   </div>
   {% endif %}
 {% endfor %}
@@ -38,5 +35,4 @@ permalink: /tags
 </div>
 
 {% endfor %}
-</div>
 </div>

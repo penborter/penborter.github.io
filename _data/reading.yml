@@ -1,95 +1,210 @@
 years:
+  - year: "2021"
+    books:
+      - title: The Idea Factory
+        author: Jon Gertner
+        link: https://openlibrary.org/isbn/1594203288
+        year: 2012
+        pub: Penguin Random House
+
+      - title: The Almanack of Naval Ravikant
+        author: Eric Jorgenson
+        link: https://openlibrary.org/isbn/1544514212
+        year: 2020
+        pub: Magrathea Publishing
+
+      - title: The Enigma of Reason
+        author: Mercier and Sperber
+        link: https://openlibrary.org/isbn/0674368304
+        year: 2017
+        pub: Penguin Random House
+
+      - title: Gödel, Escher, Bach
+        author: Douglas Hofstadter
+        link: https://openlibrary.org/isbn/0394745027
+        year: 1979
+        pub: Basic Books
+
+      - title: Metamorphosis and Other Stories
+        author: Franz Kafka
+        link: https://openlibrary.org/isbn/0143105248
+
+      - title: Piranesi
+        author: Susanna Clarke
+        link: https://openlibrary.org/isbn/163557563X
+        star: yes
+
+      - title: Endurance
+        author: Alfred Lansing
+        link: https://openlibrary.org/isbn/078670621X
+        star: yes
+        year: 1959
+        pub: Carroll & Graf Publishers
+
+      - title: The Lessons of History
+        author: Will and Ariel Durant
+        link: https://openlibrary.org/isbn/143914995X
+        year: 1968
+        pub: Simon & Schuster
+
+      - title: The Wise Man's Fear
+        author: Patrick Rothfuss
+        link: https://openlibrary.org/isbn/0756407915
+
+      - title: The Elephant in the Brain
+        author: Simler and Hanson
+        link: https://openlibrary.org/isbn/0190495995
+        year: 2017
+        pub: Ofxord University Press
+        star: yes
+
+      - title: The Name of the Wind
+        author: Patrick Rothfuss
+        link: https://openlibrary.org/isbn/0756404746
+
+      - title: The Making of the Atomic Bomb
+        author: Richard Rhoades
+        link: https://openlibrary.org/isbn/0671441337
+
   - year: "2020"
     books:
+      - title: Stories of Your Life and Others
+        author: Ted Chaing
+        link: https://openlibrary.org/isbn/076530418X
+
+      - title: The House on Mango Street
+        author: Sandra Cisneros
+        link: https://openlibrary.org/isbn/0679734775
+
+      - title: Invisible Cities
+        author: Italo Calvino
+        link: https://openlibrary.org/isbn/0156453800
+
+      - title: How To Talk About Books You Haven't Read
+        author: Pierre Bayard
+        link: https://openlibrary.org/isbn/1596915439
+
+      - title: The Man Who Solved the Market
+        author: Gregory Zuckerman
+        link: https://openlibrary.org/isbn/073521798X
+
+      - title: Slaughterhouse Five
+        author: Kurt Vonnegut
+        link: https://openlibrary.org/isbn/0812988523
+
+      - title: Antifragile
+        author: Nassim Taleb
+        link: https://openlibrary.org/isbn/0812979680
+
+      - title: Fooled By Randomness
+        author: Nassim Taleb
+        link: https://openlibrary.org/isbn/158799190X
+
+      - title: The Saints of Salvation
+        author: Peter Hamilton
+        link: https://openlibrary.org/isbn/1509844635
+
+      - title: Salvation Lost
+        author: Peter Hamilton
+        link: https://openlibrary.org/isbn/1447281365
+
+      - title: Salvation
+        author: Peter Hamilton
+        link: https://openlibrary.org/isbn/0399178767
+
       - title: Human Transit
         author: Jarrett Walker
         link: https://openlibrary.org/isbn/1597269727
-        
+        year: 2011
+        pub: Island Press
+
       - title: Atomic Habits
         author: James Clear
-        link: https://openlibrary.org/isbn/1847941834 
-      
+        link: https://openlibrary.org/isbn/1847941834
+
       - title: Cat's Cradle
         author: Kurt Vonnegut
-        link: https://openlibrary.org/isbn/0440111498 
-        
+        link: https://openlibrary.org/isbn/0440111498
+
       - title: Fermat's Last Theorem
         author: Amir Aczel
         link: https://openlibrary.org/isbn/1568583605
-      
+
       - title: The Spy Who Came In From The Cold
         author: John Le Carré
-        link: https://openlibrary.org/isbn/0905712315  
-        
+        link: https://openlibrary.org/isbn/0905712315
+
       - title: The Body
         author: Bill Bryson
         link: https://openlibrary.org/isbn/0552779903
-        
+
       - title: The Two Lost Mountains
         author: Matthew Reilly
         link: https://openlibrary.org/isbn/1760559083
-    
+
       - title: Wolf Hall
         author: Hilary Mantel
         link: https://openlibrary.org/isbn/161664365X
-        
+
       - title: Alchemy
         author: Rory Sutherland
         link: https://www.amazon.com.au/Alchemy-Surprising-Power-Ideas-Sense-ebook/dp/B01F1HOAWA
         year: 2019
-        pub: Ebury Publishing 
+        pub: Ebury Publishing
         star: yes
-        
+
       - title: Idea Makers
         author: Stephen Wolfram
         link: https://www.amazon.com.au/Idea-Makers-Personal-Perspectives-Notable/dp/1579550037
-      
+        year: 2016
+        pub: Wolfram Media
+
       - title: Exhalation
         author: Ted Chiang
         link: https://www.amazon.com.au/Exhalation-Stories-Ted-Chiang/dp/1101947888
-        
+
       - title: The Psychology of Money
         author: Morgan Housel
         link: https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681
         year: 2020
-        pub: Harriman House  
-    
+        pub: Harriman House
+
       - title: Metaphors We Live By
         author: George Lakoff
-        link: https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011    
-        
+        link: https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011
+
       - title: Unfinished Business
         author: Vivian Gornick
         link: https://www.amazon.com/Unfinished-Business-Notes-Chronic-Re-reader/dp/0374282153
-        
+
       - title: Dune
         author: Frank Herbert
         link: https://www.amazon.com.au/Dune-Frank-Herbert/dp/0441172717
-        
+
       - title: The Baron in the Trees
         author: Italo Calvino
-        link: https://www.amazon.com.au/Baron-Trees-Italo-Calvino/dp/0156106809    
-        
+        link: https://www.amazon.com.au/Baron-Trees-Italo-Calvino/dp/0156106809
+
       - title: The Way We Eat Now
         author: Bee Wilson
         link: https://www.amazon.com.au/Way-Eat-Now-Revolution-Transformed/dp/0465093973
         star: yes
         year: 2019
         pub: Fourth Estate
-        
+
       - title: The Left Hand of Darkness
         author: Ursula Le Guin
         link: https://openlibrary.org/works/OL59864W/The_Left_Hand_of_Darkness
-        
+
       - title: If on a Winter's Night a Traveller
         author: Italo Calvino
         link: https://openlibrary.org/works/OL15358W/Se_una_notte_d'inverno_un_viaggiatore
         star: yes
-        
+
       - title: Ficciones
         author: Jorge Borges
         link: https://www.amazon.com.au/Ficciones-Jorge-Luis-Borges/dp/0802130305
-          
+
       - title: On The Move
         author: Oliver Sacks
         link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24
@@ -98,41 +213,41 @@ years:
 
       - title: The Dark Forest
         author: Liu Cixin
-        link: https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690     
-        
+        link: https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690
+
       - title: Bad Blood
         author: John Carreyrou
         link: https://www.amazon.com.au/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X
-        
+
       - title: The Count of Monte Cristo
         author: Alexandre Dumas
         link: https://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264
-         
+
       - title: The Anarchy
         author: William Dalrymple
         link: https://www.amazon.com.au/Anarchy-Rise-Fall-India-Company/dp/1635573955
-      
+
       - title: Ventus
         author: Karl Schroeder
         link: https://www.amazon.com/Ventus-Karl-Schroeder/dp/0812576357
-        
+
       - title: The Design of Everyday Things
         author: Don Norman
         link: https://www.amazon.com.au/Design-Everyday-Things-Revised-Expanded/dp/0465050654
-        
+
       - title: The Forever War
         author: Joe Haldeman
         link: https://www.amazon.com.au/Forever-War-Joe-Haldeman/dp/0312536631
-        
+
       - title: Short Story Collection
         author: Philip K Dick
-        link: 
-        
+        link:
+
       - title: The Little Prince
         author: Antoine de Saint-Exupéry
         link: https://www.amazon.com/Little-Prince-Antoine-Saint-Exup%C3%A9ry/dp/0156012197
-        star: yes  
-        
+        star: yes
+
       - title: The Information
         author: James Gleick
         link: https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235
@@ -150,7 +265,7 @@ years:
         link: https://www.amazon.com.au/Foucaults-Pendulum-Umberto-Eco/dp/015603297X
 
       - title: Nudge
-        author: Richard Thaler and Cass Sunstein
+        author: Thaler and Sunstein
         link: https://www.amazon.com.au/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X
 
       - title: Grass For His Pillow
@@ -179,7 +294,6 @@ years:
       - title: Range
         author: David Epstein
         link: https://www.amazon.com.au/Range-Generalists-Triumph-Specialized-World/dp/0735214484
-        star: yes
 
       - title: Salvation
         author: Peter F Hamilton
@@ -289,11 +403,11 @@ years:
         link: https://www.amazon.com.au/Dreams-My-Father-Story-Inheritance/dp/1400082773
 
       - title: Freakonomics
-        author: Stephen Dubner & Steven Levitt
+        author: Dubner and Levitt
         link: https://www.amazon.com.au/Freakonomics-Stephen-J-Dubner/dp/0060731338
 
       - title: Mao - The Untold Story
-        author: John Halliday & Jun Chung
+        author: Halliday and Chung
         link: https://www.amazon.com.au/Mao-Story-Jung-Chang/dp/0679746323
 
       - title: Elon Musk
@@ -388,11 +502,11 @@ years:
         star: yes
 
       - title: Good Omens
-        author: Neil Gaiman & Terry Pratchett
+        author: Gaiman and Pratchett
         link: https://www.amazon.com.au/Good-Omens-Accurate-Prophecies-Nutter-ebook/dp/B0054LJGWS
 
       - title: A Mind at Play
-        author: Jimmy Somi & Rob Goodman
+        author: Somi and Goodman
         link: https://www.amazon.com.au/Mind-Play-Shannon-Invented-Information/dp/1476766681
 
       - title: The Three Body Problem

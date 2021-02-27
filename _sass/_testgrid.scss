@@ -6,30 +6,23 @@
 }
 
 .reading-meta-container {
-    max-width: 600px;
-    margin: auto;
+    //max-width: 600px;
+    //margin: auto;
 }
 
-.test-year-container {
-    display: grid;
-    // Three equal-width columns
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    // Leaving a gap between each of the columns
-    grid-gap: 1.5em;
-}
 
 .test-book {
-    
+
     figure {
         margin: 0;
         transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    
+
         &:hover {
             transform: scale(1.02);
             //border-radius: 5px;
         }
     }
-    
+
     img {
         border-radius: 4px;
         box-shadow: 0px 3px 8px #222;
@@ -61,7 +54,7 @@ h6 {
 .test-sticky-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    
+
 }
 
 .test-list li {

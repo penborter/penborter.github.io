@@ -7,32 +7,42 @@ layout: default
 <link href="/assets/css/lightbox.css" rel="stylesheet" />
 {% endif %}
 
-<article role="article" class="post">
-	<div class="post-meta">
-        <ul class="tags-meta">
-            {% if page.tags %}
-            {% for tag in page.tags %}
-                <li><a href="/tags#{{ tag }}" class="post-tag">#{{ tag }}</a></li> {% endfor %}
-            {% endif %}
-        </ul>
-        <h1>{{ page.title }}</h1>
-
-	</div>
+<article role="article" class="mainGrid">
+  <h1>{{ page.title }}</h1>
 
   {{ content }}
   <br>
-  
-     
-<span class="pub-date">Published on {{ page.date | date: "%B %-d, %Y" }}</span> 
-<hr style="height:1px; border:none; margin: 0 0 1rem 0; background-color:#ccc;">
+
+<div class="post-footer">
+	<ul class="tags-meta">
+		{% if page.tags %}
+		{% for tag in page.tags %}
+				<li><a href="/tags#{{ tag }}" class="tag">#{{ tag }}</a></li> {% endfor %}
+		{% endif %}
+	</ul>
+
+	<span class="pub-date">Published on {{ page.date | date: "%B %-d, %Y" }}</span>
+</div>
+
+<hr style="height:1px; border:none; margin: 0.5rem 0 1rem 0; background-color:#a0cca5;">
 
 <div class="page-nav">
     {% if page.previous.url %}
-        <a class="prev-page" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+        <a class="prev-page" href="{{ page.previous.url }}">
+          <div style="display:flex; justify-content:flex-end;">
+            <span style="padding-right:0.3em;">&laquo;</span>
+            <p class="truncate">{{ page.previous.title }}</p>
+          </div>
+        </a>
     {% endif %}
     {% if page.next.url %}
-        <a class="next-page" href="{{ page.next.url }}">{{ page.next.title}} &raquo;</a>
+        <a class="next-page" href="{{ page.next.url }}">
+          <div style="display:flex;">
+            <p class="truncate">{{ page.next.title}}</p>
+            <span style="padding-left:0.3em;">&raquo;</span>
+          </div>
+        </a>
     {% endif %}
 </div>
-    
+
 </article>
