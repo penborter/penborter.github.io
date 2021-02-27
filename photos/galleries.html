@@ -4,26 +4,22 @@ title: Photos
 permalink: /photos
 ---
 
-<!--{% for gallery in site.data.galleries %}
-- [{{ gallery.description }}](galleries/{{ gallery.id }})
-{% endfor %} -->
-
-<div class="grid">
+<div class="mainGrid">
 
   {% for gallery in site.data.galleries %}
-
+    <a href="{{ site.baseurl }}/photos/{{ gallery.id }}" class="galleryCard">
     <article role="article" class="card" style="border: 0px; background-image:
 						linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
 						url({{ gallery.imagefolder }}/{{ gallery.thumb }});
                         background-size: cover;">
 	    <div class="meta">
-      <h2><a href="{{ site.baseurl }}/photos/{{ gallery.id }}">
+      <h2>
         {{ gallery.description }}
-      </a></h2>
+      </h2>
 	<p>{{ gallery.blurb }}</p>
 	    </div>
 
-    </article>
+    </article></a>
 
   {% endfor %}
 
