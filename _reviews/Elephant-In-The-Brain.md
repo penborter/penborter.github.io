@@ -5,7 +5,7 @@ summary: The Elephant in the Brain is the selfish agenda every one of us clearly
 published: 1 March 2021
 ---
 
-> As better minds than ours have long advanced similar ideas, but to little apparent effect, we suspect that** human minds and cultures must contain sufficient antibodies to keep such concepts at bay**.
+> As better minds than ours have long advanced similar ideas, but to little apparent effect, we suspect that **human minds and cultures must contain sufficient antibodies to keep such concepts at bay**.
 
 ### Evolutionary arms race
 Humans are competing against other humans (evolutionarily) - selfish behaviour is advantageous in these competitions.
@@ -21,16 +21,17 @@ Large coalition sizes (the amount of third parties) allows group enforcement to 
 Signals are used to communicate information about oneself; in this case, we're communicating our fitness as a potential partner and using others' signals to evaluate their partnership potential.
 > "In biology, a signal is a behavior or trait used by one animal, the “sender,” to change the behavior of another animal, the “receiver.”
 
-> Deception allows an agent to reap benefits without incurring costs. (See Chapter 5 for more on deception.) That’s why ** the best signals—the most honest ones—are expensive. More precisely, they <mark>are differentially expensive: costly to produce, but even more costly to fake.</mark>**
+> Deception allows an agent to reap benefits without incurring costs. (See Chapter 5 for more on deception.) That’s why **the best signals—the most honest ones—are expensive. More precisely, they <mark>are differentially expensive: costly to produce, but even more costly to fake.</mark>**
 
 Competition between humans, in the form of getting / being the best mate, is scored by social status. It comes in two forms: dominance (intimidating others) or prestige (impressing others).
 > Of all the signals sent and received by our bodies, the ones we seem least aware of are those related to social status. And yet, we’re all downright obsessed with our status, taking great pains to earn it, gauge it, guard it, and flaunt it.
 
 Conversation is costly (information is hard to get, and you lose your advantage by sharing it), so it must be used for more than exchanging information - we talk to convince potential allies (or potential mates) of our worth by showing off the "tools in our backpack".
-> But if you’re looking for an ally, **you care less about the specific tools you receive from him, and much more about <mark>the full extent of his toolset</mark>**—because when you team up with Henry, you effectively get access to all his tools**. The ones he gives you during any individual exchange may be useful, but you’re really eyeing his backpack. And while you can’t look directly inside it, you can start to gauge its contents by the variety of tools he’s able to pull from it on demand. The more tools he’s able to produce, the more he probably has tucked away in the backpack.
+> But if you’re looking for an ally, **you care less about the specific tools you receive from him, and much more about <mark>the full extent of his toolset</mark>**—because when you team up with Henry, you effectively get access to all his tools. The ones he gives you during any individual exchange may be useful, but you’re really eyeing his backpack. And while you can’t look directly inside it, you can start to gauge its contents by the variety of tools he’s able to pull from it on demand. The more tools he’s able to produce, the more he probably has tucked away in the backpack.
 
 Status is addititve - association with high-status people increases your status, which then increases the status of those associated with you.
-> We also prefer news written by and about prestigious people, as it helps us to affiliate with them. #DirectQuote"
+> We also prefer news written by and about prestigious people, as it helps us to affiliate with them.
+
 > In fact, one of the most important “tools” that people have is the respect and support of others. So you can gain prestige not just by directly showing impressive abilities yourself (e.g. by speaking well), but also **by showing that other impressive people have chosen you as an ally**.
 
 
