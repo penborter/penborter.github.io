@@ -10,6 +10,7 @@ body {
     color: #333;
     margin: 0;
     background-color: #e7efe8;
+    counter-reset: sidenote-counter;
 }
 
 header {
@@ -330,7 +331,7 @@ table {
 
 
 footer {
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
     display: grid;
     grid-template-columns: 1fr 7fr;
     font-size: 14px;
@@ -469,7 +470,7 @@ a mark:hover {
 
     .image-wrapper {
       display: inline-block;
-      height: 80vh;
+      height: 85vh;
       margin: 0 5px;
       background: black;
       box-shadow: 0 1px 1px rgba(0,0,0,0.12),
@@ -572,6 +573,55 @@ sup {
   grid-column: auto;
 }
 
+.sidenote,
+.marginnote {
+  float: right;
+  clear: right;
+  margin-right: -60%;
+  width: 50%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.sitenote-number {
+  counter-increment: sitenote-counter;
+}
+
+.sitenote-number:after,
+.sidenote:before {
+  position: relative;
+  vertical-align: baseline;
+}
+
+.sitenote-number:after {
+  content: counter(sitenote-counter);
+  font-size: 0.8rem;
+  top: -0.5rem;
+  left: 0.1rem;
+}
+
+.sidenote:before {
+  content: counter(sidenote-counter) " ";
+  font-size: 0.8rem;
+  top: -0.5rem;
+}
+
+input.margin-toggle {
+  display: none;
+}
+
+label.sidenote-number {
+  display: inline;
+}
+
+label.margin-toggle:not(.sidenote-number) {
+  display: none;
+}
+
 @media screen and (max-width: 860px) {
 
   body {
@@ -651,5 +701,26 @@ sup {
 
   .bookshelf-book:last-child {
     display: none;
+  }
+
+  label.margin-toggle:not(.sidenote-number) {
+    display: inline;
+  }
+
+  .sidenote,
+  .marginnote {
+    display: none;
+  }
+
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+    display: block;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    vertical-align: baseline;
+    position: relative;
   }
 }

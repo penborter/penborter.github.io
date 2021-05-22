@@ -5,7 +5,7 @@ description: Why are lower jersey numbers more common?
 summary: Trends in NBA jersey numbers over time
 tags: [nba, data]
 photoloc: /assets/posts/jerseys/
-blurb: NBA Jersey numbers go through 20-year cycles of popularity. Currently we're in a "low" cycle and I'm not sure why. 
+blurb: NBA Jersey numbers go through 20-year cycles of popularity. Currently we're in a "low" cycle and I'm not sure why.
 ---
 
 Before we get too far, be warned that I don't actually have the answer to the title question. If I figure it out, though, I'll be sure to write about it.
@@ -21,7 +21,7 @@ I'll dive into more analysis in a later post, but for now here's a graph of the 
    class="wide"
 %}
 
-Uniform numbers in sports are important - they either represent a player's personal identity and branding (e.g in the NBA), or they represent the player's position (e.g. in Rubgy, and sort of in Football). NBA players have often built their personal brand around their jersey number. Quick - what number is Michael Jordan? Chris Paul? [Andrei Kirilenko](https://athletenicknames.club/andrei-kirilenko-ak-47/)?
+Uniform numbers in sports are important - they either represent a player's personal identity and branding (e.g in the NBA), or they represent the player's position (e.g. in Rugby, and sort of in Football). NBA players have often built their personal brand around their jersey number. Quick - what number is Michael Jordan? Chris Paul? [Andrei Kirilenko](https://athletenicknames.club/andrei-kirilenko-ak-47/)?
 
 My initial guess was that popular jerseys would lag behind star players of a given era as younger players choose a number to match their idol. Number 23 jerseys would pick up toward the end of Jordan's career. Number 32 and 33 would increase as Magic and Bird retire. Number 6 would take off after Bill Russell bowed out. But this isn't really the case - the effect, if any, is too small to make out.
 
@@ -29,7 +29,7 @@ It looks like there are ~20-year cycles that uniform numbers go through, where t
 
 All of this leaves us with a few questions:  
 *Why are low jersey numbers now more common?*  
-*Why did they become so popular at the turn of the millenium?*  
+*Why did they become so popular at the turn of the millennium?*  
 *What happened in the 80s and 90s?*  
 *What explains the three clear periods of jersey number trends?*
 

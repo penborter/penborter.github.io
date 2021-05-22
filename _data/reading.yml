@@ -1,11 +1,67 @@
 years:
   - year: "2021"
     books:
+      - title: Early Riser
+        author: Jasper Fforde
+        link: https://openlibrary.org/isbn/0670025038
+
+      - title: Down Under
+        author: Bill Bryson
+        link: https://openlibrary.org/isbn/038540817X
+
+      - title: Sources of Power
+        author: Gary Klein
+        link: https://openlibrary.org/isbn/0262611465
+
+      - title: Never Let Me Go
+        author: Kazuo Ishiguro
+        link: https://openlibrary.org/isbn/0307740994
+
+      - title: Our Mathematical Universe
+        author: Max Tegmark
+        link: https://openlibrary.org/isbn/0307599809
+
+      - title: Darkdawn
+        author: Jay Kristoff
+        link: https://openlibrary.org/isbn/0008180083
+
+      - title: Godsgrave
+        author: Jay Kristoff
+        link: https://openlibrary.org/isbn/0008180032
+
+      - title: Nevernight
+        author: Jay Kristoff
+        link: https://openlibrary.org/isbn/0008179980
+
+      - title: The Choice
+        author: Edith Eger
+        link: https://openlibrary.org/isbn/1846045126
+
+      - title: So Good They Can't Ignore You
+        author: Cal Newport
+        link: https://openlibrary.org/isbn/0349420219
+
+      - title: A Man on the Moon
+        author: Andrew Chaikin
+        link: https://openlibrary.org/isbn/014311235X
+        
+      - title: Snow Crash
+        author: Neal Stephenson
+        link: https://openlibrary.org/isbn/0553380958
+
+      - title: Exhalation
+        author: Ted Chiang
+        link: https://openlibrary.org/isbn/1101947888
+
       - title: The Idea Factory
         author: Jon Gertner
         link: https://openlibrary.org/isbn/1594203288
         year: 2012
         pub: Penguin Random House
+
+      - title: Excession
+        author: Iain M Banks
+        link: https://openlibrary.org/isbn/185723457X
 
       - title: The Almanack of Naval Ravikant
         author: Eric Jorgenson
@@ -284,243 +340,3 @@ years:
       - title: Salvation Lost
         author: Peter F Hamilton
         link: https://www.amazon.com/Salvation-Lost-Peter-F-Hamilton/dp/0399178856
-
-  - year: "2019"
-    books:
-      - title: Jonathan Strange & Mr Norrell
-        author: Susanna Clarke
-        link: https://www.amazon.com/Jonathan-Strange-Mr-Norrell-Novel/dp/0765356155
-
-      - title: Range
-        author: David Epstein
-        link: https://www.amazon.com.au/Range-Generalists-Triumph-Specialized-World/dp/0735214484
-
-      - title: Salvation
-        author: Peter F Hamilton
-        link: https://www.amazon.com/Salvation-Sequence-Peter-F-Hamilton/dp/0399178848/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
-
-      - title: The Man Who Mistook His Wife for a Hat
-        author: Oliver Sacks
-        link: https://www.amazon.com.au/Man-Who-Mistook-His-Wife/dp/1491514078
-
-      - title: The Aleph (and other stories)
-        author: Jorge Luis Borges
-        link: https://www.amazon.com/Aleph-Other-Stories-Penguin-Classics/dp/0142437883
-        star: yes
-
-      - title: The First Fifteen Lives of Harry August
-        author: Claire North
-        link: https://www.amazon.com/First-Fifteen-Lives-Harry-August-ebook/dp/B00ECE9OD4
-
-      - title: The Wind-Up Bird Chronicle
-        author: Haruki Murakami
-        link: https://www.amazon.com/Wind-Up-Bird-Chronicle-Novel/dp/0679775439
-
-      - title: The Score Takes Care of Itself
-        author: Bill Walsh
-        link: https://www.amazon.com.au/Score-Takes-Care-Itself-Walsh/dp/1591843472
-
-      - title: Boyd
-        author: Robert Coram
-        link: https://www.amazon.com.au/Boyd-Fighter-Pilot-Who-Changed/dp/0316796883
-        star: yes
-
-      - title: The Confidence Trap
-        author: David Runciman
-        link: https://www.amazon.com/Confidence-Trap-History-Democracy-Present/dp/0691165831
-
-      - title: A Gentleman in Moscow
-        author: Amor Towles
-        link: https://www.amazon.com.au/Gentleman-Moscow-Novel-Amor-Towles/dp/0670026190
-        star: yes
-
-      - title: The Player of Games
-        author: Iain M Banks
-        link: https://www.amazon.com/Player-Games-Culture-Iain-Banks/dp/0316005401
-        star: yes
-
-      - title: The Wise Man's Fear
-        author: Patrick Rothfuss
-        link: https://www.amazon.com/Wise-Mans-Fear-Kingkiller-Chronicle/dp/0756407915
-
-      - title: The Name of the Wind
-        author: Patrick Rothfuss
-        link: https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746
-
-      - title: Business Adventures
-        author: John Brooks
-        link: https://www.amazon.com.au/Business-Adventures-John-Brooks/dp/1497644895
-
-      - title: A Night Without Stars
-        author: Peter F Hamilton
-        link: https://www.amazon.com/Night-Without-Stars-Commonwealth-Chronicle/dp/0345547241
-
-      - title: The Abyss Beyond Dreams
-        author: Peter F Hamilton
-        link: https://www.amazon.com/Abyss-Beyond-Dreams-Commonwealth-Chronicle/dp/0345547217
-
-      - title: Tinker Taylor Soldier Spy
-        author: John Le Carre
-        link: https://www.amazon.com/Tinker-Tailor-Soldier-Spy-George/dp/0143119788
-
-      - title: String Theory
-        author: David Foster Wallace
-        link: https://www.amazon.com/String-Theory-Wallace-Library-Publication/dp/1598534807
-
-      - title: The Sirens of Titan
-        author: Kurt Vonnegut
-        link: https://www.amazon.com/Sirens-Titan-Novel-Kurt-Vonnegut/dp/0385333498
-
-  - year: "2018"
-    books:
-      - title: The Charlemagne Pursuit
-        author: Steve Berry
-        link: https://www.amazon.com/Charlemagne-Pursuit-Novel-Cotton-Malone/dp/0345485807
-
-      - title: The Billionaire Who Wasn't
-        author: Conor O'Clery
-        link: https://www.amazon.com/Billionaire-Who-Wasnt-Secretly-Fortune/dp/1610393341
-        star: yes
-
-      - title: Tales of the Unexpected
-        author: Roald Dahl
-        link: https://www.amazon.com.au/Tales-Unexpected-Roald-Dahl/dp/0679729895
-
-      - title: Surely You're Joking Mr Feynman
-        author: Richard Feynman
-        link: https://www.amazon.com.au/Surely-You%60re-Joking-Mr-Feynman/dp/0393316041
-
-      - title: The Tourist
-        author: Robert Dickinson
-        link: https://www.amazon.com/Tourist-Robert-Dickinson/dp/0316399450
-
-      - title: And Then There Were None
-        author: Agatha Christie
-        link: https://www.amazon.com.au/Then-There-Were-None/dp/0062073486
-
-      - title: Dreams from my Father
-        author: Barack Obama
-        link: https://www.amazon.com.au/Dreams-My-Father-Story-Inheritance/dp/1400082773
-
-      - title: Freakonomics
-        author: Dubner and Levitt
-        link: https://www.amazon.com.au/Freakonomics-Stephen-J-Dubner/dp/0060731338
-
-      - title: Mao - The Untold Story
-        author: Halliday and Chung
-        link: https://www.amazon.com.au/Mao-Story-Jung-Chang/dp/0679746323
-
-      - title: Elon Musk
-        author: Ashlee Vance
-        link: https://www.amazon.com.au/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X
-
-      - title: The Paris Vendetta
-        author: Steve Berry
-        link: https://www.amazon.com/Paris-Vendetta-Novel-Cotton-Malone/dp/0345505484
-
-      - title: Moneyball
-        author: Michael Lewis
-        link: https://www.amazon.com.au/Moneyball-Art-Winning-Unfair-Game/dp/0393324818
-
-      - title: Guns, Germs and Steel
-        author: Jared Diamond
-        link: https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552
-
-      - title: Blink
-        author: Malcolm Gladwell
-        link: https://www.amazon.com.au/Blink-Power-Thinking-Without/dp/0316010669
-
-      - title: Ubik
-        author: Philip K Dick
-        link: https://www.amazon.com/Ubik-Philip-K-Dick/dp/0547572298
-
-      - title: Cat's Cradle
-        author: Kurt Vonnegut
-        link: https://www.amazon.com.au/Cats-Cradle-Kurt-Vonnegut/dp/038533348X
-
-      - title: Consider the Lobster
-        author: David Foster Wallace
-        link: https://www.amazon.com/Consider-Lobster-Essays-Foster-Wallace/dp/0316013323
-
-      - title: Around the World in 80 Days
-        author: Jules Verne
-        link: https://www.amazon.com/Around-World-Days-Jules-Verne/dp/1503215156
-
-      - title: Crimson Lake
-        author: Candace Fox
-        link: https://www.amazon.com.au/Crimson-Lake-Candice-Fox-ebook/dp/B01LZXZM88
-
-      - title: Outliers
-        author: Malcolm Gladwell
-        link:
-
-      - title: The Postmortal
-        author: Drew Magary
-        link: https://www.amazon.com.au/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930
-
-      - title: The Selfish Gene
-        author: Richard Dawkins
-        link: https://www.amazon.com.au/Selfish-Gene-Richard-Dawkins/dp/0192860925
-        star: yes
-
-      - title: Consider Phlebas
-        author: Iain Banks
-        link: https://www.amazon.com.au/Consider-Phlebas/dp/031600538X
-
-      - title: Me, Myself and Us
-        author: Brian Little
-        link: https://www.amazon.com.au/Me-Myself-Us-Personality-Well-Being/dp/1610396383
-
-      - title: Vanished Kingdoms
-        author: Norman Davies
-        link: https://www.amazon.com.au/Vanished-Kingdoms-History-Half-Forgotten-Europe-ebook/dp/B005JZD3MS
-
-      - title: Quantum
-        author: Manjit Kumar
-        link: https://www.amazon.com.au/Quantum-Einstein-Debate-Nature-Reality-ebook/dp/B002RI9ZRC
-
-      - title: Siddhartha
-        author: Herman Hesse
-        link: https://www.amazon.com.au/Siddhartha-Hermann-Hesse/dp/0553208845
-
-      - title: The Signal and the Noise
-        author: Nate Silver
-        link: https://www.amazon.com.au/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087
-
-      - title: Watership Down
-        author: Richard Adams
-        link: https://www.amazon.com/Watership-Down-Novel-Richard-Adams/dp/0743277708
-
-      - title: Cristie Malry's Own Double Entry
-        author: B S Johnson
-        link: https://www.amazon.com/Christie-Malrys-Double-Entry-B-S-Johnson/dp/0811209547
-        star: yes
-
-      - title: Gateway
-        author: Frederik Pohl
-        link: https://www.amazon.com.au/Gateway-Frederik-Pohl/dp/0345475836
-        star: yes
-
-      - title: Good Omens
-        author: Gaiman and Pratchett
-        link: https://www.amazon.com.au/Good-Omens-Accurate-Prophecies-Nutter-ebook/dp/B0054LJGWS
-
-      - title: A Mind at Play
-        author: Somi and Goodman
-        link: https://www.amazon.com.au/Mind-Play-Shannon-Invented-Information/dp/1476766681
-
-      - title: The Three Body Problem
-        author: Cixin Liu
-        link: https://www.amazon.com.au/Three-Body-Problem-Remembrance-Earths-Past-ebook/dp/B00IQO403K
-
-      - title: The Four Legenday Kingdoms
-        author: Matthew Reilly
-        link: https://www.amazon.com.au/Four-Legendary-Kingdoms-Matthew-Reilly/dp/1501167154
-
-      - title: The Three Secret Cities
-        author: Matthew Reilly
-        link: https://www.amazon.com.au/Three-Secret-Cities-Matthew-Reilly/dp/1743534965/
-
-      - title: Sapiens
-        author: Noah Yuval Harari
-        link: https://www.amazon.com.au/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095
