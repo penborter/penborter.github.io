@@ -47,10 +47,6 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:visited:hover {
-  //color: #555;
-}
-
 nav {
   margin: 0 auto;
   //height: 55px;
@@ -65,21 +61,12 @@ nav {
     text-align: right;
     margin: 0.85em 0;
 
-    a {
-      //background: linear-gradient(180deg, $transparent 50%, $green-hi 50%);
-      }
-    }
-
   ul {
     margin: auto 0.1rem;
     padding: 0;
 
     li {
       display: inline-block;
-      }
-
-    a:hover {
-      //background: linear-gradient(180deg, $transparent 50%, $yellow-hi 50%);        
       }
   }
 
@@ -817,11 +804,6 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 @media screen and (max-width: 1000px) {
-
-  body {
-    //font-size: 20px;
-  }
-
   .mainGrid {
     display: block;
     margin: 5%;
