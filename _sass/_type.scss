@@ -1,9 +1,11 @@
+$title-green: #39553c;
+$header-green: #00753b;
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5em;
-  font-weight: 450;
-  letter-spacing: -0.015em;
+  font-weight: 400;
+  letter-spacing: -0.025em;
   font-kerning: normal;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
@@ -20,27 +22,27 @@ a,a:visited {
 h1 {
   margin: 3rem 0;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 650;
   line-height: 1.2em;
-  color: #1A4730;
+  color: $title-green;
 }
 
 h2, h3, h4 {
-	font-weight: 700;
-  color: #444;
-  margin: 0.5em 0 0.5em 0;
+	font-weight: 600;
+  color: $title-green;
+  //margin: 0.5em 0 0.5em 0;
 }
 
 .card h2 {
-    color: #eee;
+    color: $title-green;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h4 {
@@ -48,12 +50,14 @@ h4 {
 }
 
 blockquote {
-    border: 1px solid #bddecb;
-    background: #fff;
-    border-radius: 5px;
+    //border: 1px solid #bddecb;
+    background: #f2f3f2;
+    //border: 1px solid #ccc;
+    border-radius: 3px;
     font-size: 0.9em;
     padding: 1em;
     margin: 0 0 1.5em;
+    //box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 10%);
 
   p {
     margin: 0 !important;

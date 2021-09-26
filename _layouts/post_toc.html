@@ -10,6 +10,11 @@ layout: default
 <article role="article" class="mainGrid">
   <h1>{{ page.title }}</h1>
 
+  <div id="toc">
+    <h4>Contents</h4>
+    {% include toc.html html=content ordered=true %}
+  </div>
+
   {{ content }}
   
   <br>
@@ -17,18 +22,12 @@ layout: default
 <div class="post-footer">
 	<ul class="tags-meta">
 		{% if page.tags %}
-      <li><strong>Tagged: </strong></li>
-		  {% for tag in page.tags %}
-        {% if tag == page.tags.last %}
-        <li><a href="/tags#{{ tag }}">#{{ tag }}</a></li> 
-        {% else %}
-			  <li><a href="/tags#{{ tag }}">#{{ tag }},</a></li>
-        {% endif %}
-      {% endfor %}
+		{% for tag in page.tags %}
+				<li><a href="/tags#{{ tag }}" class="tag">#{{ tag }}</a></li> {% endfor %}
 		{% endif %}
 	</ul>
 
-	<span>Published on <strong>{{ page.date | date: "%B %-d, %Y" }}</strong></span>
+	<span class="pub-date">Published on {{ page.date | date: "%B %-d, %Y" }}</span>
 </div>
 
 <hr style="height:1px; border:none; margin: 0.5rem 0 1rem 0; background-color:#a0cca5;">

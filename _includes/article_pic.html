@@ -1,4 +1,4 @@
-<!--
+{% comment %}
 Images to be inserted into articles.
 Pass the folder_name attribute into the post metadata and use as folder_name=page.folder_name
 Other attributes can be used as needed, requires:
@@ -9,7 +9,7 @@ Optional:
 - class, defaults to "normal"
 - gallery, deaults to "post-gallery"
 
--->
+{% endcomment %}
 
 <figure class="pic-{{ include.class | default: "normal" }}">
     <a href="{{ page.photoloc }}/{{ include.file }}" data-lightbox="{{ include.gallery | default: "post-gallery" }}" title="{{ include.caption }}">

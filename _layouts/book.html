@@ -16,27 +16,17 @@ layout: default
 
 <article role="article" class="mainGrid">
 
-
-
-
 	<div class="book-intro">
-
-    <h1>{{ book_review.title }} <small class="green">by {{ book_review.author }}</small></h1>
-
-    {% if book_review.year %}
-      <span class="review-meta">{{ book_review.pub }}, {{ book_review.year }}</span>
-      <span class="review-meta">ISBN: {{ book_review.link | slice: -10, 10 }}</span>
-    {% endif %}
-
-    <p>{{ page.summary }}</p>
-
+    <h1 style="margin-bottom: 0;">{{ book_review.title }}</h1>
+    <p style="margin: 0.5em 0 3em 0;">
+      is a book written by <strong>{{ book_review.author }}</strong>. {% if book_review.year %} It was originally published in {{ book_review.year }} by {{ book_review.pub }}.{% endif %}
+    </p>
 	</div>
 
-  <figure class="test-cover">
-    <img src="/assets/books/{{ book_review.title }}.jpg" alt="{{ book_review.title }}">
-  </figure>
-
-
+  <div id="toc">
+    <h4>Contents</h4>
+    {% include toc.html html=content ordered=true %}
+  </div>
 
 {{ content }}
 

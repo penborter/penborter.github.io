@@ -1,22 +1,15 @@
 ---
 layout: about
-title: About
-permalink: /about
+title: Home
+permalink: /
 ---
 
 
 # 👋 Hi, I'm Ben
 
-I'm an engineer (chemical, not software) from Sydney. Currently I'm working as a consultant, focusing on transport, energy, and water.
+I'm an consultant from Sydney, focusing on capital-intensive projects in transport, energy, and water.
 
-This site aims to showcase my journey in learning [Python]({{ site.base }}/tags#python), data analysis and [visualisation]({{ site.base }}/tags#viz), web design and [development]({{ site.base }}/tags#dev), as well as hosting my [photography]({{ site.base }}/photos) and [reading list]({{ site.base }}/books). There might be a few thoughts and interesting links tossed around, too. Ideally it'll act as a focal point for learning, practicing and improving some new skills, and as an end point / anchor for finishing side projects regularly to keep driving my progress.
-
-This site is a work in progress, so check back for updates!
-I'm also other on places around the internet, normally as @penborter.
+This site is here to help me learn [Python]({{ site.base }}/tags#python), data analysis and [visualisation]({{ site.base }}/tags#viz), and [web development]({{ site.base }}/tags#dev) in public, as well as hosting my [photography]({{ site.base }}/photos) and [reading list]({{ site.base }}/books). 
 
 This site is a work in progress, so check back for updates!
-
-I'm also other places on the internet, normally as @penborter:
-- [Twitter](https://www.twitter.com/penborter)
-- [Linkedin](https://www.linkedin.com/in/penborter)
-- [Instagram](https://www.instagram.com/penborter)
+I'm also other on places around the internet, normally as @penborter: 

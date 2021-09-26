@@ -38,4 +38,4 @@ This is a pretty basic tip, I'll admit. Essentially it's just a shortcut to sear
    file="singapore.png"
 %}
 
-[^1]: It seems like too many zeroes, but it's not - one trillion is really big. 
+[^1]: Twelve zeroes doesn't feel like a real amount of zeroes.

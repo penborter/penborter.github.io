@@ -16,9 +16,9 @@ Manage individual strengths, weaknesses and temperament to keep group productivi
 >  Shackleton knew it—and yet there was no choice. He made his announcement after breakfast, and all of the men accepted it routinely and without question.
 
 In high-volatility or high-risk situations, prioritise speed of decision-making over preparedness
-> From studying the outcome of past expeditions, he believed that **those that burdened themselves with equipment to meet every contingency had fared much worse than those that had** <mark>sacrificed total preparedness for speed.</mark>**
+> From studying the outcome of past expeditions, he believed that **those that burdened themselves with equipment to meet every contingency had fared much worse than those that had <mark>sacrificed total preparedness for speed.</mark>**
 
 Personal satisfaction comes more from purpose than from the environment
-> There was even a trace of mild exhilaration in their attitude. **At least, they had a clear-cut task ahead of them. **The nine months of indecision, of speculation about what might happen, of aimless drifting with the pack were over. Now they simply had to get themselves out, however appallingly difficult that might be.
+> There was even a trace of mild exhilaration in their attitude. **At least, they had a clear-cut task ahead of them.** The nine months of indecision, of speculation about what might happen, of aimless drifting with the pack were over. Now they simply had to get themselves out, however appallingly difficult that might be.
 
 > **But sufficiently provoked, there is hardly a creature on God’s earth that ultimately won’t turn and attempt to fight, regardless of the odds.** In an unspoken sense, that was much the way they felt now. They were possessed by an angry determination to see the journey through—no matter what. They felt that they had earned it.

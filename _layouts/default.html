@@ -7,7 +7,8 @@ layout: compress
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.url contains "/photos" %} class="dark"{% endif %}>
+     {% include svgs.html %}
      {% include masthead.html %}
 
       <main id="main" role="main">

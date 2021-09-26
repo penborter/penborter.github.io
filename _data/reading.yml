@@ -1,6 +1,66 @@
 years:
   - year: "2021"
     books:
+      - title: The Man Who Mistook His Wife For a Hat
+        author: Oliver Sacks
+
+      - title: A Memory Called Empire
+        author: Arkady Martine
+        star: yes
+
+      - title: The Theory That Would Not Die
+        author: Sharon McGrayne
+
+      - title: A Short Stay in Hell
+        author: Steven Peck
+
+      - title: Friendly Ambitious Nerd
+        author: Visakan Veerasamy
+
+      - title: The Aleph
+        author: Jorge Borges
+
+      - title: Longitude
+        author: Dava Sobel
+
+      - title: Influence
+        author: Robert Cialdini
+
+      - title: Pandora's Star
+        author: Peter Hamilton
+
+      - title: Judas Unchained
+        author: Peter Hamilton
+
+      - title: The Alexandria Link
+        author: Steve Berry
+
+      - title: The Templar Legacy
+        author: Steve Berry
+
+      - title: The Assassin's Apprentice
+        author: Robin Hobb
+
+      - title: To Sell is Human
+        author: Daniel Pink
+        link: https://openlibrary.org/isbn/1594631905
+      
+      - title: Digital Fortress
+        author: Dan Brown
+        link: https://openlibrary.org/isbn/1439565775
+
+      - title: Superforcasting
+        author: Tetlock and Gardener
+        link: https://openlibrary.org/isbn/1847947158
+
+      - title: The Big Change
+        author: Frederick Allen
+        link: https://openlibrary.org/isbn/0786101016
+
+      - title: China, A History
+        author: John Keay
+        link: https://openlibrary.org/isbn/0465025188
+
       - title: Early Riser
         author: Jasper Fforde
         link: https://openlibrary.org/isbn/0670025038
@@ -16,6 +76,7 @@ years:
       - title: Never Let Me Go
         author: Kazuo Ishiguro
         link: https://openlibrary.org/isbn/0307740994
+        star: yes
 
       - title: Our Mathematical Universe
         author: Max Tegmark
@@ -177,6 +238,8 @@ years:
       - title: Atomic Habits
         author: James Clear
         link: https://openlibrary.org/isbn/1847941834
+        year: 2018
+        pub: Penguin Random House
 
       - title: Cat's Cradle
         author: Kurt Vonnegut

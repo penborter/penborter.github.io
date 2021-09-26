@@ -7,7 +7,7 @@ published: 1 March 2021
 
 > As better minds than ours have long advanced similar ideas, but to little apparent effect, we suspect that **human minds and cultures must contain sufficient antibodies to keep such concepts at bay**.
 
-### Evolutionary arms race
+## Evolutionary arms race
 Humans are competing against other humans (evolutionarily) - selfish behaviour is advantageous in these competitions.
 > Often a species’ most important competitor is itself.
 
@@ -17,7 +17,7 @@ Large coalition sizes (the amount of third parties) allows group enforcement to 
 
 > The incentives surrounding true norms are more complex. **When we do something “wrong,” we have to worry about reprisal not just from the wronged party but also from <mark>third parties.</mark>**
 
-### Showing off
+## Showing off
 Signals are used to communicate information about oneself; in this case, we're communicating our fitness as a potential partner and using others' signals to evaluate their partnership potential.
 > "In biology, a signal is a behavior or trait used by one animal, the “sender,” to change the behavior of another animal, the “receiver.”
 
@@ -34,9 +34,7 @@ Status is addititve - association with high-status people increases your status,
 
 > In fact, one of the most important “tools” that people have is the respect and support of others. So you can gain prestige not just by directly showing impressive abilities yourself (e.g. by speaking well), but also **by showing that other impressive people have chosen you as an ally**.
 
-
-
-### Lying to yourself
+## Lying to yourself
 Human interactions are mixed motive games, in which the best strategy is often to convince the other party you're self-destructive. As humans are bad liars, the best way to get away with cheating and convince other people of your self-destruction (without actually self-sabotaging) is to convince yourself, too.
 > No one makes it through life without cutting a few corners. There are simply too many rules and norms, and to follow them all would be inhuman.
 
@@ -53,7 +51,7 @@ We don't have access to the internal decision-making part of our brain; instead,
 
 > Self-preservation systems have no business dealing with abstract concepts. They should run on autopilot and be extremely difficult to override (as the difficulty of committing suicide attests). This sort of division of mental labor is simply good mind design.
 
-### Ignorance is bliss
+## Press Secretary
 The "Press Secretary" is the conscious process that comes up with justifications for our unconscious actions - explanations for our behaviour are generated after the fact.
 > "Our brains are experts at flirting, negotiating social status, and playing politics, while “we”—the self-conscious parts of the brain—manage to keep our thoughts pure and chaste. **<mark>“We” don’t always know what our brains are up to</mark>, but we often pretend to know**, and therein lies the trouble.
 
@@ -68,7 +66,7 @@ We accentuate our prosocial motives and hide our selfish ones, even to ourselves
 Body language signals are harder to fake, more honest, and more abiguous than a verbal message. Non-verbal messages are more ambiguous than a verbal message - self-deception helps here too - we're actively unconscious of our body language so that we can send selfish signals through this channel.
 > This is the magic of nonverbal communication. It allows us to pursue illicit agendas, even ones that require coordinating with other people, while minimizing the risk of being attacked, accused, gossiped about, and censured for norm violations. This is one of the reasons we're strategically unaware of our own body language
 
-### The elephant in action
+## The elephant in action
 We continue our conspicuous consumption because we're constantly trying to increase our social status
 > when subjects are primed with a status motive, they show a stronger preference for green products when shopping in public, and a weaker preference for green products when shopping online. Clearly their motive isn’t just to help the environment, but also to be seen as being helpful.
 
@@ -90,7 +88,7 @@ Religion acts a community signalling system, in that you are willing to sacrific
 Politics works the same as finding and attracting potential mates - our signals are aiming to gain and show our social status.
 > the political behavior of ordinary, individual citizens is often better explained as an attempt to signal loyalty to “our side” (whatever side that happens to be in a particular situation), rather than as a good-faith attempt to improve outcomes.
 
-### Other quotes
+## Other quotes
 > And yet, says Mars, **“as with any art form—whether opera or painting or literature—the more you know about it, the more you appreciate it.”**
 
 > it can be useful to take a step back and reflect on your brain’s willingness to distort things for your benefit.

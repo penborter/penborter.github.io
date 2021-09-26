@@ -1,4 +1,4 @@
-<nav role="navigation">
+<nav role="navigation" {% if page.url contains "/photos" %} id="dark-nav"{% endif %}>
 
   <p>
     <a href="/" class="navName" {% if page.title contains "Home" %}id="active"{% endif %}>
@@ -9,9 +9,8 @@
   </p>
 
   <ul>
-    <li><a href="/photos" {% if page.url contains "/photos" %} id="active"{% endif %}>Photos</a></li>
-    <li><a href="/books" {% if page.url contains "/books" %} id="active"{% endif %}>Books</a></li>
-    <li><a href="/about" {% if page.url contains "/about" %} id="active"{% endif %}>About</a></li>
+    <li><a href="/posts" {% if page.url contains "/posts" %} class="active"{% endif %}>Posts</a></li>
+    <li><a href="/photos" {% if page.url contains "/photos" %} class="active"{% endif %}>Photos</a></li>
+    <li><a href="/books" {% if page.url contains "/books" %} class="active"{% endif %}>Books</a></li>
   </ul>
-
 </nav>

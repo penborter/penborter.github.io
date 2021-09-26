@@ -1,0 +1,19 @@
+---
+layout: default
+title: Booknotes
+permalink: /booknotes
+---
+
+<div class="mainGrid">
+  <h1>Booknotes</h1>
+
+  <div class="posts-year">
+    {% for review in site.reviews %}
+
+      <div class="listed-post">
+        <a class="post-title-link" href="{{ review.url }}">{{ review.title }}</a>
+        <time class="tag-date" datetime="{{ review.date | date_to_xmlschema }}">{{ review.date | date: "%d %b %Y" }}</time>
+      </div>
+
+    {% endfor %}
+  </div>
