@@ -60,6 +60,7 @@ nav {
   p {
     text-align: right;
     margin: 0.85em 0;
+    }
 
   ul {
     margin: auto 0.1rem;
@@ -883,7 +884,7 @@ label.margin-toggle:not(.sidenote-number) {
     clear: both;
     width: 95%;
     margin: 1rem 2.5%;
-    vertical-align: baseline;
+    //vertical-align: baseline;
     position: relative;
   }
 
@@ -894,8 +895,4 @@ label.margin-toggle:not(.sidenote-number) {
 
 .dark {
   background-color: #222;
-}
-
-#dark-nav {
-  box-shadow: 0px 2px 18px 4px rgba(0, 0, 0, 0.2);
 }
