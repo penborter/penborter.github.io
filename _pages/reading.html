@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Books
-updated: September 2021
+updated: December 2021
 permalink: /books
 ---
 <div class="mainGrid">
@@ -84,7 +84,7 @@ permalink: /books
           {% endfor %}
           <div class="listed-post">
             <a class="post-title-link" href="{{ book_url }}">{% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}{% if book.star %}<span class="star">★</span>{% endif %}</a>
-            <span class="author">{{ book.author }}</span>
+            <span class="author">by {{ book.author }}</span>
 
           </div>
         {% endfor %}

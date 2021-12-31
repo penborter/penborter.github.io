@@ -1,6 +1,51 @@
 years:
   - year: "2021"
     books:
+      - title: Richer, Wiser, Happier
+        author: William Green
+
+      - title: Matrix
+        author: Lauren Groff
+        star: yes
+
+      - title: Three Moments of an Explosion
+        author: Chine Miéville
+
+      - title: Working Backwards
+        author: Carr and Bryar
+
+      - title: The City and the City
+        author: China Miéville
+        star: yes
+
+      - title: A Desolation Called Peace
+        author: Arkady Martine
+        star: yes
+
+      - title: Use of Weapons
+        author: Iain Banks
+
+      - title: Mindwise
+        author: Nicholas Epley  
+      
+      - title: How to Take Smart Notes
+        author: Sonke Ahrens
+      
+      - title: The One Impossible Labyrinth
+        author: Matthew Reilly
+
+      - title: Project Hail Mary
+        author: Andy Weir
+
+      - title: What I Talk About When I Talk About Running
+        author: Haruki Murakami
+
+      - title: A Brief History of Time
+        author: Stephen Hawking 
+
+      - title: How Asia Works
+        author: Joe Studwell
+
       - title: The Man Who Mistook His Wife For a Hat
         author: Oliver Sacks
 
@@ -19,6 +64,7 @@ years:
 
       - title: The Aleph
         author: Jorge Borges
+        star: yes
 
       - title: Longitude
         author: Dava Sobel

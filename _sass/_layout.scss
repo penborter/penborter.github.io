@@ -1,4 +1,4 @@
-$background: #E7EFE8;
+$background: #edf2e3;
 $dark-background: #222;
 $body-text: #333;
 $green-hi: #A8FF9F;
@@ -49,7 +49,7 @@ a {
 
 nav {
   margin: 0 auto;
-  //height: 55px;
+  height: 65px;
   display: grid;
   grid-template-columns: 1fr 62rem 1fr;
   //font-size: 16px;
@@ -59,7 +59,7 @@ nav {
 
   p {
     text-align: right;
-    margin: 0.85em 0;
+    margin: auto;
     }
 
   ul {
@@ -186,7 +186,7 @@ nav {
     }
   }
 
-  p, ol, ul {
+  ol, ul {
       margin-top: 0;
       margin-bottom: 1.5em;
   }
@@ -340,8 +340,8 @@ li[id*="fn:"] p {
 }
 
 .listed-post {
-  grid-template-columns: 3fr 2fr;
-  display: grid;
+  //grid-template-columns: 3fr 2fr;
+  //display: grid;
   align-items: center;
   margin-bottom: 0.4em;
 
@@ -557,9 +557,10 @@ a mark:hover {
   }
 
     .author {
-      font-size: 14px;
+      font-size: 15px;
       color: #777;
-      text-align: right;
+      padding-left: 0.1em;
+      //text-align: right;
     }
 
     .star {
