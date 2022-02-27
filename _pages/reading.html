@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Books
-updated: December 2021
+updated: January 2022
 permalink: /books
 ---
 <div class="mainGrid">
@@ -11,15 +11,13 @@ permalink: /books
 
  </div>
 
-<div class="reading-container">
+<div class="reading-container narrow-hide">
 
   <div class="test-year-container">
 
   {% assign book_count = 0 %}
 
-  {% for year in site.data.reading.years %}
-
-    {% for book in year.books %}
+  {% for book in site.data.reading2022.books %}
 
       {% assign has_review = false %}
       {% assign book_count = book_count | plus:1 %}
@@ -47,47 +45,41 @@ permalink: /books
 
       </div>
 
-        {% if book_count == 5%}
+        {% if book_count == 5 %}
           {% break %}
         {% endif %}
-
-      {% endfor %}
-
-      {% if book_count == 5%}
-          {% break %}
-      {% endif %}
 
     {% endfor %}
   </div>
 </div>
 
-<p>Here's my reading list, covers first. The row of books up the top are the last books read. I've been trying to keep notes on the books I read - those books that have notes are <mark>highlighted</mark>. Recommended books have a star <span class="star">★</span>.</p>
+<p>Here is a list of books I've read over the last year or two.<span class="narrow-display-removal"> The row of books up the top are the 5 most recent.</span> I've been trying to keep notes on the books I read - those books that have notes are <mark>highlighted</mark>. A full list of books with notes is <a href="{{ site.baseurl }}/booknotes">here</a>. Star ratings between 1 (worst) and 4 (best) represent how much I enjoyed a book and/or how likely I am to re-read it. The below table is a blatant ripoff of <a href="https://macwright.com/reading/">Tom MacWright's Reading</a> page.</p>
 <p>Last updated {{ page.updated }}.</p>
 
-  {% for entry in site.data.reading.years %}
-  <div class="year">
-      <h4>{{ entry.year }}</h4>
-      <div class="number">{{ entry.books | size }} books</div>
+
+  <div class="books-list">
+    {% for book in site.data.reading2022.books %}
+
+      {% assign has_review = false %}
+      {% assign book_url = book.link %}
+
+      {% for review in site.reviews %}
+        {% if review.book == book.title %}
+          {% assign book_url = review.url %}
+          {% assign has_review = true %}
+        {% endif %}
+      {% endfor %}
+
+      <div>
+        <a class="post-title-link" href="{{ book_url}}">{% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}{% if book.star %}<span class="star">★</span>{% endif %}</a>
+      </div>
+      
+      <div>{{ book.author }}</div>
+
+      <div>
+        {% for i in (1..book.stars) %}★{% endfor %}
+      </div>
+
+      <div>{{ book.date }}</div>
+  {% endfor %} 
   </div>
-
-  <div class="year-container">
-        {% for book in entry.books %}
-
-          {% assign has_review = false %}
-          {% assign book_url = book.link %}
-
-          {% for review in site.reviews %}
-            {% if review.book == book.title %}
-              {% assign book_url = review.url %}
-              {% assign has_review = true %}
-            {% endif %}
-          {% endfor %}
-          <div class="listed-post">
-            <a class="post-title-link" href="{{ book_url }}">{% if has_review %}<mark>{% endif %}{{ book.title }}{% if has_review %}</mark>{% endif %}{% if book.star %}<span class="star">★</span>{% endif %}</a>
-            <span class="author">by {{ book.author }}</span>
-
-          </div>
-        {% endfor %}
-  </div>
-  {% endfor %}
-</div>

@@ -1,0 +1,473 @@
+books:
+  - title: The Scout Mindset
+    author: Julia Galef
+    date: 2022-02-18
+    stars: 3
+
+  - title: Three Men in a Boat
+    author: Jerome K. Jerome
+    date: 2022-02-12
+    stars: 3
+
+  - title: The Lincoln Highway
+    author: Amor Towles
+    date: 2022-02-07
+    stars: 2
+
+  - title: Naming the Mind
+    author: Kurt Danzinger
+    date: 2022-02-03
+    stars: 4
+
+  - title: Selected Non-Fictions
+    author: Jorge Luis Borges
+    date: 2022-01-31
+    stars: 3
+
+  - title: The Remains of the Day
+    author: Kazuo Ishiguro
+    date: 2022-01-17
+    stars: 3
+
+  - title: I Am a Strange Loop
+    author: Douglas Hofstadter
+    date: 2022-01-15
+    stars: 4
+
+  - title: Mort
+    author: Terry Prachett
+    date: 2022-01-02
+    stars: 2   
+
+  - title: Richer, Wiser, Happier
+    author: William Green
+    date: 2021-12-29
+    stars: 3
+
+  - title: Matrix
+    author: Lauren Groff
+    date: 2021-12-26
+    stars: 4
+
+  - title: Three Moments of an Explosion
+    author: China Miéville
+    date: 2021-12-22
+    stars: 2
+
+  - title: Working Backwards
+    author: Carr and Bryar
+    date: 2021-12-12
+    stars: 3
+
+  - title: A Desolation Called Peace
+    author: Arkady Martine
+    date: 2021-12-09
+    stars: 4
+
+  - title: The City and the City
+    author: China Miéville
+    date: 2021-12-03
+    stars: 4
+
+  - title: Use of Weapons
+    author: Iain Banks
+    date: 2021-11-29
+    stars: 3
+
+  - title: Mindwise
+    author: Nicholas Epley
+    date: 2021-11-26
+    stars: 3
+  
+  - title: How to Take Smart Notes
+    author: Sonke Ahrens
+    date: 2021-11-16
+    stars: 3
+  
+  - title: The One Impossible Labyrinth
+    author: Matthew Reilly
+    date: 2021-11-08
+    stars: 2
+
+  - title: Project Hail Mary
+    author: Andy Weir
+    date: 2021-11-07
+    stars: 2
+
+  - title: What I Talk About When I Talk About Running
+    author: Haruki Murakami
+    date: 2021-11-04
+    stars: 3
+
+  - title: A Brief History of Time
+    author: Stephen Hawking
+    date: 2021-10-24
+    stars: 3
+
+  - title: A Memory Called Empire
+    author: Arkady Martine
+    date: 2021-10-12
+    stars: 4
+
+  - title: How Asia Works
+    author: Joe Studwell
+    date: 2021-10-04
+    stars: 3
+
+  - title: The Man Who Mistook His Wife For a Hat
+    author: Oliver Sacks
+    date: 2021-09-21
+    stars: 3
+
+  - title: The Theory That Would Not Die
+    author: Sharon McGrayne
+    date: 2021-09-17
+    stars: 2
+
+  - title: A Short Stay In Hell
+    author: Steven Peck
+    date: 2021-09-05
+    stars: 2
+
+  - title: Friendly Ambitious Nerd
+    author: Visakan Veerasamy
+    date: 2021-08-31
+    stars: 3
+    
+
+  - title: The Aleph
+    author: Jorge Luis Borges
+    date: 2021-08-25
+    stars: 4
+
+  - title: Longitude
+    author: Dava Sobel
+    date: 2021-08-24
+    stars: 1
+
+  - title: Influence
+    author: Robert Cialdini
+    date: 2021-08-22
+    stars: 3
+
+  - title: Pandora's Star
+    author: Peter Hamilton
+    date: 2021-08-14
+    stars: 4
+
+  - title: Judas Unchained
+    author: Peter Hamilton
+    date: 2021-08-08
+    stars: 4
+
+  - title: The Alexandria Link
+    author: Steve Berry
+    date: 2021-08-02
+    stars: 2
+
+  - title: The Templar Legacy
+    author: Steve Berry
+    date: 2021-07-28
+    stars: 2
+
+  - title: The Assassin's Apprentice
+    author: Robin Hobb
+    date: 2021-07-16
+    stars: 2
+
+  - title: To Sell is Human
+    author: Daniel Pink
+    link: https://openlibrary.org/isbn/1594631905
+    date: 2021-07-05
+    stars: 3
+  
+  - title: Digital Fortress
+    author: Dan Brown
+    link: https://openlibrary.org/isbn/1439565775
+    date: 2021-06-25
+    stars: 2
+
+  - title: Superforcasting
+    author: Tetlock and Gardener
+    link: https://openlibrary.org/isbn/1847947158
+    date: 2021-06-18
+    stars: 3
+
+  - title: The Big Change
+    author: Frederick Allen
+    link: https://openlibrary.org/isbn/0786101016
+    date: 2021-06-13
+    stars: 4
+
+  - title: China, A History
+    author: John Keay
+    link: https://openlibrary.org/isbn/0465025188
+    date: 2021-06-10
+    stars: 2
+
+  - title: Early Riser
+    author: Jasper Fforde
+    link: https://openlibrary.org/isbn/0670025038
+    date: 2021-06-02
+    stars: 2
+
+  - title: Down Under
+    author: Bill Bryson
+    link: https://openlibrary.org/isbn/038540817X
+    date: 2021-05-29
+    stars: 3
+
+  - title: Sources of Power
+    author: Gary Klein
+    link: https://openlibrary.org/isbn/0262611465
+    date: 2021-05-22
+    stars: 4
+
+  - title: Never Let Me Go
+    author: Kazuo Ishiguro
+    link: https://openlibrary.org/isbn/0307740994
+    date: 2021-05-09
+    stars: 3
+
+  - title: Our Mathematical Universe
+    author: Max Tegmark
+    link: https://openlibrary.org/isbn/0307599809
+    date: 2021-05-01
+    stars: 2
+
+  - title: Darkdawn
+    author: Jay Kristoff
+    link: https://openlibrary.org/isbn/0008180083
+    date: 2021-04-20
+    stars: 2
+
+  - title: Godsgrave
+    author: Jay Kristoff
+    link: https://openlibrary.org/isbn/0008180032
+    date: 2021-04-17
+    stars: 2
+
+  - title: Nevernight
+    author: Jay Kristoff
+    link: https://openlibrary.org/isbn/0008179980
+    date: 2021-04-15
+    stars: 2
+
+  - title: The Choice
+    author: Edith Eger
+    link: https://openlibrary.org/isbn/1846045126
+    date: 2021-04-03
+    stars: 3
+
+  - title: So Good They Can't Ignore You
+    author: Cal Newport
+    link: https://openlibrary.org/isbn/0349420219
+    date: 2021-03-24
+    stars: 2
+
+  - title: A Man on the Moon
+    author: Andrew Chaikin
+    link: https://openlibrary.org/isbn/014311235X
+    date: 2021-03-20
+    stars: 3
+    
+  - title: Snow Crash
+    author: Neal Stephenson
+    link: https://openlibrary.org/isbn/0553380958
+    date: 2021-03-12
+    stars: 3
+
+  - title: The Idea Factory
+    author: Jon Gertner
+    link: https://openlibrary.org/isbn/1594203288
+    year: 2012
+    pub: Penguin Random House
+    date: 2021-03-07
+    stars: 3
+
+  - title: Exhalation
+    author: Ted Chiang
+    link: https://openlibrary.org/isbn/1101947888
+    date: 2021-03-03
+    stars: 4
+
+  - title: Excession
+    author: Iain M Banks
+    link: https://openlibrary.org/isbn/185723457X
+    date: 2021-03-03
+    stars: 3
+
+  - title: The Almanack of Naval Ravikant
+    author: Eric Jorgenson
+    link: https://openlibrary.org/isbn/1544514212
+    year: 2020
+    pub: Magrathea Publishing
+    date: 2021-02-25
+    stars: 2
+
+  - title: The Enigma of Reason
+    author: Mercier and Sperber
+    link: https://openlibrary.org/isbn/0674368304
+    year: 2017
+    pub: Penguin Random House
+    date: 2021-02-23
+    stars: 3
+
+  - title: Gödel, Escher, Bach
+    author: Douglas Hofstadter
+    link: https://openlibrary.org/isbn/0394745027
+    year: 1979
+    pub: Basic Books
+    date: 2021-02-16
+    stars: 3
+
+  - title: Metamorphosis and Other Stories
+    author: Franz Kafka
+    link: https://openlibrary.org/isbn/0143105248
+    date: 2021-01-31
+    stars: 2
+
+
+  - title: Piranesi
+    author: Susanna Clarke
+    link: https://openlibrary.org/isbn/163557563X
+    date: 2021-01-28
+    stars: 4
+
+  - title: Endurance
+    author: Alfred Lansing
+    link: https://openlibrary.org/isbn/078670621X
+    year: 1959
+    pub: Carroll & Graf Publishers
+    date: 2021-01-26
+    stars: 4
+
+  - title: The Lessons of History
+    author: Will and Ariel Durant
+    link: https://openlibrary.org/isbn/143914995X
+    year: 1968
+    pub: Simon & Schuster
+    date: 2021-01-23
+    stars: 3
+
+  - title: The Wise Man's Fear
+    author: Patrick Rothfuss
+    link: https://openlibrary.org/isbn/0756407915
+    date: 2021-01-19
+    stars: 2
+
+  - title: The Elephant in the Brain
+    author: Simler and Hanson
+    link: https://openlibrary.org/isbn/0190495995
+    year: 2017
+    pub: Ofxord University Press
+    date: 2021-01-11
+    stars: 4
+
+  - title: The Name of the Wind
+    author: Patrick Rothfuss
+    link: https://openlibrary.org/isbn/0756404746
+    date: 2021-01-09
+    stars: 2
+
+  - title: The Making of the Atomic Bomb
+    author: Richard Rhoades
+    link: https://openlibrary.org/isbn/0671441337
+    date: 2021-01-06
+    stars: 3
+
+  - title: How To Talk About Books You Haven't Read
+    author: Pierre Bayard
+    link: https://openlibrary.org/isbn/1596915439
+    date: 2020
+    stars: 4
+
+  - title: Antifragile
+    author: Nassim Taleb
+    link: https://openlibrary.org/isbn/0812979680
+    date: 2020
+    stars: 3
+
+  - title: Fooled By Randomness
+    author: Nassim Taleb
+    link: https://openlibrary.org/isbn/158799190X
+    date: 2020
+    stars: 2
+
+  - title: Human Transit
+    author: Jarrett Walker
+    link: https://openlibrary.org/isbn/1597269727
+    year: 2011
+    pub: Island Press
+    date: 2020
+    stars: 3
+
+  - title: Atomic Habits
+    author: James Clear
+    link: https://openlibrary.org/isbn/1847941834
+    year: 2018
+    pub: Penguin Random House
+    date: 2020
+    stars: 4
+
+  - title: Alchemy
+    author: Rory Sutherland
+    link: https://www.amazon.com.au/Alchemy-Surprising-Power-Ideas-Sense-ebook/dp/B01F1HOAWA
+    year: 2019
+    pub: Ebury Publishing
+    date: 2020
+    stars: 4
+
+  - title: Idea Makers
+    author: Stephen Wolfram
+    link: https://www.amazon.com.au/Idea-Makers-Personal-Perspectives-Notable/dp/1579550037
+    year: 2016
+    pub: Wolfram Media
+    date: 2020
+    stars: 3
+
+  - title: The Psychology of Money
+    author: Morgan Housel
+    link: https://www.amazon.com/Psychology-Money-Timeless-lessons-happiness/dp/0857197681
+    year: 2020
+    pub: Harriman House
+    date: 2020
+    stars: 4
+
+  - title: Metaphors We Live By
+    author: George Lakoff
+    link: https://www.amazon.com/Metaphors-We-Live-George-Lakoff/dp/0226468011
+    date: 2020
+    stars: 4
+
+  - title: Unfinished Business
+    author: Vivian Gornick
+    link: https://www.amazon.com/Unfinished-Business-Notes-Chronic-Re-reader/dp/0374282153
+    date: 2020
+    stars: 2
+
+  - title: On The Move
+    author: Oliver Sacks
+    link: https://www.amazon.com.au/Move-Life-Oliver-Sacks-ebook/dp/B00TCI0P24
+    year: 2015
+    pub: Vintage
+    date: 2020
+    stars: 3
+
+  - title: The Design of Everyday Things
+    author: Don Norman
+    link: https://www.amazon.com.au/Design-Everyday-Things-Revised-Expanded/dp/0465050654
+    date: 2020
+    stars: 3
+
+  - title: The Information
+    author: James Gleick
+    link: https://www.amazon.com/Information-History-Theory-Flood/dp/1400096235
+    date: 2020
+    stars: 3
+
+  - title: Factfulness
+    author: Hans Rosling
+    link: https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814
+    date: 2020
+    stars: 3

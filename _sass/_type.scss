@@ -2,8 +2,8 @@ $title-green: #39553c;
 $header-green: #00753b;
 
 body {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 400;
   letter-spacing: -0.025em;
   font-kerning: normal;
@@ -24,15 +24,15 @@ a,a:visited {
 }
 
 h1 {
-  margin: 3rem 0;
+  margin: 3.5rem 0;
   font-size: 2rem;
-  font-weight: 650;
+  font-weight: 500;
   line-height: 1.2em;
   color: $title-green;
 }
 
 h2, h3, h4 {
-	font-weight: 700;
+	font-weight: 600;
   color: $title-green;
   margin: 1.5rem 0 0.5rem;
   //margin: 0.5em 0 0.5em 0;
@@ -43,26 +43,28 @@ h2, h3, h4 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.4rem;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 h4 {
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 2rem 0;
 }
 
 blockquote {
     //border: 1px solid #bddecb;
-    background: #dce7d5;
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #becdb4;
     border-radius: 5px;
-    font-size: 0.9em;
+    color: #666;
+    //font-size: 0.9em;
     padding: 1em;
     margin: 0.4em 0;
-    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 
   p {
     margin: 0 !important;
