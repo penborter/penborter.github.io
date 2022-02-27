@@ -2,9 +2,7 @@
 layout: default
 ---
 
-{% for year in site.data.reading.years %}
-
-  {% for book in year.books %}
+  {% for book in site.data.reading2022.books %}
 
     {% if book.title == page.book %}
       {% assign book_review = book %}
@@ -12,7 +10,6 @@ layout: default
 
     {% endif %}
   {% endfor %}
-{% endfor %}
 
 <article role="article" class="mainGrid">
 
