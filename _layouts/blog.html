@@ -15,7 +15,7 @@ title: Posts
     {% assign date = currentdate %}
   {% endif %}
     <div class="listed-post">
-      <a class="post-title-link truncate" href="{{ post.url }}">{{ post.title }}</a>
+      <a class="post-title-link truncate" href="{{ post.url }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>
     </div>
   {% if forloop.last %}</div>{% endif %}
 {% endfor %}

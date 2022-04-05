@@ -1,4 +1,59 @@
 years:
+  - year: "2022"
+    books:
+      - title: Klara and the Sun
+        author: Kazuo Ishiguro
+
+      - title: The Light of All that Falls
+        author: James Islington
+
+      - title: An Echo of Things to Come
+        author: James Islington
+
+      - title: The Shadow of What Was Lost
+        author: James Islington
+
+      - title: On The Road
+        author: Jack Kerouac
+
+      - title: The Man Who Was Thursday
+        author: G. K. Chesterton
+        star: yes
+
+      - title: Mother Tongue
+        author: Bill Bryson
+
+      - title: Superpower
+        author: Ross Garnaut
+
+      - title: Zen and the Art of Motorcycle Maintenance
+        author: Robert Pirsig
+
+      - title: The Scout Mindset
+        author: Julia Galef
+
+      - title: Three Men in a Boat
+        author: Jerome K. Jerome
+
+      - title: The Lincoln Highway
+        author: Amor Towles
+
+      - title: Naming the Mind
+        author: Kurt Danzinger
+        star: yes
+
+      - title: Selected Non-Fictions
+        author: Jorge Luis Borges
+
+      - title: The Remains of the Day
+        author: Kazuo Ishiguro
+    
+      - title: I Am a Strange Loop
+        author: Douglas Hofstadter
+
+      - title: Mort
+        author: Terry Prachett       
+
   - year: "2021"
     books:
       - title: Richer, Wiser, Happier
@@ -9,7 +64,7 @@ years:
         star: yes
 
       - title: Three Moments of an Explosion
-        author: Chine Miéville
+        author: China Miéville
 
       - title: Working Backwards
         author: Carr and Bryar

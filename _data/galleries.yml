@@ -1,6 +1,6 @@
 - id: nz
   description: New Zealand
-  blurb: "Roadtrip around the New Zealand's South Island"
+  blurb: "Roadtrip around New Zealand's South Island"
   imagefolder: /assets/nz
   thumb: nz-thumb.jpeg
   images:

@@ -5,12 +5,10 @@ summary: Provocation for a too-rational world. Exploring why the best ideas don'
 published: 01 November 2020 
 ---
 
-## Book Quotes
-
 > A knowledge of the human physique is considered essential in designing a chair, but a knowledge of human psychology is rarely considered useful, never mind a requirement, when someone is asked to design a pension scheme, a portable music player or a railway.
   
 
-### Universal Models of Behaviour
+## Universal Models of Behaviour
 
 > In our addiction to naïve logic, we have created a magic-free world of neat economic models, business case studies and narrow technological ideas, **which together give us a wonderfully reassuring <mark>sense of mastery over a complex world</mark>**. Often these models are useful, but sometimes they are inaccurate or misleading. And occasionally they are highly dangerous.
 
@@ -21,7 +19,7 @@ published: 01 November 2020
 > Once you accept that there may be a value or purpose to things that are hard to justify, you will naturally come to another conclusion: that **it is perfectly possible to be both rational and wrong**. Logical ideas often fail because logic demands universally applicable laws but **humans, unlike atoms, are <mark>not consistent enough in their behaviour</mark> for such laws to hold very broadly**.
   
 
-### Have a contrarian mindset
+## Have a contrarian mindset
 
 > The fatal issue is that logic always gets you to exactly the **same place as your competitors**.
 
@@ -39,7 +37,7 @@ published: 01 November 2020
 
   
 
-### Unconscious Motivations
+## Unconscious Motivations
 
 > There are often two reasons behind people’s behaviour: **the ostensibly logical reason, and the real reason.**
 
@@ -55,14 +53,14 @@ published: 01 November 2020
 
 > And so we have faster trains with uncomfortable seats departing from stark, modernist stations, whereas our unconscious may well prefer the opposite: slower trains with comfortable seats departing from ornate stations.
 
-### Revealed behaviours
+## Revealed behaviours
 
 > Consumer behaviour, and advertisers’ attempts to manipulate it, can be viewed as an immense social experiment, with considerable power to reveal the truth about what people want and what drives them. **What people do with their own money (their ‘<mark>revealed preferences</mark>’) is generally a better guide to what they really want than their own reported wants and needs**.
 
 > The only way you can discover what people really want (their ‘revealed preferences’, in economic parlance) is through seeing what they actually pay for under a variety of different conditions, in a variety of contexts.
    
 
-### Social Signalling
+## Social Signalling
 
 > Around 90 per cent of people have no idea what sort of aircraft they are travelling on or how a jet engine works but **will infer a great deal about the safety and quality of the experience offered by an airline from the care and attention it pays to on-board snacks**.
 
@@ -76,9 +74,7 @@ published: 01 November 2020
 
 > **Reciprocation, reputation and pre-commitment signalling** are the three big mechanisms that underpin trust.
 
-  
-
-### Context
+## Context
 
 > The need to rely on data can also blind you to important facts that lie outside your model.
 
@@ -88,8 +84,7 @@ published: 01 November 2020
 
 > The GPS knows only what it knows, and **is blind to solutions outside its frame of reference**. It is completely unaware of the existence of public transport, and so will suggest that I drive into central London at eight o’clock in the morning, a journey only a lunatic would undertake.
   
-
-### Ergodicity
+## Ergodicity
 
 > Many supposed biases which economists wish to correct may not be biases at all – they may simply arise from the fact that **a decision which seems irrational when viewed through an ensemble perspective is <mark>rational when viewed through the correct time-series perspective</mark>**, which is how real life is actually lived;
 
@@ -97,9 +92,7 @@ published: 01 November 2020
 
 > There is an inevitable trade-off between fairness and variety. By applying identical criteria to everyone in the name of fairness, you end up recruiting identical people.
 
-  
-
-### Outliers
+## Outliers
 
 > In fact, we derive pleasure from ‘expensive treats’ and also enjoy finding ‘bargains’. By contrast, the mid-range retailer offers far less of an emotional hit; **you don’t get a dopamine rush from mid-market purchases**.
 
@@ -109,8 +102,7 @@ published: 01 November 2020
 
 > Meanwhile your finance director, lovely guy though he may be, hates experiments involving alchemy because alchemy works erratically; he prefers small certain gains to those which on average will be higher but where the payoff is hard to calculate in advance.
 
-
-### Satisficing
+## Satisficing
 
 > Decision makers can satisfice either by finding optimum solutions for a simplified world, or by **finding satisfactory solutions for a more realistic world**.
 
@@ -126,9 +118,7 @@ published: 01 November 2020
 
 > The strongest marketing approach in a business-to-business context comes not from explaining that your product is good, but from sowing fear, uncertainty and doubt (now commonly abbreviated as FUD) around the available alternatives.
 
-  
-
-### Changing Perception is easier than changing Reality
+## Changing Perception is easier than changing Reality
 
 > I think ‘psychological moonshots’ are comparatively easy. Making a train journey 20 per cent faster might cost hundreds of millions, but **making it 20 per cent more enjoyable may cost almost nothing**.
 
@@ -136,8 +126,7 @@ published: 01 November 2020
 
 > Their only conception of time-saving applies to time spent in motion – the means by which they aim to improve things are too narrowly defined.
   
-
-### The perception of certainty without being certain
+## The perception of certainty without being certain
 
 > If you want to look like a scientist, it pays to cultivate an air of certainty, but the problem with attachment to certainty is that it causes people completely to misrepresent the nature of the problem being examined,
 
@@ -151,17 +140,13 @@ published: 01 November 2020
 
 > The more data you have, the easier it is to find support for some spurious, self-serving narrative. The profusion of data in future will not settle arguments: it will make them worse.
 
-  
-
-### Choice helps, regardless of the choices
+## Choice helps, regardless of the choices
 
 > One characteristic of humans is that **we naturally <mark>direct our attention to the upside of any situation</mark> if an alternative narrative is available**, minimising the downside. By giving people good news and bad news at the same time, you can make them much happier than they would be if left with only one interpretation.
 
 > This is one reason why public services and monopolies, even when they do a good job objectively, are often under-appreciated – **it is harder to like something when you haven’t chosen it**.
 
-  
-
-### Attention -> Behaviour -> Attitude
+## Attention -> Behaviour -> Attitude
 
 > Never forget this: the nature of our attention affects the nature of our experience.
 

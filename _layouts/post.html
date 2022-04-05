@@ -38,14 +38,14 @@ layout: default
         <a class="prev-page" href="{{ page.previous.url }}">
           <div style="display:flex; justify-content:flex-end;">
             <span style="padding-right:0.3em;">&laquo;</span>
-            <p class="truncate">{{ page.previous.title }}</p>
+            <p class="truncate">{{ page.previous.title | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           </div>
         </a>
     {% endif %}
     {% if page.next.url %}
         <a class="next-page" href="{{ page.next.url }}">
           <div style="display:flex;">
-            <p class="truncate">{{ page.next.title}}</p>
+            <p class="truncate">{{ page.next.title | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             <span style="padding-left:0.3em;">&raquo;</span>
           </div>
         </a>

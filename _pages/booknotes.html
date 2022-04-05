@@ -8,34 +8,29 @@ permalink: /booknotes
 
   <h1>Book Notes</h1>
 
-  <p>This is a list of all books I've taken notes for (that are polished enough for publication).</p>
+  <p>This is a list of all books I've taken notes for (that are polished enough to share). The style of how I've taken notes has changed over time, but broadly these are highlights / refactorings of key ideas to help <i>me</i> remember. Some are just collections of good quotations. Your mileage may vary.</p>
   <p><a href="{{ site.baseurl }}/books">Return to the Bookshelf</a></p>
-
-  <div class="books-list">
-    {% for book in site.data.reading2022.books %}
+  
+  <ul class="reading-list">
+    {% for year in site.data.reading.years %}
+      {% for book in year.books %}
 
       {% assign has_review = false %}
       {% assign book_url = book.link %}
 
-      {% for review in site.reviews %}
-        {% if review.book == book.title %}
-          {% assign book_url = review.url %}
-          {% assign has_review = true %}
+        {% for review in site.reviews %}
+          {% if review.book == book.title %}
+            {% assign book_url = review.url %}
+            {% assign has_review = true %}
 
-          <div>
-            <a class="post-title-link" href="{{ book_url}}">{{ book.title }}</a>
-          </div>
-          
-          <div>{{ book.author }}</div>
-    
-          <div>
-            {% for i in (1..book.stars) %}★{% endfor %}
-          </div>
-    
-          <div>{{ book.date }}</div>
+            <li class="listed-book{% if book.star %} starred{% endif %}">
+              <a class="reviewed" href="{{ book_url}}">{{ book.title }}</a>
+              <span class="author">by {{ book.author }}</span>
+            </li>
 
-        {% endif %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %} 
-  </div>
+    {% endfor %}
+  </ul>
 </div>

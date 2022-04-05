@@ -43,6 +43,11 @@ header {
 //  background: linear-gradient(180deg, $transparent 70%, $green-hi 30%);
 //}
 
+::selection {
+  background: #39553c;
+  color: #ccc;
+}
+
 a {
   text-decoration: none;
 }
@@ -238,7 +243,7 @@ nav {
   // For year values on list pages
   h4 {
     margin-left: 0.5em;
-    padding-right: 2em;
+    padding-right: 2rem;
     grid-column: 1;
     text-align: right;
     font-size: 20px;
@@ -373,18 +378,42 @@ li[id*="fn:"] p {
   }
 }
 
-.listed-post {
-  //grid-template-columns: 3fr 2fr;
-  //display: grid;
-  align-items: center;
-  margin-bottom: 0.4em;
+.starred {
+  list-style-type: "★";
+  margin-left: -0.3em;
+  padding-left: 0.3em;
+}
 
-  a {
-    text-decoration: none;
+
+.reading-list {
+  padding: 0;
+  list-style: none;
+  font-weight: 550;
+
+
+  ::marker {
+    color: #48a569;
   }
+}
+
+.listed-post, .listed-book {
+  align-items: center;
+  margin-bottom: 0.5em;
 
   &:first-child {
     margin-top: 1em;
+  }
+}
+
+.listed-post {
+  a {
+    text-decoration: none;
+  }
+}
+
+.year {
+  h4 {
+    margin: 0;
   }
 }
 
@@ -490,7 +519,7 @@ table {
 
 .books-list {
   display: grid;
-  grid-template-columns: 1fr 0.7fr 0.3fr min-content;
+  grid-template-columns: 2fr 3fr;
   column-gap: 5px;
   row-gap: 5px;
   margin: 2em 0 4em 0;
@@ -503,10 +532,6 @@ table {
 
   .post-title-link {
     font-weight: 500;
-  }
-
-  div:nth-child(4n-1) {
-    font-size: 13px;
   }
 }
 
@@ -603,7 +628,7 @@ figcaption {
   font-size: 16px;
   color: #999;
   text-align: right;
-  padding-right: 0.8em;
+  padding-right: 2rem;
 }
 
 mark {
@@ -638,6 +663,12 @@ a mark:hover {
   }
 }
 
+.author {
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 0.1em;
+}
+
 .year-container {
 
   border-top: 1px solid #a0cca5;
@@ -646,12 +677,7 @@ a mark:hover {
     display: block;
   }
 
-    .author {
-      font-size: 15px;
-      color: #777;
-      padding-left: 0.1em;
-      //text-align: right;
-    }
+    
 
     .star {
       margin-left: 3px;
@@ -833,14 +859,6 @@ sup {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-
-  .year * {
-    //text-align: left !important;
-  }
-
-  .listed-post {
-    //grid-template-columns: 3fr 1fr;
   }
 
   .year-container {
