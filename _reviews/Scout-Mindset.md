@@ -2,6 +2,7 @@
 layout: book
 book: The Scout Mindset
 published: 2 April 2022
+contents: True
 ---
 
 ## Scout Mindset

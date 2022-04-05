@@ -2,6 +2,7 @@
 layout: book
 book: Atomic Habits
 published: 10 July 2021
+contents: True
 ---
 
 ## The Habit Cycle

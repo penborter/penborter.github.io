@@ -2,6 +2,7 @@
 layout: book
 book: On The Move
 summary: Sacks' second memoir; the most in-depth case study of the mind who produced several famouns books of case studies of his own neurological patients. 
+contents: True
 ---
 
 ### Friends and partners permanently influence our thinking

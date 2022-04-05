@@ -2,6 +2,7 @@
 layout: book
 book: I Am a Strange Loop
 published: 27 February 2022
+contents: True
 ---
 
 *I Am a Strange Loop* is a more focused follow up to *[Gödel, Escher, Bach](Godel-Escher-Bach.md)*. The themes are the same: how consciousness arises from inanimate matter. Hofstadter's argument is that consciousness arises when, with our arbitratily extensible system of meaningful symbols, we observe others reacting to our actions and generate a special symbol "I" that is the cause of these reactions. 

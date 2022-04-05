@@ -3,6 +3,7 @@ layout: book
 book: The Psychology of Money
 summary: Expanding on his collection of essays on the Collaborative Fund blog, Morgan Housel shares his experience and lessons on wealth, greed and happiness.
 published: 01 November 2020 
+contents: True
 ---
 
 Many of the ideas in the book are explored over on the [Collaborative Fund blog](https://www.collaborativefund.com/blog/authors/morgan/) where Morgan writes. A lot of the book are just elaborations of these ideas. Not that this is a bad thing - engaging with these ideas consecutively in a book is very different to individual blog posts.

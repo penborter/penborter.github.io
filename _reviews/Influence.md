@@ -2,6 +2,7 @@
 layout: book
 book: Influence
 published: 17 February 2022
+contents: True
 ---
 
 ## Compliance Professionals

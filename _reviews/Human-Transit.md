@@ -3,6 +3,7 @@ layout: book
 book: Human Transit
 summary: How clearer thinking about public transit can enrich our communities and our lives. Also includes some actionable lessons about being an expert, working with and consulting for the non-expert.
 published: 1 March 2020
+contents: True
 ---
 
 ### Plumber's Questions

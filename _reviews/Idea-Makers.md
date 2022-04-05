@@ -3,6 +3,7 @@ layout: book
 book: Idea Makers
 summary: Profiles on Idea Makers who influenced Steven Wolfram personally or connected to his own work in some way.
 published: 03 November 2020 
+contents: True
 ---
 
 ## Notes

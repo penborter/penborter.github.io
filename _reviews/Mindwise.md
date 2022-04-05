@@ -2,6 +2,7 @@
 layout: book
 book: Mindwise
 published: 4 April 2022
+contents: True
 ---
 
 ## Our Sixth Sense

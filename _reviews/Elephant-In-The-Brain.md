@@ -1,9 +1,11 @@
 ---
 layout: book
 book: The Elephant in the Brain
-summary: The Elephant in the Brain is the selfish agenda every one of us clearly has, but refuses to acknowledge. Simler and Hanson aim to explain the relationship between our motives, justification, and actions, and why we don't want to talk about it.
 published: 1 March 2021
+contents: True
 ---
+
+The Elephant in the Brain is the selfish agenda every one of us clearly has, but refuses to acknowledge. Simler and Hanson aim to explain the relationship between our motives, justification, and actions, and why we don't want to talk about it.
 
 > As better minds than ours have long advanced similar ideas, but to little apparent effect, we suspect that **human minds and cultures must contain sufficient antibodies to keep such concepts at bay**.
 

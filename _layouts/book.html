@@ -2,13 +2,14 @@
 layout: default
 ---
 
-  {% for book in site.data.reading2022.books %}
+  {% for entry in site.data.reading.years %}
+    {% for book in entry.books %}
+      {% if book.title == page.book %}
+        {% assign book_review = book %}
+        {% break %}
 
-    {% if book.title == page.book %}
-      {% assign book_review = book %}
-      {% break %}
-
-    {% endif %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 
 <article role="article" class="mainGrid">
@@ -17,6 +18,7 @@ layout: default
     <h1 style="padding-right: 0.3em; display: inline;">{{ book_review.title }}</h1> <span>by {{ book_review.author }}</span>
 	</div>
 
+  {% if page.contents %}
   <div id="sidebar" class="narrow-hide">
     <div id="toc">
       <h4>Contents</h4>
@@ -24,6 +26,7 @@ layout: default
     </div>
 
   </div>
+  {% endif %}
 
 
 {{ content }}

@@ -1,9 +1,12 @@
 ---
 layout: book
 book: Alchemy
-summary: Provocation for a too-rational world. Exploring why the best ideas don't always make sense - they make you feel more than they make you think.
+summary: 
 published: 01 November 2020 
+contents: True
 ---
+
+Provocation for a too-rational world. Exploring why the best ideas don't always make sense - they make you feel more than they make you think.
 
 > A knowledge of the human physique is considered essential in designing a chair, but a knowledge of human psychology is rarely considered useful, never mind a requirement, when someone is asked to design a pension scheme, a portable music player or a railway.
   
