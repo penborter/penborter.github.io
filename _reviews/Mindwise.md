@@ -5,39 +5,41 @@ published: 4 April 2022
 contents: True
 ---
 
-## Our Sixth Sense
-We evaluate other people's mindstate using the same tools we use to evaluate our own mind. We make inferences about others' minds based on our own experience first, and then start trying to account for others'. Our evaluation of mindstates is our "sixth sense".
+> Others' minds are not open books, but this doesn't deter us from trying to read them anyway. The tools at our intuitive disposal–our own mind, stereotypes about the minds of others, and others' observed actions–are simplifying heuristics that give imperfect insight into the minds of others.
 
-The **Lens Problem** is the assumption that everyone thinks the same, has the same info, and has had the same experiences as you. The cure for the Lens Problem is more knowledge - talking to other people with a broad range of backgrounds / experiences / knowledge.
+## From Our Perspective
+We see the world from our own perspective, not as it actually is.
+  
+> A man on one side of a river shouts to a man standing on the other side, "Hey, how do I get to the other side of the river?" The other man responds, "You *are* on the other side of the river."
 
-We're not good mindreaders - asking for someone's perspective is more effective than taking it. It's better to get feedback from the most accurate model of someone's mind (their own) than one with less fidelity. However it's important to note that we don't have access to our true internal motivations, and the ostensible reasons might not be accurate. See also: [The Elephant in the Brain](Elephant-In-The-Brain) and [Alchemy](alchemy).
+## Not just our experiences
+We evaluate other people's mindstate using the same tools we use to evaluate our own mind, a.k.a mindreading or mindsense. Asking for someone's perspective is more effective than taking it because we make inferences first based on our own experience, then account for others'. Often people are unwilling to give their perspective, because [people don't have access to their true motivations](Elephant-In-The-Brain) or because they are not in an environment where they feel comfortable being open.
 
-> Our ability to read the minds of others is one of our brain's greatest tools, absolutely essential for navigating our complicated social lives. The mistakes we can make engaging this ability are of two different kinds: failing to recognizing a mind in something that is actually mindless, such as a hurricane or a computer or random evolutionary processes in nature.
+This is also called the **Lens Problem** - i.e. the fact that we assume that everyone sees the world through the same lens as us, even when this is clearly not the case.
 
 > The most natural consequence of the lens problem is assuming that others will interpret the world as you do, because you can't identify exactly how your own interpretation is being influenced by the lens you view it through. You can observe this consequence by simply asking people to report what other people believe, think, feel, or know, on topics ranging from the trivial to the critical.
 
-> Recognising the limits of your sixth sense suggests a different approach to understanding the minds of others: trying harder to *get* another person's perspective instead of trying to *take* it.
+> Recognising the limits of you sixth sense suggests a different approach to understanding the minds of others: trying harder to *get* another person's perspective instead of trying to *take* it.
 
-> This experiment has its flaws, but it inspired decades of research that revealed a startling message - that there can be a significant disconnect between what people think about themselves and how they actually behave.
+> Knowing the shortcomings of your own social sense should push you to be more open to sharing what's in your own mind with others, but also more open to listening to others. 
 
-> Introspection is blind to construction. This does not mean that our introspective guesses are never accurate, just as you might guess the correct answer to a multiple choice question. It means that you should be skeptical about their accuracy.
+> Others, of course, know much less about you and therefore cannot notice all of your fine-grained details. They look at you with the broader lens of a novice, evaluating you in general and in comparison to other people.
 
 ## Psychological Distance
-**Mindsense** is engaged by proximity - either physical or psychological (connection to your in-group). Failure to engage often leads to seeing people as non-human. The opposite framing is that psychological proximity can be used to engage people's mindsense and generate sympathy for other humans or even non-human objects. For example, robots whose movement speed is similar to humans' are seen as being more humanlike.
-
-The behaviours of self-propelled agents are easily explained by the presence of a "mind", even if this is clearly not the case. Anthropomorphisation is a simple heuristic for explaining events as "behaviour".
+Mindsense is engaged by proximity - either physical or psychological (connection to your in-group). Failure to engage often leads to seeing people as mindless (i.e. inhuman). We are primed to detect "minds" - the behaviours of self-propelled agents can be easily explained by the presence of a "mind", even when this is clearly not the case.
+Applying the mindsense module is anthropomorphisation. Similarly dehumanisation occurs as psychological distance increases.
 
 > Much of the killing by U.S. soldiers now comes through the hands of drone pilots watching a screen from a trailer in Nevada, with their sixth sense almost completely disengaged.
 
 > Nobody waves, but almost everybody waves back.
 
-> At times we seem to be experts at anthropomorphizing the world, spotting humanlike minds all around us, even in places where no such mind actually exists.
-
 > This means that that attributing a mind to a nonhuman agent is the inverse process of failing to attribute a mind to another person. Anthropormorphization and dehumanization are opposite sides of the same coin.
 
-## Social Costs
-We make inferences about others' minds also based on our own experience first, then start accounting for others'. Because we have so much experience being ourselves, we assume everyone else is as well-informed where in reality most people are strangers and don't know us at all.
+## More than meets the eye
+**Correspondence Bias** - we assume that the actions we see are fully representative of the intentions of the actor. People from individualistic cultures (e.g. the USA, Australia) are particularly susceptible to missing the broader cultural and environmental context for actions.
+  
+Correspondence bias can be mitigated by a broader understanding of the context in which the actions are taking place. For [compliance professionals](Influence), understanding this context helps in providing the right incentives.
 
-People think less about you and are more forgiving than you think.
+> Only a fool would infer that a person who slips on an icy sidewalk *wanted* to fall, but the contextual forces that contribute to our successes and stumbles are routinely less obvious than ice on a sidewalk.
 
-> Others, of course, know much less about you and therefore cannot notice all of your fine-grained details. They look at you with the broader lens of a novice, evaluating you in general and in comparison to other people.
+> You can hear this thinking rolling right out of Michael Brown's mouth when explaining how to avoid repeating the disaster following Hurricane Katrina: "We've got to figure out a way to convince people that whenever warnings go out, it's for their own good." The main problem in Brown's mind was that people didn't *want* to leave, and so the solution is to persuade people more effectively the next time. This solution may create a great warning system that leaves just as many people stranded the next time. Many who stayed wanted desperately to leave but couldn't. They didn't need *convincing*, they needed a *bus*.
