@@ -5,8 +5,7 @@ published: 29 November 2022
 ---
 
 {% include quote.html
-content="How we spend our days is, of course, how we spend our lives"
-
+content="How we spend our days is, of course, how we spend our lives."
 author="Annie Dillard" title="The Writing Life"
 %}
 

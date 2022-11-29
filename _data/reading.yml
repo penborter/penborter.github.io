@@ -1,6 +1,67 @@
 years:
   - year: "2022"
     books:
+      - title: Four Thousand Weeks
+        author: Oliver Burkeman
+        
+      - title: Assassin's Quest
+        author: Robin Hobb
+
+      - title: Royal Assassin
+        author: Robin Hobb
+
+      - title: When We Cease to Understand the World
+        author: Benjamin Labatut
+
+      - title: Beyond the Blue Event Horizon
+        author: Frederik Pohl
+
+      - title: The End of Eternity
+        author: Isaac Asimov
+
+      - title: After Babel
+        author: George Steiner
+
+      - title: Triumph of the City
+        author: Edward Glaeser
+
+      - title: The Emperor's Tomb
+        author: Steve Berry
+
+      - title: Scale
+        author: Geoffrey West
+
+      - title: The Alexandria Link
+        author: Steve Berry
+
+      - title: The City We Became
+        author: N. K. Jemisin
+
+      - title: The Sea of Tranquility
+        author: Emily St John Mandel
+
+      - title: The Unreal and the Real
+        author: Ursula K. Le Guin
+
+      - title: Piranesi
+        author: Susanna Clarke
+        star: yes
+
+      - title: Where Is My Flying Car
+        author: J Storrors Hall
+
+      - title: Six Memos for the Next Millenium
+        author: Italo Calvino
+
+      - title: A Desolation Called Peace
+        author: Arkady Martine
+
+      - title: A Memory Called Empire
+        author: Arkady Martine
+
+      - title: A Million Miles in a Thousand Years
+        author: Donald Miller
+
       - title: Klara and the Sun
         author: Kazuo Ishiguro
 
