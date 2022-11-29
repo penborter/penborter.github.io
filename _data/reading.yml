@@ -3,6 +3,7 @@ years:
     books:
       - title: Four Thousand Weeks
         author: Oliver Burkeman
+        star: yes
         
       - title: Assassin's Quest
         author: Robin Hobb
