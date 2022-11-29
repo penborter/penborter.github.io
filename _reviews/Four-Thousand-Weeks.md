@@ -2,6 +2,7 @@
 layout: book
 book: Four Thousand Weeks
 published: 29 November 2022
+contents: true
 ---
 
 {% include quote.html
@@ -23,7 +24,7 @@ Reject the premise of being able to meet and fulfil all the demands on our time,
 
 > The most effective way to sap distraction of its power is just to stop expecting things to be otherwise – to accept that this unpleasantness is simply what it feels like for finite humans to commit ourselves to the kinds of demanding and valuable tasks that force us to confront our limited control over how our lives unfold.  
 
-## Using our finite time**  
+## Using our finite time
 Opportunity cost of time spending is real and needs to be acknowledged, but you can't avoid paying the cost by never making the choice to commit to something. Because the cost is inevitable, and making a choice of what to do isn't the cause, you should feel free to choose.  
 Procrastination comes from being unable to face our limitations and imperfections. Embracing them and working through them is key, one incremental improvement at a time.  
 So: how to use the finite time we have?  
